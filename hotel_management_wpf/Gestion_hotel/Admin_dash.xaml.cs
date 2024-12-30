@@ -1,4 +1,6 @@
 using System.Windows;
+using WpfApp1.Models;
+
 namespace WpfApp1;
 
 public partial class Admin_dash : Window
@@ -9,9 +11,13 @@ public partial class Admin_dash : Window
     }
     private void RoomsButton_Click(object sender, RoutedEventArgs e)
     {
-        ContentAreaControl.Content = new RoomsControl();
+        ContentAreaControl.Content = new RoomControl();
     }
-
+    
+    private void RoomCategoriesButton_Click(object sender, RoutedEventArgs e)
+    {
+        ContentAreaControl.Content = new RoomTypeControl();
+    }
     private void ClientsButton_Click(object sender, RoutedEventArgs e)
     {
         ContentAreaControl.Content = new EmployeesControl();

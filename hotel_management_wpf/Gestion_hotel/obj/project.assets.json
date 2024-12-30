@@ -1695,23 +1695,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\dell\\.nuget\\packages\\": {},
+    "C:\\Users\\irharissa.NPIF\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\EMSIIIII\\DotNET\\Projet_NET\\hotel_management_wpf\\Gestion_hotel\\Gestion_hotel.csproj",
+      "projectUniqueName": "C:\\Users\\irharissa.NPIF\\Desktop\\EMSI\\.NET\\Projet_NET\\hotel_management_wpf\\Gestion_hotel\\Gestion_hotel.csproj",
       "projectName": "Gestion_hotel",
-      "projectPath": "D:\\EMSIIIII\\DotNET\\Projet_NET\\hotel_management_wpf\\Gestion_hotel\\Gestion_hotel.csproj",
-      "packagesPath": "C:\\Users\\dell\\.nuget\\packages\\",
-      "outputPath": "D:\\EMSIIIII\\DotNET\\Projet_NET\\hotel_management_wpf\\Gestion_hotel\\obj\\",
+      "projectPath": "C:\\Users\\irharissa.NPIF\\Desktop\\EMSI\\.NET\\Projet_NET\\hotel_management_wpf\\Gestion_hotel\\Gestion_hotel.csproj",
+      "packagesPath": "C:\\Users\\irharissa.NPIF\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\irharissa.NPIF\\Desktop\\EMSI\\.NET\\Projet_NET\\hotel_management_wpf\\Gestion_hotel\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\dell\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\irharissa.NPIF\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
