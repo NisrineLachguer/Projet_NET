@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\irharissa.NPIF\\RiderProjects\\WpfApp1\\Gestion_hotel\\Gestion_hotel.csproj": {}
+    "D:\\EMSIIIII\\DotNET\\Projet_NET\\hotel_management_wpf\\Gestion_hotel\\Gestion_hotel.csproj": {}
   },
   "projects": {
-    "C:\\Users\\irharissa.NPIF\\RiderProjects\\WpfApp1\\Gestion_hotel\\Gestion_hotel.csproj": {
+    "D:\\EMSIIIII\\DotNET\\Projet_NET\\hotel_management_wpf\\Gestion_hotel\\Gestion_hotel.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\irharissa.NPIF\\RiderProjects\\WpfApp1\\Gestion_hotel\\Gestion_hotel.csproj",
+        "projectUniqueName": "D:\\EMSIIIII\\DotNET\\Projet_NET\\hotel_management_wpf\\Gestion_hotel\\Gestion_hotel.csproj",
         "projectName": "Gestion_hotel",
-        "projectPath": "C:\\Users\\irharissa.NPIF\\RiderProjects\\WpfApp1\\Gestion_hotel\\Gestion_hotel.csproj",
-        "packagesPath": "C:\\Users\\irharissa.NPIF\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\irharissa.NPIF\\RiderProjects\\WpfApp1\\Gestion_hotel\\obj\\",
+        "projectPath": "D:\\EMSIIIII\\DotNET\\Projet_NET\\hotel_management_wpf\\Gestion_hotel\\Gestion_hotel.csproj",
+        "packagesPath": "C:\\Users\\dell\\.nuget\\packages\\",
+        "outputPath": "D:\\EMSIIIII\\DotNET\\Projet_NET\\hotel_management_wpf\\Gestion_hotel\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\irharissa.NPIF\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\dell\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
