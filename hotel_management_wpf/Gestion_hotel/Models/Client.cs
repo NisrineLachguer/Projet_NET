@@ -1,6 +1,6 @@
 namespace WpfApp1.Models;
 
-public class Clients
+public class Client
 {
     public int ClientID { get; set; }
     public string Name { get; set; }

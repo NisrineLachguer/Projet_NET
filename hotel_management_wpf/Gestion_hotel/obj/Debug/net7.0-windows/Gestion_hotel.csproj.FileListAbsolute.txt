@@ -200,3 +200,5 @@ C:\Users\irharissa.NPIF\Desktop\EMSI\.NET\Projet_NET\hotel_management_wpf\Gestio
 C:\Users\irharissa.NPIF\Desktop\EMSI\.NET\Projet_NET\hotel_management_wpf\Gestion_hotel\obj\Debug\net7.0-windows\Views\RoomControl.baml
 C:\Users\irharissa.NPIF\Desktop\EMSI\.NET\Projet_NET\hotel_management_wpf\Gestion_hotel\obj\Debug\net7.0-windows\Views\RoomTypeControl.baml
 C:\Users\irharissa.NPIF\Desktop\EMSI\.NET\Projet_NET\hotel_management_wpf\Gestion_hotel\obj\Debug\net7.0-windows\Views\SettingsControl.baml
+C:\Users\irharissa.NPIF\Desktop\EMSI\.NET\Projet_NET\hotel_management_wpf\Gestion_hotel\obj\Debug\net7.0-windows\Views\addUpdatePopWindow.g.cs
+C:\Users\irharissa.NPIF\Desktop\EMSI\.NET\Projet_NET\hotel_management_wpf\Gestion_hotel\obj\Debug\net7.0-windows\Views\addUpdatePopWindow.baml

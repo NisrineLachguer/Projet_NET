@@ -3,10 +3,127 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
-             xmlns:local="clr-namespace:WpfApp1"
+             xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+
              mc:Ignorable="d"
-             d:DesignHeight="300" d:DesignWidth="300">
-    <Grid>
-        <TextBlock Text="Welcome Clients!" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="20"/>
+             d:DesignHeight="500" d:DesignWidth="1000">
+    
+    <UserControl.Resources>
+        <!-- Style pour les boutons -->
+        <Style x:Key="ModernButton" TargetType="Button">
+            <Setter Property="Background" Value="#2196F3"/>
+            <Setter Property="Foreground" Value="White"/>
+            <Setter Property="FontSize" Value="14"/>
+            <Setter Property="Padding" Value="15,8"/>
+            <Setter Property="BorderThickness" Value="0"/>
+            <Setter Property="Margin" Value="5"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button">
+                        <Border Background="{TemplateBinding Background}"
+                                CornerRadius="4"
+                                BorderThickness="{TemplateBinding BorderThickness}">
+                            <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                        </Border>
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter Property="Background" Value="#1976D2"/>
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+
+        <!-- Style pour le DataGrid -->
+        <Style TargetType="DataGrid">
+            <Setter Property="Background" Value="White"/>
+            <Setter Property="BorderBrush" Value="#E0E0E0"/>
+            <Setter Property="BorderThickness" Value="1"/>
+            <Setter Property="RowBackground" Value="White"/>
+            <Setter Property="AlternatingRowBackground" Value="#F5F5F5"/>
+            <Setter Property="HeadersVisibility" Value="Column"/>
+            <Setter Property="GridLinesVisibility" Value="Horizontal"/>
+            <Setter Property="HorizontalGridLinesBrush" Value="#E0E0E0"/>
+        </Style>
+
+        <Style TargetType="DataGridColumnHeader">
+            <Setter Property="Background" Value="#2196F3"/>
+            <Setter Property="Foreground" Value="White"/>
+            <Setter Property="Padding" Value="10"/>
+            <Setter Property="FontWeight" Value="SemiBold"/>
+        </Style>
+    </UserControl.Resources>
+
+    <Grid Background="#F8F9FA">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+
+        <!-- Filtres et tri 
+        <StackPanel Orientation="Horizontal" Grid.Row="0" Margin="20">
+            <Label Content="Rechercher par :" VerticalAlignment="Center" Margin="5,0" />
+            <TextBox Name="NomFilterTxb" Width="150" materialDesign:HintAssist.Hint="Nom" Margin="5,0" />
+            <TextBox Name="EmailFilterTxb" Width="150" materialDesign:HintAssist.Hint="Email" Margin="5,0" />
+            
+            <Label Content="Trier par :" VerticalAlignment="Center" Margin="20,0,5,0" />
+            <ComboBox Name="TrierParCmb" Width="150" Margin="5,0">
+                <ComboBoxItem Content="Nom" />
+                <ComboBoxItem Content="Email" />
+                <ComboBoxItem Content="Téléphone" />
+            </ComboBox>
+            <RadioButton Name="AscendantRadioButton" Content="Ascendant" IsChecked="True" GroupName="Tri" Margin="5,0" />
+            <RadioButton Name="DescendantRadioButton" Content="Descendant" GroupName="Tri" Margin="5,0" />
+            <Button Content="Appliquer" Style="{StaticResource ModernButton}" Margin="10,0" Click="AppliquerFiltre_Click" />
+        </StackPanel>
+        -->
+        
+        
+        <StackPanel Orientation="Horizontal" Margin="10">
+            <TextBox x:Name="NameFilterTextBox" Width="150" Margin="5" materialDesign:HintAssist.Hint="Filter by Name" />
+            <TextBox x:Name="EmailFilterTextBox" Width="150" Margin="5" materialDesign:HintAssist.Hint="Filter by Email" />
+            <ComboBox x:Name="SortByComboBox" Width="150" Margin="5">
+                <ComboBoxItem Content="Name" />
+                <ComboBoxItem Content="Email" />
+            </ComboBox>
+            <RadioButton x:Name="AscendingRadioButton" Content="Ascending" IsChecked="True" Margin="5" />
+            <RadioButton x:Name="DescendingRadioButton" Content="Descending" Margin="5" />
+            <Button Content="Filter" Click="FilterButton_Click" Margin="5" />
+            <Button Content="Reset" Click="ResetFiltersButton_Click" Margin="5" />
+        </StackPanel>
+        <!-- Boutons d'action -->
+        <Border Grid.Row="2" Background="White" BorderBrush="#E0E0E0" BorderThickness="0,1,0,0" Padding="20">
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Right">
+                <Button Name="AjouterBtn" Background="#4CAF50" Content="Ajouter" Click="AjouterBtn_Click" Margin="5" />
+                <Button Name="ModifierBtn" Background="Yellow" Content="Modifier" Click="ModifierBtn_Click" Margin="5"/>
+                <Button Name="SupprimerBtn" Content="Supprimer" Click="SupprimerBtn_Click" Margin="5"/>
+
+            </StackPanel>
+        </Border>
+
+        <!-- DataGrid pour afficher les clients -->
+        <DataGrid Name="ClientsDataGrid" 
+                  Grid.Row="1"
+                  AutoGenerateColumns="False"
+                  Margin="20"
+                  ScrollViewer.HorizontalScrollBarVisibility="Auto"
+                  IsReadOnly="True"
+                  
+                  SelectionMode="Single"
+                  SelectionUnit="FullRow">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Nom" Binding="{Binding Name}" Width="1.5*"/>
+                <DataGridTextColumn Header="Email" Binding="{Binding Email}" Width="2*"/>
+                <DataGridTextColumn Header="Téléphone" Binding="{Binding PhoneNumber}" Width="1.2*"/>
+                <DataGridTextColumn Header="Adresse" Binding="{Binding Address}" Width="2*"/>
+            </DataGrid.Columns>
+        </DataGrid>
+
+        <!-- Statistiques -->
+        <StackPanel Orientation="Horizontal" Grid.Row="2" Margin="20">
+            <Label Name="TtlClientsLbl" Content="Total des clients : 0" Margin="10,0" />
+        </StackPanel>
     </Grid>
 </UserControl>

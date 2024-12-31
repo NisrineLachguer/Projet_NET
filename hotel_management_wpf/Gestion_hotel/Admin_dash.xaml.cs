@@ -20,12 +20,13 @@ public partial class Admin_dash : Window
     }
     private void ClientsButton_Click(object sender, RoutedEventArgs e)
     {
-        ContentAreaControl.Content = new EmployeesControl();
+        ContentAreaControl.Content = new ClientsControl();
+
     }
 
     private void EmployeesButton_Click(object sender, RoutedEventArgs e)
     {
-        ContentAreaControl.Content = new ClientsControl();
+        ContentAreaControl.Content = new EmployeesControl();
     }
 
     private void BookingsButton_Click(object sender, RoutedEventArgs e)
