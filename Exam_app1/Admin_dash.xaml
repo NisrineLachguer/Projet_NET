@@ -6,7 +6,21 @@
         xmlns:local="clr-namespace:Exam_app1"
         mc:Ignorable="d"
         Title="Admin_dash" Height="450" Width="800">
-    <Grid>
-        <TextBlock Text="Welcome Admin!" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="20"/>
-    </Grid>
+	<Grid>
+		<!-- Sidebar -->
+		<Grid Background="#2C3E50" Width="200" HorizontalAlignment="Left">
+			<StackPanel>
+				<Button Content="Rooms" Height="50" Foreground="White" Background="#34495E" Click="RoomsButton_Click"/>
+				<Button Content="Clients" Height="50" Foreground="White" Background="#34495E" Click="ClientsButton_Click"/>
+				<Button Content="Employees" Height="50" Foreground="White" Background="#34495E" Click="EmployeesButton_Click"/>
+				<Button Content="Bookings" Height="50" Foreground="White" Background="#34495E" Click="BookingsButton_Click"/>
+				<Button Content="Settings" Height="50" Foreground="White" Background="#34495E" Click="SettingsButton_Click"/>
+			</StackPanel>
+		</Grid>
+
+		<!-- Content Area -->
+		<Grid Name="ContentArea" Margin="200,0,0,0" Background="White">
+			<!-- Dynamic Content Will Be Loaded Here -->
+		</Grid>
+	</Grid>
 </Window>

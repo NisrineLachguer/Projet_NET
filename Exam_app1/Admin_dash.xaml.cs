@@ -23,5 +23,38 @@ namespace Exam_app1
         {
             InitializeComponent();
         }
+
+        private void RoomsButton_Click(object sender, RoutedEventArgs e)
+        {
+         //   Rooms_view rooms = new Rooms_view();
+          //  rooms.Show();
+        }
+
+        private void ClientsButton_Click(object sender, RoutedEventArgs e)
+        {
+           // Clients_view clients = new Clients_view();
+           // clients.Show();
+        }
+
+        private void EmployeesButton_Click(object sender, RoutedEventArgs e)
+        {
+           // Employes_view employes = new Employes_view();
+          //  employes.Show();
+        }
+
+        private void BookingsButton_Click(object sender, RoutedEventArgs e)
+        {
+           // Booking booking = new Booking();
+           // booking.Show();
+        }
+
+        private void SettingsButton_Click(object sender, RoutedEventArgs e)
+        {
+           // setting param = new setting();
+           // param.Show();
+
+        }
     }
+
+}
 }
