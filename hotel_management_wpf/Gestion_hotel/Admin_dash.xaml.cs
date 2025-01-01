@@ -1,5 +1,6 @@
 using System.Windows;
 using WpfApp1.Models;
+using WpfApp1.Views;
 
 namespace WpfApp1;
 
@@ -26,7 +27,7 @@ public partial class Admin_dash : Window
 
     private void EmployeesButton_Click(object sender, RoutedEventArgs e)
     {
-        ContentAreaControl.Content = new EmployeesControl();
+        ContentAreaControl.Content = new EmployeeControl();
     }
 
     private void BookingsButton_Click(object sender, RoutedEventArgs e)

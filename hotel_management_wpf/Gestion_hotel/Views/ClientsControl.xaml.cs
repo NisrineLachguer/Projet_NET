@@ -52,7 +52,7 @@ namespace WpfApp1
         // Add a client
         private void AjouterBtn_Click(object sender, RoutedEventArgs e)
         {
-            addUpdatePopWindow popup = new addUpdatePopWindow();
+            addUpdateClientPopWindow popup = new addUpdateClientPopWindow();
             if (popup.ShowDialog() == true)
             {
                 if (ValidateInput(popup.NameTextBox.Text, popup.EmailTextBox.Text, popup.PhoneNumberTextBox.Text, popup.AddressTextBox.Text))
@@ -78,7 +78,7 @@ namespace WpfApp1
             if (ClientsDataGrid.SelectedItem != null)
             {
                 DataRowView row = (DataRowView)ClientsDataGrid.SelectedItem;
-                addUpdatePopWindow popup = new addUpdatePopWindow(
+                addUpdateClientPopWindow popup = new addUpdateClientPopWindow(
                     row["Name"].ToString(),
                     row["Email"].ToString(),
                     row["PhoneNumber"].ToString(),

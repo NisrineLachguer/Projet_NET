@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET7_0;NETCOREAPP
 C:\Users\irharissa.NPIF\Desktop\EMSI\.NET\Projet_NET\hotel_management_wpf\Gestion_hotel\App.xaml
-10-743016955
+10-1598443542
 
-25-289159041
+26137303268
 2081075885544
-Admin_dash.xaml;Agent_dash.xaml;MainWindow.xaml;Views\addUpdatePopWindow.xaml;Views\BookingControl.xaml;Views\ClientsControl.xaml;Views\EmployeesControl.xaml;Views\RoomControl.xaml;Views\RoomTypeControl.xaml;Views\SettingsControl.xaml;
+Admin_dash.xaml;Agent_dash.xaml;MainWindow.xaml;Views\addUpdateClientPopWindow.xaml;Views\BookingControl.xaml;Views\ClientsControl.xaml;Views\EmployeeControl.xaml;Views\RoomControl.xaml;Views\RoomTypeControl.xaml;Views\SettingsControl.xaml;
 
 False
 

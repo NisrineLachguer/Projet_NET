@@ -8,6 +8,7 @@
     ".NETCoreApp,Version=v7.0": {
       "Gestion_hotel/1.0.0": {
         "dependencies": {
+          "MaterialDesignColors": "1.2.3",
           "MaterialDesignThemes": "3.1.0",
           "MySql.Data": "9.1.0"
         },
