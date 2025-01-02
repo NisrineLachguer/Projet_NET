@@ -61,24 +61,6 @@
             <RowDefinition Height="*"/>
             <RowDefinition Height="Auto"/>
         </Grid.RowDefinitions>
-
-        <!-- Filtres et tri 
-        <StackPanel Orientation="Horizontal" Grid.Row="0" Margin="20">
-            <Label Content="Rechercher par :" VerticalAlignment="Center" Margin="5,0" />
-            <TextBox Name="NomFilterTxb" Width="150" materialDesign:HintAssist.Hint="Nom" Margin="5,0" />
-            <TextBox Name="EmailFilterTxb" Width="150" materialDesign:HintAssist.Hint="Email" Margin="5,0" />
-            
-            <Label Content="Trier par :" VerticalAlignment="Center" Margin="20,0,5,0" />
-            <ComboBox Name="TrierParCmb" Width="150" Margin="5,0">
-                <ComboBoxItem Content="Nom" />
-                <ComboBoxItem Content="Email" />
-                <ComboBoxItem Content="Téléphone" />
-            </ComboBox>
-            <RadioButton Name="AscendantRadioButton" Content="Ascendant" IsChecked="True" GroupName="Tri" Margin="5,0" />
-            <RadioButton Name="DescendantRadioButton" Content="Descendant" GroupName="Tri" Margin="5,0" />
-            <Button Content="Appliquer" Style="{StaticResource ModernButton}" Margin="10,0" Click="AppliquerFiltre_Click" />
-        </StackPanel>
-        -->
         
         
         <StackPanel Orientation="Horizontal" Margin="10">
@@ -92,7 +74,25 @@
             <RadioButton x:Name="DescendingRadioButton" Content="Descending" Margin="5" />
             <Button Content="Filter" Click="FilterButton_Click" Margin="5" />
             <Button Content="Reset" Click="ResetFiltersButton_Click" Margin="5" />
+            <Button Name="ExportExcelBtn" 
+                    Background="#1976D2" 
+                    Content="Export to Excel" 
+                    Click="ExportExcelBtn_Click" 
+                    Margin="5">
+                <Button.ContentTemplate>
+                    <DataTemplate>
+                        <StackPanel Orientation="Horizontal">
+                            <materialDesign:PackIcon Kind="FileExcel" 
+                                                     Margin="0,0,8,0"
+                                                     VerticalAlignment="Center"/>
+                            <TextBlock Text="Export to Excel" 
+                                       VerticalAlignment="Center"/>
+                        </StackPanel>
+                    </DataTemplate>
+                </Button.ContentTemplate>
+            </Button>
         </StackPanel>
+        
         <!-- Boutons d'action -->
         <Border Grid.Row="2" Background="White" BorderBrush="#E0E0E0" BorderThickness="0,1,0,0" Padding="20">
             <StackPanel Orientation="Horizontal" HorizontalAlignment="Right">

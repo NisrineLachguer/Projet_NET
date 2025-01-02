@@ -50,6 +50,10 @@
         "net7.0-windows7.0": {
           "targetAlias": "net7.0-windows",
           "dependencies": {
+            "ClosedXML": {
+              "target": "Package",
+              "version": "[0.104.2, )"
+            },
             "MaterialDesignColors": {
               "target": "Package",
               "version": "[1.2.3, )"
