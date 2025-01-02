@@ -11,22 +11,88 @@
         <Grid.RowDefinitions>
             <RowDefinition Height="Auto"/>
             <RowDefinition Height="*"/>
-            <RowDefinition Height="Auto"/>
         </Grid.RowDefinitions>
 
         <!-- Employee Card Form -->
         <materialDesign:Card Grid.Row="0" Margin="16" UniformCornerRadius="8" Background="{DynamicResource MaterialDesignPaper}">
             <StackPanel Margin="24,16">
                 <TextBlock Text="EMPLOYEE INFORMATION" 
-                         Style="{StaticResource MaterialDesignHeadline6TextBlock}" 
-                         HorizontalAlignment="Center" 
-                         Margin="0,0,0,16"/>
+                           Style="{StaticResource MaterialDesignHeadline6TextBlock}" 
+                           HorizontalAlignment="Center" 
+                           Margin="0,0,0,16"/>
 
+                <!-- Profile Image Section -->
+                <StackPanel HorizontalAlignment="Center" Margin="0,16">
+    <Border BorderBrush="{DynamicResource MaterialDesignDivider}" 
+            BorderThickness="1" 
+            Width="120" 
+            Height="120" 
+            Background="#F5F5F5"
+            CornerRadius="0">
+        <Grid>
+            <!-- Placeholder Container -->
+            <Border x:Name="placeholderContainer"
+                    Background="{DynamicResource MaterialDesignPaper}">
                 <Grid>
-                    <Button x:Name="btnUpload" Click="BtnUpload_Click" Visibility="Hidden"/>
-                    <Image x:Name="imgDisplay" Width="100" Height="100" Visibility="Hidden"/>
+                    <!-- Background Pattern (Optional) -->
+                    <Rectangle Opacity="0.05">
+                        <Rectangle.Fill>
+                            <SolidColorBrush Color="#E0E0E0"/>
+                        </Rectangle.Fill>
+                    </Rectangle>
+                    
+                    <!-- Default Icon -->
+                    <materialDesign:PackIcon Kind="Account"
+                                           Width="80"
+                                           Height="80"
+                                           Opacity="0.7"
+                                           HorizontalAlignment="Center"
+                                           VerticalAlignment="Center"/>
                 </Grid>
-                
+            </Border>
+            
+            <!-- Profile Image -->
+            <Image x:Name="imgProfile" 
+                   Stretch="UniformToFill"
+                   RenderOptions.BitmapScalingMode="HighQuality">
+                <Image.Style>
+                    <Style TargetType="Image">
+                        <Style.Triggers>
+                            <Trigger Property="Source" Value="{x:Null}">
+                                <Setter Property="Visibility" Value="Collapsed"/>
+                            </Trigger>
+                        </Style.Triggers>
+                    </Style>
+                </Image.Style>
+                <Image.Effect>
+                    <DropShadowEffect BlurRadius="0" 
+                                    ShadowDepth="1" 
+                                    Opacity="0.2"/>
+                </Image.Effect>
+            </Image>
+        </Grid>
+    </Border>
+    
+    <!-- Upload Button -->
+    <Button Content="Upload Image" 
+            Click="BtnUploadImage_Click" 
+            Margin="0,12,0,0"
+            Width="120"
+            Style="{StaticResource MaterialDesignOutlinedButton}">
+        <Button.ContentTemplate>
+            <DataTemplate>
+                <StackPanel Orientation="Horizontal">
+                    <materialDesign:PackIcon Kind="Upload" 
+                                           Margin="0,0,8,0"
+                                           VerticalAlignment="Center"/>
+                    <TextBlock Text="Upload Image" 
+                             VerticalAlignment="Center"/>
+                </StackPanel>
+            </DataTemplate>
+        </Button.ContentTemplate>
+    </Button>
+</StackPanel>
+
                 <TextBox x:Name="txtName"
                          materialDesign:HintAssist.Hint="Full Name"
                          Margin="0,8"/>
@@ -51,14 +117,12 @@
                         Margin="0,8"/>
 
                 <TextBox x:Name="txtAddress"
-                         
                         materialDesign:HintAssist.Hint="Address"
                         TextWrapping="Wrap"
                         Margin="0,8"/>
 
                 <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Margin="0,16,0,0">
                     <Button 
-                            Command="{x:Static materialDesign:DialogHost.CloseDialogCommand}"
                             Content="CLEAR"
                             Margin="0,0,8,0"
                             Click="BtnClear_Click"/>
@@ -74,47 +138,65 @@
             </StackPanel>
         </materialDesign:Card>
 
-        <!-- DataGrid -->
-        <DataGrid Grid.Row="1" x:Name="dgEmployees"
-                  Style="{StaticResource MaterialDesignDataGrid}"
-                  Margin="16"
-                  AutoGenerateColumns="False"
-                  SelectionChanged="DgEmployees_SelectionChanged">
-            <DataGrid.Columns>
-                <DataGridTextColumn Header="ID" Binding="{Binding Id}" Width="Auto"/>
-                <DataGridTextColumn Header="Name" Binding="{Binding Name}" Width="*"/>
-                <DataGridTextColumn Header="Role" Binding="{Binding Role}" Width="*"/>
-                <DataGridTextColumn Header="Email" Binding="{Binding Email}" Width="*"/>
-                <DataGridTextColumn Header="Phone" Binding="{Binding Phone}" Width="*"/>
-            </DataGrid.Columns>
-        </DataGrid>
+        <!-- Grid with Controls on Left and DataGrid on Right -->
+        <Grid Grid.Row="1" Margin="16">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto"/> <!-- For Search and Controls -->
+                <ColumnDefinition Width="*"/>   <!-- For DataGrid -->
+            </Grid.ColumnDefinitions>
 
-        <!-- Search and Controls -->
-        <StackPanel Grid.Row="2" Orientation="Horizontal" Margin="16">
-            <TextBox x:Name="txtSearch"
-                     materialDesign:HintAssist.Hint="Search employees..."
-                     Width="250"
-                     Margin="0,0,16,0"/>
-            
-            <Button 
-                    Content="SEARCH"
-                    Click="BtnSearch_Click"
-                    Margin="0,0,8,0"/>
-            
-            <Button 
-                    Content="SORT BY NAME"
-                    Click="BtnSortName_Click"
-                    Margin="8,0"/>
-            
-            <Button 
-                    Content="SORT BY ROLE"
-                    Click="BtnSortRole_Click"
-                    Margin="8,0"/>
-            
-            <Button 
-                    Content="DELETE"
-                    Click="BtnDelete_Click"
-                    Margin="8,0,0,0"/>
-        </StackPanel>
+            <!-- Search and Controls -->
+            <StackPanel Grid.Column="0" Orientation="Vertical" Margin="0,0,16,0">
+                <TextBox x:Name="txtSearch"
+                         materialDesign:HintAssist.Hint="Search name employees..."
+                         Width="250"
+                         Margin="0,0,0,8"/>
+                
+                <Button 
+                        Content="SEARCH"
+                        Click="BtnSearch_Click"
+                        Margin="0,0,0,8"/>
+                
+                <Button 
+                        Content="DELETE"
+                        Click="BtnDelete_Click"
+                        Margin="0,0,0,8"/>
+                <Button 
+                    Content="REFRESH LIST"
+                    Click="BtnRefresh_Click"
+                    Margin="0,0,0,0"/>
+
+                <Label x:Name="lblEmployeeCount" 
+                       HorizontalAlignment="Left" 
+                       VerticalAlignment="Top" 
+                       Margin="10,10,0,0" 
+                       FontSize="14" 
+                       Content="Total Employees: 0" />
+            </StackPanel>
+
+            <!-- DataGrid -->
+            <DataGrid Grid.Column="1" x:Name="dgEmployees"
+                      Style="{StaticResource MaterialDesignDataGrid}"
+                      CanUserAddRows="False"
+                      AutoGenerateColumns="False"
+                      SelectionChanged="DgEmployees_SelectionChanged">
+                <DataGrid.Columns>
+                    <DataGridTextColumn Header="ID" Binding="{Binding Id}" Width="Auto"/>
+                    <DataGridTextColumn Header="Name" Binding="{Binding Name}" Width="*"/>
+                    <DataGridTextColumn Header="Role" Binding="{Binding Role}" Width="*"/>
+                    <DataGridTextColumn Header="Email" Binding="{Binding Email}" Width="*"/>
+                    <DataGridTextColumn Header="Phone" Binding="{Binding Phone}" Width="*"/>
+                    <DataGridTextColumn Header="Address" Binding="{Binding Address}" />
+                    <!-- Add DataGridTemplateColumn for Photo -->
+                    <DataGridTemplateColumn Header="Photo">
+                        <DataGridTemplateColumn.CellTemplate>
+                            <DataTemplate>
+                                <Image Width="50" Height="50" Source="{Binding PhotoPath}" />
+                            </DataTemplate>
+                        </DataGridTemplateColumn.CellTemplate>
+                    </DataGridTemplateColumn>
+                </DataGrid.Columns>
+            </DataGrid>
+        </Grid>
     </Grid>
 </UserControl>

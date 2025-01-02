@@ -282,3 +282,20 @@ D:\EMSIIIII\DotNET\Mini-Projet-ReservationHotel\Projet_NET\hotel_management_wpf\
 D:\EMSIIIII\DotNET\Mini-Projet-ReservationHotel\Projet_NET\hotel_management_wpf\Gestion_hotel\obj\Debug\net7.0-windows\Views\Room\RoomControl.baml
 D:\EMSIIIII\DotNET\Mini-Projet-ReservationHotel\Projet_NET\hotel_management_wpf\Gestion_hotel\obj\Debug\net7.0-windows\Views\Room\AddUpdateRoomPopup.g.cs
 D:\EMSIIIII\DotNET\Mini-Projet-ReservationHotel\Projet_NET\hotel_management_wpf\Gestion_hotel\obj\Debug\net7.0-windows\Views\Room\RoomControl.g.cs
+C:\Users\irharissa.NPIF\Desktop\EMSI\.NET\Projet_NET\hotel_management_wpf\Gestion_hotel\bin\Debug\net7.0-windows\ClosedXML.dll
+C:\Users\irharissa.NPIF\Desktop\EMSI\.NET\Projet_NET\hotel_management_wpf\Gestion_hotel\bin\Debug\net7.0-windows\ClosedXML.Parser.dll
+C:\Users\irharissa.NPIF\Desktop\EMSI\.NET\Projet_NET\hotel_management_wpf\Gestion_hotel\bin\Debug\net7.0-windows\DocumentFormat.OpenXml.dll
+C:\Users\irharissa.NPIF\Desktop\EMSI\.NET\Projet_NET\hotel_management_wpf\Gestion_hotel\bin\Debug\net7.0-windows\DocumentFormat.OpenXml.Framework.dll
+C:\Users\irharissa.NPIF\Desktop\EMSI\.NET\Projet_NET\hotel_management_wpf\Gestion_hotel\bin\Debug\net7.0-windows\ExcelNumberFormat.dll
+C:\Users\irharissa.NPIF\Desktop\EMSI\.NET\Projet_NET\hotel_management_wpf\Gestion_hotel\bin\Debug\net7.0-windows\RBush.dll
+C:\Users\irharissa.NPIF\Desktop\EMSI\.NET\Projet_NET\hotel_management_wpf\Gestion_hotel\bin\Debug\net7.0-windows\SixLabors.Fonts.dll
+C:\Users\irharissa.NPIF\Desktop\EMSI\.NET\Projet_NET\hotel_management_wpf\Gestion_hotel\bin\Debug\net7.0-windows\System.IO.Packaging.dll
+>>>>>>> 9f4d7fd884072ff0b438c88ec28a32e12b8d8c93
+D:\EMSIIIII\DotNET\Mini-Projet-ReservationHotel\Projet_NET\hotel_management_wpf\Gestion_hotel\bin\Debug\net7.0-windows\ClosedXML.dll
+D:\EMSIIIII\DotNET\Mini-Projet-ReservationHotel\Projet_NET\hotel_management_wpf\Gestion_hotel\bin\Debug\net7.0-windows\ClosedXML.Parser.dll
+D:\EMSIIIII\DotNET\Mini-Projet-ReservationHotel\Projet_NET\hotel_management_wpf\Gestion_hotel\bin\Debug\net7.0-windows\DocumentFormat.OpenXml.dll
+D:\EMSIIIII\DotNET\Mini-Projet-ReservationHotel\Projet_NET\hotel_management_wpf\Gestion_hotel\bin\Debug\net7.0-windows\DocumentFormat.OpenXml.Framework.dll
+D:\EMSIIIII\DotNET\Mini-Projet-ReservationHotel\Projet_NET\hotel_management_wpf\Gestion_hotel\bin\Debug\net7.0-windows\ExcelNumberFormat.dll
+D:\EMSIIIII\DotNET\Mini-Projet-ReservationHotel\Projet_NET\hotel_management_wpf\Gestion_hotel\bin\Debug\net7.0-windows\RBush.dll
+D:\EMSIIIII\DotNET\Mini-Projet-ReservationHotel\Projet_NET\hotel_management_wpf\Gestion_hotel\bin\Debug\net7.0-windows\SixLabors.Fonts.dll
+D:\EMSIIIII\DotNET\Mini-Projet-ReservationHotel\Projet_NET\hotel_management_wpf\Gestion_hotel\bin\Debug\net7.0-windows\System.IO.Packaging.dll

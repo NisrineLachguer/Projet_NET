@@ -8,202 +8,295 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="88a3aa10-4889-49d4-b75c-26a126a7f1ee" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.WpfApp1/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gestion_hotel/EmployeeModel.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gestion_hotel/Views/EmployeeControl.xaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gestion_hotel/Views/EmployeeControl.xaml.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gestion_hotel/Views/Room/AddUpdateRoomPopup.xaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gestion_hotel/Views/Room/AddUpdateRoomPopup.xaml.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gestion_hotel/Views/RoomType/AddUpdateRoomTypePopup.xaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gestion_hotel/Views/RoomType/AddUpdateRoomTypePopup.xaml.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gestion_hotel/Views/RoomType/RoomTypeControl.xaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gestion_hotel/Views/RoomType/RoomTypeControl.xaml.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gestion_hotel/bin/Debug/net7.0-windows/Images/profileEmploye/9cd2a697-b51d-4589-b574-44fcb11d078a.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Gestion_hotel_041nfalt_wpftmp.AssemblyInfo.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Gestion_hotel_041nfalt_wpftmp.AssemblyInfoInputs.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Gestion_hotel_041nfalt_wpftmp.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Gestion_hotel_041nfalt_wpftmp.GlobalUsings.g.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Gestion_hotel_041nfalt_wpftmp.assets.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Gestion_hotel_041nfalt_wpftmp.sourcelink.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Gestion_hotel_0qrvtlmu_wpftmp.AssemblyInfo.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Gestion_hotel_0qrvtlmu_wpftmp.AssemblyInfoInputs.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Gestion_hotel_0qrvtlmu_wpftmp.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Gestion_hotel_0qrvtlmu_wpftmp.GlobalUsings.g.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Gestion_hotel_0qrvtlmu_wpftmp.assets.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Gestion_hotel_0qrvtlmu_wpftmp.sourcelink.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Gestion_hotel_1moal1yp_wpftmp.AssemblyInfo.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Gestion_hotel_1moal1yp_wpftmp.AssemblyInfoInputs.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Gestion_hotel_1moal1yp_wpftmp.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Gestion_hotel_1moal1yp_wpftmp.GlobalUsings.g.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Gestion_hotel_1moal1yp_wpftmp.assets.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Gestion_hotel_1moal1yp_wpftmp.sourcelink.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Gestion_hotel_1w0yldln_wpftmp.AssemblyInfo.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Gestion_hotel_1w0yldln_wpftmp.AssemblyInfoInputs.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Gestion_hotel_1w0yldln_wpftmp.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Gestion_hotel_1w0yldln_wpftmp.GlobalUsings.g.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Gestion_hotel_1w0yldln_wpftmp.assets.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Gestion_hotel_1w0yldln_wpftmp.sourcelink.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Gestion_hotel_2njol512_wpftmp.AssemblyInfo.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Gestion_hotel_2njol512_wpftmp.AssemblyInfoInputs.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Gestion_hotel_2njol512_wpftmp.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Gestion_hotel_2njol512_wpftmp.GlobalUsings.g.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Gestion_hotel_2njol512_wpftmp.assets.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Gestion_hotel_2njol512_wpftmp.sourcelink.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Gestion_hotel_2wxeb5bs_wpftmp.AssemblyInfo.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Gestion_hotel_2wxeb5bs_wpftmp.AssemblyInfoInputs.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Gestion_hotel_2wxeb5bs_wpftmp.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Gestion_hotel_2wxeb5bs_wpftmp.GlobalUsings.g.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Gestion_hotel_2wxeb5bs_wpftmp.assets.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Gestion_hotel_2wxeb5bs_wpftmp.sourcelink.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Gestion_hotel_brx2ynml_wpftmp.AssemblyInfo.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Gestion_hotel_brx2ynml_wpftmp.AssemblyInfoInputs.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Gestion_hotel_brx2ynml_wpftmp.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Gestion_hotel_brx2ynml_wpftmp.GlobalUsings.g.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Gestion_hotel_brx2ynml_wpftmp.assets.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Gestion_hotel_brx2ynml_wpftmp.sourcelink.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Gestion_hotel_c2k0kupn_wpftmp.AssemblyInfo.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Gestion_hotel_c2k0kupn_wpftmp.AssemblyInfoInputs.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Gestion_hotel_c2k0kupn_wpftmp.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Gestion_hotel_c2k0kupn_wpftmp.GlobalUsings.g.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Gestion_hotel_c2k0kupn_wpftmp.assets.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Gestion_hotel_c2k0kupn_wpftmp.sourcelink.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Gestion_hotel_cgvzhdyv_wpftmp.AssemblyInfo.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Gestion_hotel_cgvzhdyv_wpftmp.AssemblyInfoInputs.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Gestion_hotel_cgvzhdyv_wpftmp.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Gestion_hotel_cgvzhdyv_wpftmp.GlobalUsings.g.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Gestion_hotel_cgvzhdyv_wpftmp.assets.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Gestion_hotel_cgvzhdyv_wpftmp.sourcelink.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Gestion_hotel_cohfzely_wpftmp.AssemblyInfo.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Gestion_hotel_cohfzely_wpftmp.AssemblyInfoInputs.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Gestion_hotel_cohfzely_wpftmp.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Gestion_hotel_cohfzely_wpftmp.GlobalUsings.g.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Gestion_hotel_cohfzely_wpftmp.assets.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Gestion_hotel_cohfzely_wpftmp.sourcelink.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Gestion_hotel_evlbdjqg_wpftmp.AssemblyInfo.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Gestion_hotel_evlbdjqg_wpftmp.AssemblyInfoInputs.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Gestion_hotel_evlbdjqg_wpftmp.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Gestion_hotel_evlbdjqg_wpftmp.GlobalUsings.g.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Gestion_hotel_evlbdjqg_wpftmp.assets.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Gestion_hotel_evlbdjqg_wpftmp.sourcelink.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Gestion_hotel_me5sppd5_wpftmp.AssemblyInfo.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Gestion_hotel_me5sppd5_wpftmp.AssemblyInfoInputs.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Gestion_hotel_me5sppd5_wpftmp.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Gestion_hotel_me5sppd5_wpftmp.GlobalUsings.g.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Gestion_hotel_me5sppd5_wpftmp.assets.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Gestion_hotel_me5sppd5_wpftmp.sourcelink.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Gestion_hotel_mp5p4xxt_wpftmp.AssemblyInfo.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Gestion_hotel_mp5p4xxt_wpftmp.AssemblyInfoInputs.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Gestion_hotel_mp5p4xxt_wpftmp.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Gestion_hotel_mp5p4xxt_wpftmp.GlobalUsings.g.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Gestion_hotel_mp5p4xxt_wpftmp.assets.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Gestion_hotel_mp5p4xxt_wpftmp.sourcelink.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Gestion_hotel_ncfs3oda_wpftmp.AssemblyInfo.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Gestion_hotel_ncfs3oda_wpftmp.AssemblyInfoInputs.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Gestion_hotel_ncfs3oda_wpftmp.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Gestion_hotel_ncfs3oda_wpftmp.GlobalUsings.g.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Gestion_hotel_ncfs3oda_wpftmp.assets.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Gestion_hotel_ncfs3oda_wpftmp.sourcelink.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Gestion_hotel_nxzlf4du_wpftmp.AssemblyInfo.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Gestion_hotel_nxzlf4du_wpftmp.AssemblyInfoInputs.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Gestion_hotel_nxzlf4du_wpftmp.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Gestion_hotel_nxzlf4du_wpftmp.GlobalUsings.g.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Gestion_hotel_nxzlf4du_wpftmp.assets.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Gestion_hotel_nxzlf4du_wpftmp.sourcelink.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Gestion_hotel_pggitnen_wpftmp.AssemblyInfo.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Gestion_hotel_pggitnen_wpftmp.AssemblyInfoInputs.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Gestion_hotel_pggitnen_wpftmp.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Gestion_hotel_pggitnen_wpftmp.GlobalUsings.g.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Gestion_hotel_pggitnen_wpftmp.assets.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Gestion_hotel_pggitnen_wpftmp.sourcelink.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Gestion_hotel_q0wsgnh1_wpftmp.AssemblyInfo.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Gestion_hotel_q0wsgnh1_wpftmp.AssemblyInfoInputs.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Gestion_hotel_q0wsgnh1_wpftmp.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Gestion_hotel_q0wsgnh1_wpftmp.GlobalUsings.g.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Gestion_hotel_q0wsgnh1_wpftmp.assets.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Gestion_hotel_q0wsgnh1_wpftmp.sourcelink.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Gestion_hotel_qtajb3rl_wpftmp.AssemblyInfo.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Gestion_hotel_qtajb3rl_wpftmp.AssemblyInfoInputs.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Gestion_hotel_qtajb3rl_wpftmp.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Gestion_hotel_qtajb3rl_wpftmp.GlobalUsings.g.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Gestion_hotel_qtajb3rl_wpftmp.assets.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Gestion_hotel_qtajb3rl_wpftmp.sourcelink.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Gestion_hotel_s0v5kr0a_wpftmp.AssemblyInfo.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Gestion_hotel_s0v5kr0a_wpftmp.AssemblyInfoInputs.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Gestion_hotel_s0v5kr0a_wpftmp.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Gestion_hotel_s0v5kr0a_wpftmp.GlobalUsings.g.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Gestion_hotel_s0v5kr0a_wpftmp.assets.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Gestion_hotel_s0v5kr0a_wpftmp.sourcelink.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Gestion_hotel_skbbng4m_wpftmp.AssemblyInfo.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Gestion_hotel_skbbng4m_wpftmp.AssemblyInfoInputs.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Gestion_hotel_skbbng4m_wpftmp.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Gestion_hotel_skbbng4m_wpftmp.GlobalUsings.g.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Gestion_hotel_skbbng4m_wpftmp.assets.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Gestion_hotel_skbbng4m_wpftmp.sourcelink.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Gestion_hotel_sv3pirhq_wpftmp.AssemblyInfo.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Gestion_hotel_sv3pirhq_wpftmp.AssemblyInfoInputs.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Gestion_hotel_sv3pirhq_wpftmp.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Gestion_hotel_sv3pirhq_wpftmp.GlobalUsings.g.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Gestion_hotel_sv3pirhq_wpftmp.assets.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Gestion_hotel_sv3pirhq_wpftmp.sourcelink.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Gestion_hotel_wntkawoi_wpftmp.AssemblyInfo.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Gestion_hotel_wntkawoi_wpftmp.AssemblyInfoInputs.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Gestion_hotel_wntkawoi_wpftmp.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Gestion_hotel_wntkawoi_wpftmp.GlobalUsings.g.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Gestion_hotel_wntkawoi_wpftmp.assets.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Gestion_hotel_wntkawoi_wpftmp.sourcelink.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Views/Employee.g.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Views/EmployeeControl.baml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Views/EmployeeControl.g.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Gestion_hotel_2wxeb5bs_wpftmp.csproj.nuget.dgspec.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Gestion_hotel_2wxeb5bs_wpftmp.csproj.nuget.g.props" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Gestion_hotel_2wxeb5bs_wpftmp.csproj.nuget.g.targets" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Gestion_hotel_pggitnen_wpftmp.csproj.nuget.dgspec.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Gestion_hotel_pggitnen_wpftmp.csproj.nuget.g.props" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Gestion_hotel_pggitnen_wpftmp.csproj.nuget.g.targets" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Gestion_hotel_s0v5kr0a_wpftmp.csproj.nuget.dgspec.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Gestion_hotel_s0v5kr0a_wpftmp.csproj.nuget.g.props" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Gestion_hotel_s0v5kr0a_wpftmp.csproj.nuget.g.targets" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hotel_management_wpf.sql" beforeDir="false" afterPath="$PROJECT_DIR$/../hotel_management_wpf.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Mini-Projet-DotNet/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Mini-Projet-DotNet/.idea/.name" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gestion_hotel/Admin_dash.xaml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Gestion_hotel/Admin_dash.xaml.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Clients_Export_20250102.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../employees.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.vs/ProjectEvaluation/wpfapp1.metadata.v9.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.vs/ProjectEvaluation/wpfapp1.projects.v9.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.vs/ProjectEvaluation/wpfapp1.strings.v9.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.vs/WpfApp1/DesignTimeBuild/.dtbcache.v2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.vs/WpfApp1/FileContentIndex/91425aa4-9141-42d2-893d-43da69927ab5.vsidx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.vs/WpfApp1/v17/.futdcache.v2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.vs/WpfApp1/v17/.suo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.vs/WpfApp1/v17/DocumentLayout.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gestion_hotel/Images/profileEmploye/17a1361f-7bda-4bff-8e9a-d59b187e515e.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gestion_hotel/Images/profileEmploye/275576db-ad8f-4d27-b97b-df9c28904c66.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gestion_hotel/Images/profileEmploye/439ee21d-ab33-4810-9091-2f99a89deb42.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gestion_hotel/Images/profileEmploye/5ba3770a-2281-4158-8132-6f680bd094ba.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gestion_hotel/Images/profileEmploye/5f32aa29-11c7-4237-8c6c-6f926a8de5a9.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gestion_hotel/Images/profileEmploye/e1532876-71cc-4b4e-97a8-da42a2540337.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gestion_hotel/bin/Debug/net7.0-windows/ClosedXML.Parser.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gestion_hotel/bin/Debug/net7.0-windows/ClosedXML.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gestion_hotel/bin/Debug/net7.0-windows/DocumentFormat.OpenXml.Framework.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gestion_hotel/bin/Debug/net7.0-windows/DocumentFormat.OpenXml.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gestion_hotel/bin/Debug/net7.0-windows/ExcelNumberFormat.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gestion_hotel/bin/Debug/net7.0-windows/Images/profileEmployee/179e38eb-b48d-426f-9d43-cf6981ca68b1.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gestion_hotel/bin/Debug/net7.0-windows/Images/profileEmployee/183e17b4-8a7d-4c93-9f57-0c3b50ae900c.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gestion_hotel/bin/Debug/net7.0-windows/Images/profileEmployee/62d1698e-e31e-4950-8ad1-9925a1239b34.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gestion_hotel/bin/Debug/net7.0-windows/Images/profileEmployee/e7808b7a-eea4-421b-bdca-57d5f99fa799.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gestion_hotel/bin/Debug/net7.0-windows/RBush.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gestion_hotel/bin/Debug/net7.0-windows/SixLabors.Fonts.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gestion_hotel/bin/Debug/net7.0-windows/System.IO.Packaging.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Gestion_hotel.designer.deps.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Gestion_hotel.designer.runtimeconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Gestion_hotel_23laij5y_wpftmp.AssemblyInfo.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Gestion_hotel_23laij5y_wpftmp.AssemblyInfoInputs.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Gestion_hotel_23laij5y_wpftmp.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Gestion_hotel_23laij5y_wpftmp.GlobalUsings.g.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Gestion_hotel_23laij5y_wpftmp.assets.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Gestion_hotel_23laij5y_wpftmp.sourcelink.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Gestion_hotel_2mc5yrpu_wpftmp.AssemblyInfo.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Gestion_hotel_2mc5yrpu_wpftmp.AssemblyInfoInputs.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Gestion_hotel_2mc5yrpu_wpftmp.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Gestion_hotel_2mc5yrpu_wpftmp.GlobalUsings.g.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Gestion_hotel_2mc5yrpu_wpftmp.assets.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Gestion_hotel_2mc5yrpu_wpftmp.sourcelink.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Gestion_hotel_4c345nph_wpftmp.AssemblyInfo.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Gestion_hotel_4c345nph_wpftmp.AssemblyInfoInputs.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Gestion_hotel_4c345nph_wpftmp.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Gestion_hotel_4c345nph_wpftmp.GlobalUsings.g.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Gestion_hotel_4c345nph_wpftmp.assets.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Gestion_hotel_4c345nph_wpftmp.sourcelink.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Gestion_hotel_anckjnzk_wpftmp.AssemblyInfo.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Gestion_hotel_anckjnzk_wpftmp.AssemblyInfoInputs.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Gestion_hotel_anckjnzk_wpftmp.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Gestion_hotel_anckjnzk_wpftmp.GlobalUsings.g.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Gestion_hotel_anckjnzk_wpftmp.assets.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Gestion_hotel_anckjnzk_wpftmp.sourcelink.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Gestion_hotel_bmhb3cec_wpftmp.AssemblyInfo.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Gestion_hotel_bmhb3cec_wpftmp.AssemblyInfoInputs.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Gestion_hotel_bmhb3cec_wpftmp.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Gestion_hotel_bmhb3cec_wpftmp.GlobalUsings.g.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Gestion_hotel_bmhb3cec_wpftmp.assets.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Gestion_hotel_bmhb3cec_wpftmp.sourcelink.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Gestion_hotel_bqphqxxg_wpftmp.AssemblyInfo.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Gestion_hotel_bqphqxxg_wpftmp.AssemblyInfoInputs.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Gestion_hotel_bqphqxxg_wpftmp.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Gestion_hotel_bqphqxxg_wpftmp.GlobalUsings.g.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Gestion_hotel_bqphqxxg_wpftmp.assets.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Gestion_hotel_bqphqxxg_wpftmp.sourcelink.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Gestion_hotel_dluhf5le_wpftmp.AssemblyInfo.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Gestion_hotel_dluhf5le_wpftmp.AssemblyInfoInputs.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Gestion_hotel_dluhf5le_wpftmp.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Gestion_hotel_dluhf5le_wpftmp.GlobalUsings.g.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Gestion_hotel_dluhf5le_wpftmp.assets.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Gestion_hotel_dluhf5le_wpftmp.sourcelink.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Gestion_hotel_dxxii0f3_wpftmp.AssemblyInfo.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Gestion_hotel_dxxii0f3_wpftmp.AssemblyInfoInputs.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Gestion_hotel_dxxii0f3_wpftmp.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Gestion_hotel_dxxii0f3_wpftmp.GlobalUsings.g.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Gestion_hotel_dxxii0f3_wpftmp.assets.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Gestion_hotel_dxxii0f3_wpftmp.sourcelink.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Gestion_hotel_efohontn_wpftmp.AssemblyInfo.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Gestion_hotel_efohontn_wpftmp.AssemblyInfoInputs.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Gestion_hotel_efohontn_wpftmp.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Gestion_hotel_efohontn_wpftmp.GlobalUsings.g.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Gestion_hotel_efohontn_wpftmp.assets.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Gestion_hotel_efohontn_wpftmp.sourcelink.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Gestion_hotel_fsihvbzq_wpftmp.AssemblyInfo.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Gestion_hotel_fsihvbzq_wpftmp.AssemblyInfoInputs.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Gestion_hotel_fsihvbzq_wpftmp.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Gestion_hotel_fsihvbzq_wpftmp.GlobalUsings.g.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Gestion_hotel_fsihvbzq_wpftmp.assets.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Gestion_hotel_fsihvbzq_wpftmp.sourcelink.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Gestion_hotel_fsrzk1jf_wpftmp.AssemblyInfo.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Gestion_hotel_fsrzk1jf_wpftmp.AssemblyInfoInputs.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Gestion_hotel_fsrzk1jf_wpftmp.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Gestion_hotel_fsrzk1jf_wpftmp.GlobalUsings.g.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Gestion_hotel_fsrzk1jf_wpftmp.assets.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Gestion_hotel_fsrzk1jf_wpftmp.sourcelink.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Gestion_hotel_gmhtkrbl_wpftmp.AssemblyInfo.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Gestion_hotel_gmhtkrbl_wpftmp.AssemblyInfoInputs.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Gestion_hotel_gmhtkrbl_wpftmp.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Gestion_hotel_gmhtkrbl_wpftmp.GlobalUsings.g.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Gestion_hotel_gmhtkrbl_wpftmp.assets.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Gestion_hotel_gmhtkrbl_wpftmp.sourcelink.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Gestion_hotel_h5aywo3k_wpftmp.AssemblyInfo.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Gestion_hotel_h5aywo3k_wpftmp.AssemblyInfoInputs.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Gestion_hotel_h5aywo3k_wpftmp.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Gestion_hotel_h5aywo3k_wpftmp.GlobalUsings.g.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Gestion_hotel_h5aywo3k_wpftmp.assets.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Gestion_hotel_h5aywo3k_wpftmp.sourcelink.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Gestion_hotel_i2emrt2p_wpftmp.AssemblyInfo.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Gestion_hotel_i2emrt2p_wpftmp.AssemblyInfoInputs.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Gestion_hotel_i2emrt2p_wpftmp.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Gestion_hotel_i2emrt2p_wpftmp.GlobalUsings.g.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Gestion_hotel_i2emrt2p_wpftmp.assets.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Gestion_hotel_i2emrt2p_wpftmp.sourcelink.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Gestion_hotel_iv3zuckv_wpftmp.AssemblyInfo.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Gestion_hotel_iv3zuckv_wpftmp.AssemblyInfoInputs.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Gestion_hotel_iv3zuckv_wpftmp.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Gestion_hotel_iv3zuckv_wpftmp.GlobalUsings.g.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Gestion_hotel_iv3zuckv_wpftmp.assets.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Gestion_hotel_iv3zuckv_wpftmp.sourcelink.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Gestion_hotel_j13j5kkf_wpftmp.AssemblyInfo.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Gestion_hotel_j13j5kkf_wpftmp.AssemblyInfoInputs.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Gestion_hotel_j13j5kkf_wpftmp.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Gestion_hotel_j13j5kkf_wpftmp.GlobalUsings.g.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Gestion_hotel_j13j5kkf_wpftmp.assets.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Gestion_hotel_j13j5kkf_wpftmp.sourcelink.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Gestion_hotel_jc5khzj2_wpftmp.AssemblyInfo.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Gestion_hotel_jc5khzj2_wpftmp.AssemblyInfoInputs.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Gestion_hotel_jc5khzj2_wpftmp.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Gestion_hotel_jc5khzj2_wpftmp.GlobalUsings.g.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Gestion_hotel_jc5khzj2_wpftmp.assets.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Gestion_hotel_jc5khzj2_wpftmp.sourcelink.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Gestion_hotel_l3earlm1_wpftmp.AssemblyInfo.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Gestion_hotel_l3earlm1_wpftmp.AssemblyInfoInputs.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Gestion_hotel_l3earlm1_wpftmp.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Gestion_hotel_l3earlm1_wpftmp.GlobalUsings.g.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Gestion_hotel_l3earlm1_wpftmp.assets.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Gestion_hotel_l3earlm1_wpftmp.sourcelink.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Gestion_hotel_ltsqjrju_wpftmp.AssemblyInfo.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Gestion_hotel_ltsqjrju_wpftmp.AssemblyInfoInputs.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Gestion_hotel_ltsqjrju_wpftmp.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Gestion_hotel_ltsqjrju_wpftmp.GlobalUsings.g.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Gestion_hotel_ltsqjrju_wpftmp.assets.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Gestion_hotel_ltsqjrju_wpftmp.sourcelink.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Gestion_hotel_miawj4xj_wpftmp.AssemblyInfo.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Gestion_hotel_miawj4xj_wpftmp.AssemblyInfoInputs.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Gestion_hotel_miawj4xj_wpftmp.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Gestion_hotel_miawj4xj_wpftmp.GlobalUsings.g.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Gestion_hotel_miawj4xj_wpftmp.assets.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Gestion_hotel_miawj4xj_wpftmp.sourcelink.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Gestion_hotel_mumgat10_wpftmp.AssemblyInfo.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Gestion_hotel_mumgat10_wpftmp.AssemblyInfoInputs.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Gestion_hotel_mumgat10_wpftmp.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Gestion_hotel_mumgat10_wpftmp.GlobalUsings.g.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Gestion_hotel_mumgat10_wpftmp.assets.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Gestion_hotel_mumgat10_wpftmp.sourcelink.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Gestion_hotel_n0a0i3s0_wpftmp.AssemblyInfo.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Gestion_hotel_n0a0i3s0_wpftmp.AssemblyInfoInputs.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Gestion_hotel_n0a0i3s0_wpftmp.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Gestion_hotel_n0a0i3s0_wpftmp.GlobalUsings.g.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Gestion_hotel_n0a0i3s0_wpftmp.assets.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Gestion_hotel_n0a0i3s0_wpftmp.sourcelink.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Gestion_hotel_nbm1vkrx_wpftmp.AssemblyInfo.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Gestion_hotel_nbm1vkrx_wpftmp.AssemblyInfoInputs.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Gestion_hotel_nbm1vkrx_wpftmp.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Gestion_hotel_nbm1vkrx_wpftmp.GlobalUsings.g.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Gestion_hotel_nbm1vkrx_wpftmp.assets.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Gestion_hotel_nbm1vkrx_wpftmp.sourcelink.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Gestion_hotel_pjli0gij_wpftmp.AssemblyInfo.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Gestion_hotel_pjli0gij_wpftmp.AssemblyInfoInputs.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Gestion_hotel_pjli0gij_wpftmp.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Gestion_hotel_pjli0gij_wpftmp.GlobalUsings.g.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Gestion_hotel_pjli0gij_wpftmp.assets.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Gestion_hotel_pjli0gij_wpftmp.sourcelink.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Gestion_hotel_qso2q4ky_wpftmp.AssemblyInfo.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Gestion_hotel_qso2q4ky_wpftmp.AssemblyInfoInputs.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Gestion_hotel_qso2q4ky_wpftmp.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Gestion_hotel_qso2q4ky_wpftmp.GlobalUsings.g.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Gestion_hotel_qso2q4ky_wpftmp.assets.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Gestion_hotel_qso2q4ky_wpftmp.sourcelink.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Gestion_hotel_rdtkgjw1_wpftmp.AssemblyInfo.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Gestion_hotel_rdtkgjw1_wpftmp.AssemblyInfoInputs.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Gestion_hotel_rdtkgjw1_wpftmp.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Gestion_hotel_rdtkgjw1_wpftmp.GlobalUsings.g.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Gestion_hotel_rdtkgjw1_wpftmp.assets.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Gestion_hotel_rdtkgjw1_wpftmp.sourcelink.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Gestion_hotel_rvw3cgx2_wpftmp.AssemblyInfo.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Gestion_hotel_rvw3cgx2_wpftmp.AssemblyInfoInputs.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Gestion_hotel_rvw3cgx2_wpftmp.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Gestion_hotel_rvw3cgx2_wpftmp.GlobalUsings.g.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Gestion_hotel_rvw3cgx2_wpftmp.assets.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Gestion_hotel_rvw3cgx2_wpftmp.sourcelink.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Gestion_hotel_svu1sewu_wpftmp.AssemblyInfo.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Gestion_hotel_svu1sewu_wpftmp.AssemblyInfoInputs.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Gestion_hotel_svu1sewu_wpftmp.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Gestion_hotel_svu1sewu_wpftmp.GlobalUsings.g.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Gestion_hotel_svu1sewu_wpftmp.assets.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Gestion_hotel_svu1sewu_wpftmp.sourcelink.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Gestion_hotel_uo5yvnih_wpftmp.AssemblyInfo.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Gestion_hotel_uo5yvnih_wpftmp.AssemblyInfoInputs.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Gestion_hotel_uo5yvnih_wpftmp.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Gestion_hotel_uo5yvnih_wpftmp.GlobalUsings.g.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Gestion_hotel_uo5yvnih_wpftmp.assets.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Gestion_hotel_uo5yvnih_wpftmp.sourcelink.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Gestion_hotel_uzxgw3pc_wpftmp.AssemblyInfo.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Gestion_hotel_uzxgw3pc_wpftmp.AssemblyInfoInputs.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Gestion_hotel_uzxgw3pc_wpftmp.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Gestion_hotel_uzxgw3pc_wpftmp.GlobalUsings.g.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Gestion_hotel_uzxgw3pc_wpftmp.assets.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Gestion_hotel_uzxgw3pc_wpftmp.sourcelink.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Gestion_hotel_vkx54hra_wpftmp.AssemblyInfo.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Gestion_hotel_vkx54hra_wpftmp.AssemblyInfoInputs.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Gestion_hotel_vkx54hra_wpftmp.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Gestion_hotel_vkx54hra_wpftmp.GlobalUsings.g.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Gestion_hotel_vkx54hra_wpftmp.assets.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Gestion_hotel_vkx54hra_wpftmp.sourcelink.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Gestion_hotel_vqc04jar_wpftmp.AssemblyInfo.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Gestion_hotel_vqc04jar_wpftmp.AssemblyInfoInputs.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Gestion_hotel_vqc04jar_wpftmp.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Gestion_hotel_vqc04jar_wpftmp.GlobalUsings.g.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Gestion_hotel_vqc04jar_wpftmp.assets.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Gestion_hotel_vqc04jar_wpftmp.sourcelink.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Gestion_hotel_vtn1dvmu_wpftmp.AssemblyInfo.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Gestion_hotel_vtn1dvmu_wpftmp.AssemblyInfoInputs.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Gestion_hotel_vtn1dvmu_wpftmp.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Gestion_hotel_vtn1dvmu_wpftmp.GlobalUsings.g.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Gestion_hotel_vtn1dvmu_wpftmp.assets.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Gestion_hotel_vtn1dvmu_wpftmp.sourcelink.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Gestion_hotel_xkvpxg1a_wpftmp.AssemblyInfo.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Gestion_hotel_xkvpxg1a_wpftmp.AssemblyInfoInputs.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Gestion_hotel_xkvpxg1a_wpftmp.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Gestion_hotel_xkvpxg1a_wpftmp.GlobalUsings.g.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Gestion_hotel_xkvpxg1a_wpftmp.assets.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Gestion_hotel_xkvpxg1a_wpftmp.sourcelink.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Gestion_hotel_ywlwluhh_wpftmp.AssemblyInfo.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Gestion_hotel_ywlwluhh_wpftmp.AssemblyInfoInputs.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Gestion_hotel_ywlwluhh_wpftmp.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Gestion_hotel_ywlwluhh_wpftmp.GlobalUsings.g.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Gestion_hotel_ywlwluhh_wpftmp.assets.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Gestion_hotel_ywlwluhh_wpftmp.sourcelink.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Gestion_hotel_zhnbyxrc_wpftmp.AssemblyInfo.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Gestion_hotel_zhnbyxrc_wpftmp.AssemblyInfoInputs.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Gestion_hotel_zhnbyxrc_wpftmp.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Gestion_hotel_zhnbyxrc_wpftmp.GlobalUsings.g.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Gestion_hotel_zhnbyxrc_wpftmp.assets.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Gestion_hotel_zhnbyxrc_wpftmp.sourcelink.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Views/ClientsControl.g.i.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Gestion_hotel_miawj4xj_wpftmp.csproj.nuget.dgspec.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Gestion_hotel_miawj4xj_wpftmp.csproj.nuget.g.props" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Gestion_hotel_miawj4xj_wpftmp.csproj.nuget.g.targets" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Gestion_hotel_qso2q4ky_wpftmp.csproj.nuget.dgspec.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Gestion_hotel_qso2q4ky_wpftmp.csproj.nuget.g.props" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Gestion_hotel_qso2q4ky_wpftmp.csproj.nuget.g.targets" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.WpfApp1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.WpfApp1/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gestion_hotel/EmployeeModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Gestion_hotel/Employee.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Gestion_hotel/Gestion_hotel.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Gestion_hotel/Gestion_hotel.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gestion_hotel/Views/Client/ClientsControl.xaml" beforeDir="false" afterPath="$PROJECT_DIR$/Gestion_hotel/Views/ClientsControl.xaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gestion_hotel/Views/Client/ClientsControl.xaml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Gestion_hotel/Views/ClientsControl.xaml.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gestion_hotel/Views/Client/addUpdatePopWindow.xaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gestion_hotel/Views/Client/addUpdatePopWindow.xaml.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gestion_hotel/Views/EmployeesControl.xaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gestion_hotel/Views/EmployeesControl.xaml.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gestion_hotel/Views/RoomControl.xaml" beforeDir="false" afterPath="$PROJECT_DIR$/Gestion_hotel/Views/Room/RoomControl.xaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gestion_hotel/Views/RoomControl.xaml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Gestion_hotel/Views/Room/RoomControl.xaml.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gestion_hotel/Views/RoomTypeControl.xaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gestion_hotel/Views/RoomTypeControl.xaml.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gestion_hotel/Views/addUpdateClientPopWindow.xaml" beforeDir="false" afterPath="$PROJECT_DIR$/Gestion_hotel/Views/addUpdateClientPopWindow.xaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gestion_hotel/Views/addUpdateClientPopWindow.xaml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Gestion_hotel/Views/addUpdateClientPopWindow.xaml.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gestion_hotel/Views/addUpdatePopWindow.xaml" beforeDir="false" afterPath="$PROJECT_DIR$/Gestion_hotel/Views/addUpdatePopWindow.xaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gestion_hotel/Views/addUpdatePopWindow.xaml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Gestion_hotel/Views/addUpdatePopWindow.xaml.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gestion_hotel/Views/ClientsControl.xaml" beforeDir="false" afterPath="$PROJECT_DIR$/Gestion_hotel/Views/ClientsControl.xaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gestion_hotel/Views/ClientsControl.xaml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Gestion_hotel/Views/ClientsControl.xaml.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gestion_hotel/Views/EmployeeControl.xaml" beforeDir="false" afterPath="$PROJECT_DIR$/Gestion_hotel/Views/EmployeeControl.xaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gestion_hotel/Views/EmployeeControl.xaml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Gestion_hotel/Views/EmployeeControl.xaml.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Gestion_hotel/bin/Debug/net7.0-windows/Gestion_hotel.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/Gestion_hotel/bin/Debug/net7.0-windows/Gestion_hotel.deps.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Gestion_hotel/bin/Debug/net7.0-windows/Gestion_hotel.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Gestion_hotel/bin/Debug/net7.0-windows/Gestion_hotel.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Gestion_hotel/bin/Debug/net7.0-windows/Gestion_hotel.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Gestion_hotel/bin/Debug/net7.0-windows/Gestion_hotel.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Gestion_hotel/bin/Debug/net7.0-windows/Gestion_hotel.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Gestion_hotel/bin/Debug/net7.0-windows/Gestion_hotel.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Admin_dash.g.i.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Admin_dash.g.i.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Agent_dash.g.i.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Agent_dash.g.i.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/App.g.i.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/App.g.i.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Gestion_hotel.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Gestion_hotel.AssemblyInfo.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Gestion_hotel.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Gestion_hotel.AssemblyInfoInputs.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Gestion_hotel.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Gestion_hotel.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Gestion_hotel.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Gestion_hotel.csproj.AssemblyReference.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Gestion_hotel.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Gestion_hotel.csproj.CoreCompileInputs.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Gestion_hotel.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Gestion_hotel.csproj.FileListAbsolute.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Gestion_hotel.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Gestion_hotel.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Gestion_hotel.g.resources" beforeDir="false" afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Gestion_hotel.g.resources" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Gestion_hotel.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Gestion_hotel.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Gestion_hotel.sourcelink.json" beforeDir="false" afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Gestion_hotel.sourcelink.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Gestion_hotel_MarkupCompile.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Gestion_hotel_MarkupCompile.lref" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Views/Client/ClientsControl.baml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Views/Client/ClientsControl.g.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Views/Client/addUpdatePopWindow.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Views/Client/addUpdatePopWindow.g.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Views/EmployeesControl.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/EmployeesControl.g.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Views/RoomControl.g.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Views/RoomTypeControl.g.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Views/addUpdatePopWindow.baml" beforeDir="false" afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Views/addUpdateClientPopWindow.baml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Views/addUpdatePopWindow.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Views/addUpdateClientPopWindow.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Gestion_hotel_MarkupCompile.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Gestion_hotel_MarkupCompile.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/MainWindow.g.i.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/MainWindow.g.i.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Views/BookingControl.g.i.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Views/BookingControl.g.i.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Views/ClientsControl.baml" beforeDir="false" afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Views/ClientsControl.baml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Views/ClientsControl.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Views/ClientsControl.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Views/EmployeeControl.baml" beforeDir="false" afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Views/EmployeeControl.baml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Views/EmployeeControl.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Views/EmployeeControl.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Views/EmployeeControl.g.i.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Views/EmployeeControl.g.i.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Views/RoomControl.g.i.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Views/RoomControl.g.i.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Views/RoomTypeControl.g.i.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Views/RoomTypeControl.g.i.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Views/SettingsControl.g.i.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Views/SettingsControl.g.i.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Views/addUpdateClientPopWindow.g.i.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Views/addUpdateClientPopWindow.g.i.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/apphost.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/apphost.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/ref/Gestion_hotel.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/ref/Gestion_hotel.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/refint/Gestion_hotel.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/refint/Gestion_hotel.dll" afterDir="false" />
@@ -213,7 +306,7 @@
       <change beforePath="$PROJECT_DIR$/Gestion_hotel/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Gestion_hotel/obj/project.packagespec.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Gestion_hotel/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/Gestion_hotel/obj/rider.project.model.nuget.info" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Gestion_hotel/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/Gestion_hotel/obj/rider.project.restore.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mini-Projet-DotNet.sln" beforeDir="false" afterPath="$PROJECT_DIR$/WpfApp1.sln" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WpfApp1.sln.DotSettings.user" beforeDir="false" afterPath="$PROJECT_DIR$/WpfApp1.sln.DotSettings.user" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -249,29 +342,29 @@
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="Toolset" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 0
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
   <component name="ProjectId" id="2r1MjMVmcQzGU90eHru63uIHlHN" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    ".NET Project.Gestion_hotel.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "Merging main",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;.NET Project.Gestion_hotel.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;Merging main&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="Gestion_hotel" type="DotNetProject" factoryName=".NET Project">
       <option name="EXE_PATH" value="" />
@@ -301,6 +394,8 @@
       <option name="presentableId" value="Default" />
       <updated>1735722261601</updated>
       <workItem from="1735722262758" duration="19277000" />
+      <workItem from="1735806585282" duration="3244000" />
+      <workItem from="1735811215266" duration="2984000" />
     </task>
     <servers />
   </component>
