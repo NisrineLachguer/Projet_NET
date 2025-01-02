@@ -1,0 +1,54 @@
+<Window x:Class="WpfApp1.addUpdatePopWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:local="clr-namespace:WpfApp1"
+        mc:Ignorable="d"
+        Title="Add / Update Client" Height="350" Width="400">
+    <Grid Margin="20">
+        <StackPanel>
+            <!-- Name Input -->
+            <TextBox x:Name="NameTextBox" 
+                     materialDesign:HintAssist.Hint="Name" 
+                     Margin="0,10,0,0" />
+            <TextBox x:Name="EmailTextBox" 
+                     materialDesign:HintAssist.Hint="Email" 
+                     Margin="0,10,0,0" />
+            
+            <!-- Email Validation Message -->
+            <TextBlock x:Name="EmailValidationMessage"
+                       Text="Invalid email format."
+                       Foreground="Red"
+                       Visibility="Collapsed"
+                       Margin="0,5,0,0" />
+            
+            <TextBox x:Name="PhoneNumberTextBox" 
+                     materialDesign:HintAssist.Hint="Phone Number" 
+                     Margin="0,10,0,0" />
+            <TextBox x:Name="AddressTextBox" 
+                     materialDesign:HintAssist.Hint="Address" 
+                     Margin="0,10,0,0" />
+            
+            <!-- Buttons -->
+            <StackPanel Orientation="Horizontal" 
+                        HorizontalAlignment="Right" 
+                        Margin="0,20,0,0">
+                <Button x:Name="SaveButton" 
+                        Content="Save" 
+                        Width="100" 
+                        Margin="5" 
+                        Click="SaveButton_Click" 
+                        IsEnabled="False" 
+                        Style="{StaticResource MaterialDesignFlatButton}" />
+                
+                <Button Content="Cancel" 
+                        Width="100" 
+                        Margin="5" 
+                        Click="CancelButton_Click" 
+                        Style="{StaticResource MaterialDesignFlatButton}" />
+            </StackPanel>
+        </StackPanel>
+    </Grid>
+</Window>
