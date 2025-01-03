@@ -2,7 +2,6 @@ using System.Windows;
 using System.Windows.Controls;
 using WpfApp1.Models;
 using WpfApp1.Views;
-
 namespace WpfApp1;
 
 public partial class Admin_dash : Window
@@ -11,15 +10,17 @@ public partial class Admin_dash : Window
     {
         InitializeComponent();
     }
+
     private void RoomsButton_Click(object sender, RoutedEventArgs e)
     {
         ContentAreaControl.Content = new RoomControl();
     }
-    
+
     private void RoomCategoriesButton_Click(object sender, RoutedEventArgs e)
     {
         ContentAreaControl.Content = new RoomTypeControl();
     }
+
     private void ClientsButton_Click(object sender, RoutedEventArgs e)
     {
         ContentAreaControl.Content = new ClientsControl();
@@ -40,7 +41,19 @@ public partial class Admin_dash : Window
     {
         ContentAreaControl.Content = new SettingsControl();
     }
+<<<<<<< HEAD
     
     
    
 }
+=======
+
+    private void ReservationsButton_Click(object sender, RoutedEventArgs e)
+    {
+        ContentAreaControl.Content = new ReservationsControl();
+    }
+
+}
+
+
+>>>>>>> 55eb5676882daa5394375f78a3a97931db66e5e1

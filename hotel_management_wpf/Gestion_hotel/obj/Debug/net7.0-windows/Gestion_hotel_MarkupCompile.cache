@@ -4,17 +4,23 @@
 winexe
 C#
 .cs
-C:\Users\irharissa.NPIF\Desktop\EMSI\.NET\Projet_NET\hotel_management_wpf\Gestion_hotel\obj\Debug\net7.0-windows\
+D:\EMSIIIII\DotNET\Mini-Projet-ReservationHotel\Projet_NET\hotel_management_wpf\Gestion_hotel\obj\Debug\net7.0-windows\
 WpfApp1
 none
 false
 TRACE;DEBUG;NET;NET7_0;NETCOREAPP
-C:\Users\irharissa.NPIF\Desktop\EMSI\.NET\Projet_NET\hotel_management_wpf\Gestion_hotel\App.xaml
-10-1598443542
+D:\EMSIIIII\DotNET\Mini-Projet-ReservationHotel\Projet_NET\hotel_management_wpf\Gestion_hotel\App.xaml
+141822355394
 
+<<<<<<< HEAD
 261721441820
 222-488668409
 Admin_dash.xaml;Agent_dash.xaml;MainWindow.xaml;Views\addUpdateClientPopWindow.xaml;Views\BookingControl.xaml;Views\ClientsControl.xaml;Views\EmployeeControl.xaml;Views\RoomControl.xaml;Views\RoomTypeControl.xaml;Views\SettingsControl.xaml;
+=======
+251487976171
+251-1999889359
+Admin_dash.xaml;Agent_dash.xaml;MainWindow.xaml;Views\addUpdateClientPopWindow.xaml;Views\addUpdateReservationPopWindow.xaml;Views\BookingControl.xaml;Views\ClientsControl.xaml;Views\EmployeeControl.xaml;Views\ReservationControl.xaml;Views\RoomType\AddUpdateRoomTypePopup.xaml;Views\RoomType\RoomTypeControl.xaml;Views\Room\AddUpdateRoomPopup.xaml;Views\Room\RoomControl.xaml;Views\SettingsControl.xaml;
+>>>>>>> 55eb5676882daa5394375f78a3a97931db66e5e1
 
 False
 

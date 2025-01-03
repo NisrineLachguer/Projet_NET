@@ -5,7 +5,6 @@ using System.Windows.Controls;
 using MySql.Data.MySqlClient;
 using ClosedXML.Excel;
 using Microsoft.Win32;
-using System.IO;
 using System.Windows.Input;
 
 namespace WpfApp1
