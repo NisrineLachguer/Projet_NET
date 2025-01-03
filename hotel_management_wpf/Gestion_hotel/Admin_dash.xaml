@@ -14,6 +14,7 @@
                 <Button Content="Rooms" Height="50" Foreground="White" Background="#34495E" Click="RoomsButton_Click"/>
                 <Button Content="Room Categories" Height="50" Foreground="White" Background="#34495E" Click="RoomCategoriesButton_Click"/>
                 <Button Content="Bookings" Height="50" Foreground="White" Background="#34495E" Click="BookingsButton_Click"/>
+                <Button Content="Reservations" Height="50" Foreground="White" Background="#34495E" Click="ReservationsButton_Click"/> 
                 <Button Content="Settings" Height="50" Foreground="White" Background="#34495E" Click="SettingsButton_Click"/>
             </StackPanel>
         </Grid>
