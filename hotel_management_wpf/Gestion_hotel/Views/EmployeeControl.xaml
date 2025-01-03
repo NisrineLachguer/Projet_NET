@@ -132,8 +132,14 @@
                             Click="BtnUpdate_Click"/>
                     <Button 
                             Content="SAVE"
-                            Margin="8,0,0,0"
+                            Margin="8,0,8,0"
                             Click="BtnSave_Click"/>
+                            
+                    <Button 
+                        Content="REFRESH LIST"
+                        Click="BtnRefresh_Click"
+                        Margin="0,0,0,0"/>
+
                 </StackPanel>
             </StackPanel>
         </materialDesign:Card>
@@ -160,16 +166,12 @@
                 <Button 
                         Content="DELETE"
                         Click="BtnDelete_Click"
-                        Margin="0,0,0,8"/>
-                <Button 
-                    Content="REFRESH LIST"
-                    Click="BtnRefresh_Click"
-                    Margin="0,0,0,0"/>
-
+                        Margin="0,0,0,0"/>
+                
                 <Label x:Name="lblEmployeeCount" 
                        HorizontalAlignment="Left" 
                        VerticalAlignment="Top" 
-                       Margin="10,10,0,0" 
+                       Margin="2,2,0,0" 
                        FontSize="14" 
                        Content="Total Employees: 0" />
             </StackPanel>

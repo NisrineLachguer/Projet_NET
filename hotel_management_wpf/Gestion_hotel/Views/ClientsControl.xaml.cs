@@ -5,6 +5,7 @@ using System.Windows.Controls;
 using MySql.Data.MySqlClient;
 using ClosedXML.Excel;
 using Microsoft.Win32;
+using System.IO;
 using System.Windows.Input;
 
 namespace WpfApp1
@@ -281,5 +282,31 @@ namespace WpfApp1
                     MessageBoxButton.OK, MessageBoxImage.Error);
             }
         }
-    }
+        
+        private void LoadClients(string searchTerm = "")
+        { 
+                using (MySqlConnection conn = new MySqlConnection(connectionString))
+                {
+                    string query = "SELECT * FROM `clients`";
+                    if (!string.IsNullOrWhiteSpace(searchTerm))
+                    {
+                        query += " WHERE Name LIKE @SearchTerm";
+                    }
+                    query += " ORDER BY Id ASC";  // Ordering by Id in ascending order
+
+                    MySqlDataAdapter adapter = new MySqlDataAdapter(query, conn);
+                    if (!string.IsNullOrWhiteSpace(searchTerm))
+                    {
+                        adapter.SelectCommand.Parameters.AddWithValue("@SearchTerm", $"%{searchTerm}%");
+                    }
+
+                    DataTable dt = new DataTable();
+                    adapter.Fill(dt);
+                    ClientsDataGrid.ItemsSource = dt.DefaultView;
+
+                    // Display number of employees
+                    lblClients.Content = $"Total Clients: {dt.Rows.Count}";
+                }
+            }
+        }
 }
