@@ -3,6 +3,10 @@ using System.Text.RegularExpressions;
 using System.Windows;
 using System.Windows.Controls;
 using MySql.Data.MySqlClient;
+using ClosedXML.Excel;
+using Microsoft.Win32;
+using System.IO;
+using System.Windows.Input;
 
 namespace WpfApp1
 {
@@ -33,16 +37,19 @@ namespace WpfApp1
         // Validate input fields
         private bool ValidateInput(string name, string email, string phoneNumber, string address)
         {
-            if (string.IsNullOrWhiteSpace(name) || string.IsNullOrWhiteSpace(email) || string.IsNullOrWhiteSpace(phoneNumber) || string.IsNullOrWhiteSpace(address))
+            if (string.IsNullOrWhiteSpace(name) || string.IsNullOrWhiteSpace(email) ||
+                string.IsNullOrWhiteSpace(phoneNumber) || string.IsNullOrWhiteSpace(address))
             {
-                MessageBox.Show("All fields are required.", "Validation Error", MessageBoxButton.OK, MessageBoxImage.Warning);
+                MessageBox.Show("All fields are required.", "Validation Error", MessageBoxButton.OK,
+                    MessageBoxImage.Warning);
                 return false;
             }
 
             string emailPattern = @"^[^@\s]+@[^@\s]+\.[^@\s]+$";
             if (!Regex.IsMatch(email, emailPattern))
             {
-                MessageBox.Show("Invalid email format.", "Validation Error", MessageBoxButton.OK, MessageBoxImage.Warning);
+                MessageBox.Show("Invalid email format.", "Validation Error", MessageBoxButton.OK,
+                    MessageBoxImage.Warning);
                 return false;
             }
 
@@ -55,18 +62,23 @@ namespace WpfApp1
             addUpdateClientPopWindow popup = new addUpdateClientPopWindow();
             if (popup.ShowDialog() == true)
             {
-                if (ValidateInput(popup.NameTextBox.Text, popup.EmailTextBox.Text, popup.PhoneNumberTextBox.Text, popup.AddressTextBox.Text))
+                if (ValidateInput(popup.NameTextBox.Text, popup.EmailTextBox.Text, popup.PhoneNumberTextBox.Text,
+                        popup.AddressTextBox.Text))
                 {
                     using (MySqlConnection conn = new MySqlConnection(connectionString))
                     {
                         conn.Open();
-                        MySqlCommand cmd = new MySqlCommand("INSERT INTO clients (Name, Email, PhoneNumber, Address) VALUES (@Name, @Email, @PhoneNumber, @Address)", conn);
+                        MySqlCommand cmd =
+                            new MySqlCommand(
+                                "INSERT INTO clients (Name, Email, PhoneNumber, Address) VALUES (@Name, @Email, @PhoneNumber, @Address)",
+                                conn);
                         cmd.Parameters.AddWithValue("@Name", popup.NameTextBox.Text);
                         cmd.Parameters.AddWithValue("@Email", popup.EmailTextBox.Text);
                         cmd.Parameters.AddWithValue("@PhoneNumber", popup.PhoneNumberTextBox.Text);
                         cmd.Parameters.AddWithValue("@Address", popup.AddressTextBox.Text);
                         cmd.ExecuteNonQuery();
                     }
+
                     AfficherClients();
                 }
             }
@@ -87,12 +99,15 @@ namespace WpfApp1
 
                 if (popup.ShowDialog() == true)
                 {
-                    if (ValidateInput(popup.NameTextBox.Text, popup.EmailTextBox.Text, popup.PhoneNumberTextBox.Text, popup.AddressTextBox.Text))
+                    if (ValidateInput(popup.NameTextBox.Text, popup.EmailTextBox.Text, popup.PhoneNumberTextBox.Text,
+                            popup.AddressTextBox.Text))
                     {
                         using (MySqlConnection conn = new MySqlConnection(connectionString))
                         {
                             conn.Open();
-                            MySqlCommand cmd = new MySqlCommand("UPDATE clients SET Name = @Name, Email = @Email, PhoneNumber = @PhoneNumber, Address = @Address WHERE ClientID = @ClientID", conn);
+                            MySqlCommand cmd = new MySqlCommand(
+                                "UPDATE clients SET Name = @Name, Email = @Email, PhoneNumber = @PhoneNumber, Address = @Address WHERE ClientID = @ClientID",
+                                conn);
                             cmd.Parameters.AddWithValue("@Name", popup.NameTextBox.Text);
                             cmd.Parameters.AddWithValue("@Email", popup.EmailTextBox.Text);
                             cmd.Parameters.AddWithValue("@PhoneNumber", popup.PhoneNumberTextBox.Text);
@@ -100,13 +115,15 @@ namespace WpfApp1
                             cmd.Parameters.AddWithValue("@ClientID", row["ClientID"]);
                             cmd.ExecuteNonQuery();
                         }
+
                         AfficherClients();
                     }
                 }
             }
             else
             {
-                MessageBox.Show("Please select a client to update.", "Update Error", MessageBoxButton.OK, MessageBoxImage.Warning);
+                MessageBox.Show("Please select a client to update.", "Update Error", MessageBoxButton.OK,
+                    MessageBoxImage.Warning);
             }
         }
 
@@ -116,7 +133,8 @@ namespace WpfApp1
             if (ClientsDataGrid.SelectedItem != null)
             {
                 DataRowView row = (DataRowView)ClientsDataGrid.SelectedItem;
-                MessageBoxResult result = MessageBox.Show("Are you sure you want to delete this client?", "Delete Confirmation", MessageBoxButton.YesNo, MessageBoxImage.Question);
+                MessageBoxResult result = MessageBox.Show("Are you sure you want to delete this client?",
+                    "Delete Confirmation", MessageBoxButton.YesNo, MessageBoxImage.Question);
 
                 if (result == MessageBoxResult.Yes)
                 {
@@ -127,12 +145,14 @@ namespace WpfApp1
                         cmd.Parameters.AddWithValue("@ClientID", row["ClientID"]);
                         cmd.ExecuteNonQuery();
                     }
+
                     AfficherClients();
                 }
             }
             else
             {
-                MessageBox.Show("Please select a client to delete.", "Delete Error", MessageBoxButton.OK, MessageBoxImage.Warning);
+                MessageBox.Show("Please select a client to delete.", "Delete Error", MessageBoxButton.OK,
+                    MessageBoxImage.Warning);
             }
         }
 
@@ -148,6 +168,7 @@ namespace WpfApp1
                 {
                     query += $" AND Name LIKE '%{NameFilterTextBox.Text}%'";
                 }
+
                 if (!string.IsNullOrEmpty(EmailFilterTextBox.Text))
                 {
                     query += $" AND Email LIKE '%{EmailFilterTextBox.Text}%'";
@@ -187,6 +208,79 @@ namespace WpfApp1
             SortByComboBox.SelectedIndex = -1;
             AscendingRadioButton.IsChecked = true;
             AfficherClients();
+        }
+
+        private void ExportExcelBtn_Click(object sender, RoutedEventArgs e)
+        {
+            try
+            {
+                SaveFileDialog saveFileDialog = new SaveFileDialog
+                {
+                    Filter = "Excel Files|*.xlsx",
+                    DefaultExt = "xlsx",
+                    FileName = $"Clients_Export_{DateTime.Now:yyyyMMdd}"
+                };
+
+                if (saveFileDialog.ShowDialog() == true)
+                {
+                    Mouse.OverrideCursor = Cursors.Wait;
+
+                    using (var workbook = new XLWorkbook())
+                    {
+                        var worksheet = workbook.Worksheets.Add("Clients");
+
+                        // Add headers
+                        worksheet.Cell(1, 1).Value = "Nom";
+                        worksheet.Cell(1, 2).Value = "Email";
+                        worksheet.Cell(1, 3).Value = "Téléphone";
+                        worksheet.Cell(1, 4).Value = "Adresse";
+
+                        // Style headers
+                        var headerRange = worksheet.Range(1, 1, 1, 4);
+                        headerRange.Style.Font.Bold = true;
+                        headerRange.Style.Fill.BackgroundColor = XLColor.LightBlue;
+                        headerRange.Style.Border.BottomBorder = XLBorderStyleValues.Thin;
+
+                        // Get data from DataGrid
+                        var clients = clientsTable.AsEnumerable();
+                        int row = 2;
+
+                        foreach (var client in clients)
+                        {
+                            worksheet.Cell(row, 1).Value = client["Name"].ToString();
+                            worksheet.Cell(row, 2).Value = client["Email"].ToString();
+                            worksheet.Cell(row, 3).Value = client["PhoneNumber"].ToString();
+                            worksheet.Cell(row, 4).Value = client["Address"].ToString();
+                            row++;
+                        }
+
+                        // Auto-fit columns
+                        worksheet.Columns().AdjustToContents();
+
+                        // Save the file
+                        workbook.SaveAs(saveFileDialog.FileName);
+                    }
+
+                    MessageBox.Show("Export completed successfully!", "Succès",
+                        MessageBoxButton.OK, MessageBoxImage.Information);
+
+                    // Optional: Open the file
+                    if (MessageBox.Show("Do you want to open the file?", "Ouvrir",
+                            MessageBoxButton.YesNo, MessageBoxImage.Question) == MessageBoxResult.Yes)
+                    {
+                        System.Diagnostics.Process.Start(new System.Diagnostics.ProcessStartInfo
+                        {
+                            FileName = saveFileDialog.FileName,
+                            UseShellExecute = true
+                        });
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"Erreur lors de l'export: {ex.Message}", "Erreur",
+                    MessageBoxButton.OK, MessageBoxImage.Error);
+            }
         }
     }
 }

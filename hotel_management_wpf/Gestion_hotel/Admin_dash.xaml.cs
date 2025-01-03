@@ -1,7 +1,6 @@
 using System.Windows;
 using WpfApp1.Models;
 using WpfApp1.Views;
-
 namespace WpfApp1;
 
 public partial class Admin_dash : Window
