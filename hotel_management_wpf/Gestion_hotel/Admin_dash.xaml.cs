@@ -1,6 +1,8 @@
 using System.Windows;
 using WpfApp1.Models;
 using WpfApp1.Views;
+using WpfApp1.Views.Reservation;
+
 namespace WpfApp1;
 
 public partial class Admin_dash : Window
@@ -41,11 +43,13 @@ public partial class Admin_dash : Window
         ContentAreaControl.Content = new SettingsControl();
     }
 
-    private void ReservationsButton_Click(object sender, RoutedEventArgs e)
+    private void ReservationButton_Click(object sender, RoutedEventArgs e)
     {
-        ContentAreaControl.Content = new ReservationsControl();
+        ContentAreaControl.Content = new ReservationControl();
     }
 
+    private void ReservationStateButton_Click(object sender, RoutedEventArgs e)
+    {
+        ContentAreaControl.Content = new ReservationStateControl();
+    }
 }
-
-

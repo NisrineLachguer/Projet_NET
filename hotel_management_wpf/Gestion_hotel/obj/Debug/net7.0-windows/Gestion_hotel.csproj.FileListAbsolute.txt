@@ -301,8 +301,6 @@ D:\EMSIIIII\DotNET\Mini-Projet-ReservationHotel\Projet_NET\hotel_management_wpf\
 D:\EMSIIIII\DotNET\Mini-Projet-ReservationHotel\Projet_NET\hotel_management_wpf\Gestion_hotel\bin\Debug\net7.0-windows\System.IO.Packaging.dll
 D:\EMSIIIII\DotNET\Mini-Projet-ReservationHotel\Projet_NET\hotel_management_wpf\Gestion_hotel\obj\Debug\net7.0-windows\Views\addUpdateReservationPopWindow.baml
 D:\EMSIIIII\DotNET\Mini-Projet-ReservationHotel\Projet_NET\hotel_management_wpf\Gestion_hotel\obj\Debug\net7.0-windows\Views\addUpdateReservationPopWindow.g.cs
-D:\EMSIIIII\DotNET\Mini-Projet-ReservationHotel\Projet_NET\hotel_management_wpf\Gestion_hotel\obj\Debug\net7.0-windows\Views\ReservationControl.g.cs
-D:\EMSIIIII\DotNET\Mini-Projet-ReservationHotel\Projet_NET\hotel_management_wpf\Gestion_hotel\obj\Debug\net7.0-windows\Views\ReservationControl.baml
 D:\EMSIIIII\DotNET\Mini-Projet-ReservationHotel\Projet_NET\hotel_management_wpf\Gestion_hotel\bin\Debug\net7.0-windows\OfficeOpenXml.Core.ExcelPackage.dll
 D:\EMSIIIII\DotNET\Mini-Projet-ReservationHotel\Projet_NET\hotel_management_wpf\Gestion_hotel\bin\Debug\net7.0-windows\Microsoft.Office.Interop.Excel.dll
 D:\EMSIIIII\DotNET\Mini-Projet-ReservationHotel\Projet_NET\hotel_management_wpf\Gestion_hotel\bin\Debug\net7.0-windows\itext.barcodes.dll
@@ -343,3 +341,11 @@ D:\EMSIIIII\DotNET\Mini-Projet-ReservationHotel\Projet_NET\hotel_management_wpf\
 D:\EMSIIIII\DotNET\Mini-Projet-ReservationHotel\Projet_NET\hotel_management_wpf\Gestion_hotel\bin\Debug\net7.0-windows\de\PdfSharpCore.resources.dll
 D:\EMSIIIII\DotNET\Mini-Projet-ReservationHotel\Projet_NET\hotel_management_wpf\Gestion_hotel\bin\Debug\net7.0-windows\runtimes\win\lib\net7.0\System.Security.Cryptography.Pkcs.dll
 D:\EMSIIIII\DotNET\Mini-Projet-ReservationHotel\Projet_NET\hotel_management_wpf\Gestion_hotel\bin\Debug\net7.0-windows\itextsharp.dll
+D:\EMSIIIII\DotNET\Mini-Projet-ReservationHotel\Projet_NET\hotel_management_wpf\Gestion_hotel\obj\Debug\net7.0-windows\Views\ReservationState\AddUpdateReservationStatePopup.g.cs
+D:\EMSIIIII\DotNET\Mini-Projet-ReservationHotel\Projet_NET\hotel_management_wpf\Gestion_hotel\obj\Debug\net7.0-windows\Views\ReservationState\ReservationStateControl.g.cs
+D:\EMSIIIII\DotNET\Mini-Projet-ReservationHotel\Projet_NET\hotel_management_wpf\Gestion_hotel\obj\Debug\net7.0-windows\Views\Reservation\AddUpdateReservationPopup.g.cs
+D:\EMSIIIII\DotNET\Mini-Projet-ReservationHotel\Projet_NET\hotel_management_wpf\Gestion_hotel\obj\Debug\net7.0-windows\Views\Reservation\ReservationControl.g.cs
+D:\EMSIIIII\DotNET\Mini-Projet-ReservationHotel\Projet_NET\hotel_management_wpf\Gestion_hotel\obj\Debug\net7.0-windows\Views\ReservationState\AddUpdateReservationStatePopup.baml
+D:\EMSIIIII\DotNET\Mini-Projet-ReservationHotel\Projet_NET\hotel_management_wpf\Gestion_hotel\obj\Debug\net7.0-windows\Views\ReservationState\ReservationStateControl.baml
+D:\EMSIIIII\DotNET\Mini-Projet-ReservationHotel\Projet_NET\hotel_management_wpf\Gestion_hotel\obj\Debug\net7.0-windows\Views\Reservation\AddUpdateReservationPopup.baml
+D:\EMSIIIII\DotNET\Mini-Projet-ReservationHotel\Projet_NET\hotel_management_wpf\Gestion_hotel\obj\Debug\net7.0-windows\Views\Reservation\ReservationControl.baml

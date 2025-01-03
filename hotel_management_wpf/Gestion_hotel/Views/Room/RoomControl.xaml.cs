@@ -1,7 +1,12 @@
 using System.Data;
+using System.IO;
+using System.Net.Mail;
 using System.Text.RegularExpressions;
 using System.Windows;
 using System.Windows.Controls;
+using System.Windows.Input;
+using ClosedXML.Excel;
+using Microsoft.Win32;
 using MySql.Data.MySqlClient;
 using WpfApp1.Models;
 
@@ -10,8 +15,9 @@ namespace WpfApp1
     public partial class RoomControl : UserControl
     {
         private string connectionString = "server=localhost;port=3306;user=root;password=;database=hotel_management_wpf;";
-        private DataTable roomsTable;
-
+        private DataTable roomTable;
+        private int currentPage = 1;
+        private const int pageSize = 10;
         public RoomControl()
         {
             InitializeComponent();
@@ -25,9 +31,10 @@ namespace WpfApp1
             {
                 conn.Open();
                 MySqlDataAdapter adapter = new MySqlDataAdapter(query, conn);
-                roomsTable = new DataTable();
-                adapter.Fill(roomsTable);
-                RoomsDataGrid.ItemsSource = roomsTable.DefaultView;
+                roomTable = new DataTable();
+                adapter.Fill(roomTable);
+                ApplyPagination();
+                RoomsDataGrid.ItemsSource = roomTable.DefaultView;
             }
         }
 
@@ -259,8 +266,169 @@ private void UpdateRoomButton_Click(object sender, RoutedEventArgs e)
             }
             return roomTypes;
         }
+        private void ApplyPagination()
+        {
+            var paginatedData = roomTable.AsEnumerable()
+                .Skip((currentPage - 1) * pageSize)
+                .Take(pageSize)
+                .CopyToDataTable();
+            RoomsDataGrid.ItemsSource = paginatedData.DefaultView;
+            PageLabel.Content = $"Page {currentPage}";
+        }
+        private void PreviousPage_Click(object sender, RoutedEventArgs e)
+        {
+            if (currentPage > 1)
+            {
+                currentPage--;
+                ApplyPagination();
+            }
+        }
 
+        private void NextPage_Click(object sender, RoutedEventArgs e)
+        {
+            if (currentPage * pageSize < roomTable.Rows.Count)
+            {
+                currentPage++;
+                ApplyPagination();
+            }
+        }
+        
+       private void ExportExcel_Click(object sender, RoutedEventArgs e)
+{
+    try
+    {
+        SaveFileDialog saveFileDialog = new SaveFileDialog
+        {
+            Filter = "Excel Files|*.xlsx",
+            DefaultExt = "xlsx",
+            FileName = $"Rooms_Export_{DateTime.Now:yyyyMMdd}"
+        };
+
+        if (saveFileDialog.ShowDialog() == true)
+        {
+            Mouse.OverrideCursor = Cursors.Wait; // Set the cursor to loading
+
+            using (var workbook = new XLWorkbook())
+            {
+                var worksheet = workbook.Worksheets.Add("Rooms");
+
+                // Add headers (adjust these as per the actual column names of your Room data)
+                worksheet.Cell(1, 1).Value = "Room Number";
+                worksheet.Cell(1, 2).Value = "Room Type";
+                worksheet.Cell(1, 3).Value = "Availability";
+                worksheet.Cell(1, 4).Value = "Description";
+
+                // Style headers
+                var headerRange = worksheet.Range(1, 1, 1, 4);
+                headerRange.Style.Font.Bold = true;
+                headerRange.Style.Fill.BackgroundColor = XLColor.LightBlue;
+                headerRange.Style.Border.BottomBorder = XLBorderStyleValues.Thin;
+
+                // Get data from roomsTable
+                var rooms = roomTable.AsEnumerable();
+                int row = 2;
+
+                foreach (var room in rooms)
+                {
+                    worksheet.Cell(row, 1).Value = room["RoomNumber"].ToString();
+                    worksheet.Cell(row, 2).Value = room["RoomTypeName"].ToString(); // Assuming RoomTypeName is in the query
+                    worksheet.Cell(row, 3).Value = (bool)room["Availability"] ? "Available" : "Not Available";
+                    worksheet.Cell(row, 4).Value = room["Description"].ToString();
+                    row++;
+                }
+
+                // Auto-fit columns
+                worksheet.Columns().AdjustToContents();
+
+                // Save the file
+                workbook.SaveAs(saveFileDialog.FileName);
+            }
+
+            // Reset cursor to default after completion
+            Mouse.OverrideCursor = Cursors.Arrow;
+
+            MessageBox.Show("Export completed successfully!", "Success",
+                MessageBoxButton.OK, MessageBoxImage.Information);
+
+            // Optional: Open the file
+            if (MessageBox.Show("Do you want to open the file?", "Open File",
+                    MessageBoxButton.YesNo, MessageBoxImage.Question) == MessageBoxResult.Yes)
+            {
+                System.Diagnostics.Process.Start(new System.Diagnostics.ProcessStartInfo
+                {
+                    FileName = saveFileDialog.FileName,
+                    UseShellExecute = true
+                });
+            }
+        }
     }
-    
-    
+    catch (Exception ex)
+    {
+        // Reset cursor to default in case of error
+        Mouse.OverrideCursor = Cursors.Arrow;
+
+        MessageBox.Show($"An error occurred during the export: {ex.Message}", "Error",
+            MessageBoxButton.OK, MessageBoxImage.Error);
+    }
+}  
+       
+private async void SendEmail_Click(object sender, RoutedEventArgs e)
+{
+    try
+    {
+        // Define email properties
+        MailMessage mail = new MailMessage
+        {
+            From = new MailAddress("aitbelmehdikhaoula@gmail.com"),
+            Subject = "Room Report",
+            Body = "Dear Team,\n\nPlease find attached the exported room report for your reference.\n\nBest regards,\n[Your Name]",
+            IsBodyHtml = false
+        };
+        mail.To.Add("k.aitbelmehdi@gmail.com");
+
+        // Create a temporary CSV file for the attachment
+        string tempFilePath = Path.Combine(Path.GetTempPath(), "RoomsExport.csv");
+        using (StreamWriter writer = new StreamWriter(tempFilePath))
+        {
+            // Write CSV headers
+            var headers = roomTable.Columns.Cast<DataColumn>().Select(column => column.ColumnName);
+            writer.WriteLine(string.Join(",", headers));
+
+            // Write rows
+            foreach (DataRow row in roomTable.Rows)
+            {
+                var fields = row.ItemArray.Select(field => field.ToString().Replace(",", ";")); // Escape commas
+                writer.WriteLine(string.Join(",", fields));
+            }
+        }
+
+        // Attach the file
+        mail.Attachments.Add(new Attachment(tempFilePath));
+
+        // Configure SMTP client
+        SmtpClient smtpClient = new SmtpClient("smtp.gmail.com")
+        {
+            Port = 587,
+            Credentials = new System.Net.NetworkCredential("aitbelmehdikhaoula@gmail.com", "vuec iwcr aymo xaeu"),
+            EnableSsl = true,
+        };
+
+        // Send the email asynchronously
+        await smtpClient.SendMailAsync(mail);
+
+        // Notify the user of success
+        MessageBox.Show("Email sent successfully.");
+    }
+    catch (Exception ex)
+    {
+        // Notify the user of an error
+        MessageBox.Show($"Error sending email: {ex.Message}");
+    }
+}
+
+       
+       
+       
+    }
+
 }

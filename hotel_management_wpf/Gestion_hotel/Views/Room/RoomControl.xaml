@@ -28,6 +28,12 @@
             <Button Content="Filter" Click="FilterButton_Click" Margin="5" />
             <Button Content="Reset" Click="ResetFiltersButton_Click" Margin="5" />
         </StackPanel>
+        
+        <!-- Action Buttons -->
+        <StackPanel Orientation="Horizontal" HorizontalAlignment="Right" Margin="10">
+            <Button Name="ExportExcelBtn" Content="Export Excel" Click="ExportExcel_Click" Margin="5" />
+            <Button Name="SendEmailBtn" Content="Send Email" Click="SendEmail_Click" Margin="5" />
+        </StackPanel>
 
         <!-- Action Buttons -->
         <Border Grid.Row="2" Background="White" BorderBrush="#E0E0E0" BorderThickness="0,1,0,0" Padding="20">
@@ -54,10 +60,12 @@
                 <DataGridTextColumn Header="Description" Binding="{Binding Description}" Width="2*"/>
             </DataGrid.Columns>
         </DataGrid>
-
-        <!-- Statistics -->
-        <StackPanel Orientation="Horizontal" Grid.Row="2" Margin="20">
-            <Label Name="TtlRoomsLbl" Content="Total Rooms: 0" Margin="10,0" />
+        
+        <!-- Pagination -->
+        <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Grid.Row="2" Margin="10">
+            <Button Content="Previous" Click="PreviousPage_Click" Margin="5" />
+            <Label x:Name="PageLabel" Content="Page 1" Margin="10" />
+            <Button Content="Next" Click="NextPage_Click" Margin="5" />
         </StackPanel>
     </Grid>
 </UserControl>
