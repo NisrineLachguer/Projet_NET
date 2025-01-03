@@ -264,7 +264,7 @@ namespace WpfApp1
                     MessageBox.Show("Export completed successfully!", "Succès",
                         MessageBoxButton.OK, MessageBoxImage.Information);
 
-                    // Optional: Open the file
+                    
                     if (MessageBox.Show("Do you want to open the file?", "Ouvrir",
                             MessageBoxButton.YesNo, MessageBoxImage.Question) == MessageBoxResult.Yes)
                     {

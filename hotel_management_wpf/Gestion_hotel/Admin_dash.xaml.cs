@@ -1,4 +1,5 @@
 using System.Windows;
+using System.Windows.Controls;
 using WpfApp1.Models;
 using WpfApp1.Views;
 
@@ -39,4 +40,7 @@ public partial class Admin_dash : Window
     {
         ContentAreaControl.Content = new SettingsControl();
     }
+    
+    
+   
 }
