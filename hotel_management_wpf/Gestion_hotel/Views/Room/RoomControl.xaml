@@ -6,52 +6,6 @@
              xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
              mc:Ignorable="d"
              d:DesignHeight="500" d:DesignWidth="1000">
-    <UserControl.Resources>
-        <!-- Style pour les boutons -->
-        <Style x:Key="ModernButton" TargetType="Button">
-            <Setter Property="Background" Value="#2196F3"/>
-            <Setter Property="Foreground" Value="White"/>
-            <Setter Property="FontSize" Value="14"/>
-            <Setter Property="Padding" Value="15,8"/>
-            <Setter Property="BorderThickness" Value="0"/>
-            <Setter Property="Margin" Value="5"/>
-            <Setter Property="Template">
-                <Setter.Value>
-                    <ControlTemplate TargetType="Button">
-                        <Border Background="{TemplateBinding Background}"
-                                CornerRadius="4"
-                                BorderThickness="{TemplateBinding BorderThickness}">
-                            <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
-                        </Border>
-                        <ControlTemplate.Triggers>
-                            <Trigger Property="IsMouseOver" Value="True">
-                                <Setter Property="Background" Value="#1976D2"/>
-                            </Trigger>
-                        </ControlTemplate.Triggers>
-                    </ControlTemplate>
-                </Setter.Value>
-            </Setter>
-        </Style>
-
-        <!-- Style pour le DataGrid -->
-        <Style TargetType="DataGrid">
-            <Setter Property="Background" Value="White"/>
-            <Setter Property="BorderBrush" Value="#E0E0E0"/>
-            <Setter Property="BorderThickness" Value="1"/>
-            <Setter Property="RowBackground" Value="White"/>
-            <Setter Property="AlternatingRowBackground" Value="#F5F5F5"/>
-            <Setter Property="HeadersVisibility" Value="Column"/>
-            <Setter Property="GridLinesVisibility" Value="Horizontal"/>
-            <Setter Property="HorizontalGridLinesBrush" Value="#E0E0E0"/>
-        </Style>
-
-        <Style TargetType="DataGridColumnHeader">
-            <Setter Property="Background" Value="#2196F3"/>
-            <Setter Property="Foreground" Value="White"/>
-            <Setter Property="Padding" Value="10"/>
-            <Setter Property="FontWeight" Value="SemiBold"/>
-        </Style>
-    </UserControl.Resources>
 
     <Grid Background="#F8F9FA">
         <Grid.RowDefinitions>
@@ -60,7 +14,7 @@
             <RowDefinition Height="Auto"/>
         </Grid.RowDefinitions>
 
-        <!-- Filtres et tri -->
+        <!-- Filters and Sorting -->
         <StackPanel Orientation="Horizontal" Margin="10">
             <TextBox x:Name="RoomTypeFilterTextBox" Width="150" Margin="5" materialDesign:HintAssist.Hint="Filter by Room Type" />
             <TextBox x:Name="RoomNumberFilterTextBox" Width="150" Margin="5" materialDesign:HintAssist.Hint="Filter by Room Number" />
@@ -75,16 +29,16 @@
             <Button Content="Reset" Click="ResetFiltersButton_Click" Margin="5" />
         </StackPanel>
 
-        <!-- Boutons d'action -->
+        <!-- Action Buttons -->
         <Border Grid.Row="2" Background="White" BorderBrush="#E0E0E0" BorderThickness="0,1,0,0" Padding="20">
             <StackPanel Orientation="Horizontal" HorizontalAlignment="Right">
-                <Button Name="AjouterBtn" Background="#4CAF50" Content="Ajouter" Click="AddRoomButton_Click" Margin="5" />
-                <Button Name="ModifierBtn" Background="Yellow" Content="Modifier" Click="UpdateRoomButton_Click" Margin="5"/>
-                <Button Name="SupprimerBtn" Content="Supprimer" Click="DeleteRoomButton_Click" Margin="5"/>
+                <Button Name="AjouterBtn" Background="#4CAF50" Content="Add" Click="AddRoomButton_Click" Margin="5" />
+                <Button Name="ModifierBtn" Background="Yellow" Content="Edit" Click="UpdateRoomButton_Click" Margin="5"/>
+                <Button Name="SupprimerBtn" Content="Delete" Click="DeleteRoomButton_Click" Margin="5"/>
             </StackPanel>
         </Border>
 
-        <!-- DataGrid pour afficher les chambres -->
+        <!-- DataGrid for displaying rooms -->
         <DataGrid Name="RoomsDataGrid" 
                   Grid.Row="1"
                   AutoGenerateColumns="False"
@@ -94,15 +48,14 @@
                   SelectionMode="Single"
                   SelectionUnit="FullRow">
             <DataGrid.Columns>
-                <DataGridTextColumn Header="ID" Binding="{Binding ID}" Width="1*"/>
-                <DataGridTextColumn Header="Room Type" Binding="{Binding RoomType}" Width="2*"/>
+                <DataGridTextColumn Header="Room Type" Binding="{Binding RoomTypeName}" Width="2*"/>
                 <DataGridTextColumn Header="Room Number" Binding="{Binding RoomNumber}" Width="1.5*"/>
                 <DataGridCheckBoxColumn Header="Availability" Binding="{Binding Availability}" Width="1*"/>
                 <DataGridTextColumn Header="Description" Binding="{Binding Description}" Width="2*"/>
             </DataGrid.Columns>
         </DataGrid>
 
-        <!-- Statistiques -->
+        <!-- Statistics -->
         <StackPanel Orientation="Horizontal" Grid.Row="2" Margin="20">
             <Label Name="TtlRoomsLbl" Content="Total Rooms: 0" Margin="10,0" />
         </StackPanel>

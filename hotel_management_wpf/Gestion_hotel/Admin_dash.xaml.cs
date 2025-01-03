@@ -9,15 +9,17 @@ public partial class Admin_dash : Window
     {
         InitializeComponent();
     }
+
     private void RoomsButton_Click(object sender, RoutedEventArgs e)
     {
         ContentAreaControl.Content = new RoomControl();
     }
-    
+
     private void RoomCategoriesButton_Click(object sender, RoutedEventArgs e)
     {
         ContentAreaControl.Content = new RoomTypeControl();
     }
+
     private void ClientsButton_Click(object sender, RoutedEventArgs e)
     {
         ContentAreaControl.Content = new ClientsControl();
@@ -38,4 +40,12 @@ public partial class Admin_dash : Window
     {
         ContentAreaControl.Content = new SettingsControl();
     }
+
+    private void ReservationsButton_Click(object sender, RoutedEventArgs e)
+    {
+        ContentAreaControl.Content = new ReservationsControl();
+    }
+
 }
+
+

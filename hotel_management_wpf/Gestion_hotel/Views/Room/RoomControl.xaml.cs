@@ -19,7 +19,7 @@ namespace WpfApp1
         }
 
         // Display rooms in DataGrid
-        private void LoadRooms(string query = "SELECT Id, RoomTypeId, RoomNumber, Availability, Description FROM room")
+        private void LoadRooms(string query = "SELECT r.Id, r.RoomNumber, r.Availability, r.Description, rt.Id AS RoomTypeId, rt.Name AS RoomTypeName FROM room r JOIN roomtype rt ON r.RoomTypeId = rt.Id")
         {
             using (MySqlConnection conn = new MySqlConnection(connectionString))
             {
@@ -30,6 +30,7 @@ namespace WpfApp1
                 RoomsDataGrid.ItemsSource = roomsTable.DefaultView;
             }
         }
+
 
         // Validate input fields
         private bool ValidateInput(string roomType, string roomNumber, bool availability, string description)
@@ -117,14 +118,14 @@ private void UpdateRoomButton_Click(object sender, RoutedEventArgs e)
         // Get the list of room types from your data source
         List<RoomType> roomTypes = GetRoomTypes();
 
-        // Find the current room type based on the ID
-        int roomTypeId = Convert.ToInt32(row["RoomType"]);
+        // Find the current room type based on the RoomTypeId (not RoomType)
+        int roomTypeId = Convert.ToInt32(row["RoomTypeId"]); // Corrected column name
         RoomType selectedRoomType = roomTypes.FirstOrDefault(rt => rt.Id == roomTypeId);
 
         // Open the AddUpdateRoomWindow
         AddUpdateRoomWindow popup = new AddUpdateRoomWindow(
             roomTypes,
-            selectedRoomType,
+            selectedRoomType, // Pass the selected room type
             row["RoomNumber"].ToString(),
             (bool)row["Availability"],
             row["Description"].ToString()
@@ -138,8 +139,8 @@ private void UpdateRoomButton_Click(object sender, RoutedEventArgs e)
                 using (MySqlConnection conn = new MySqlConnection(connectionString))
                 {
                     conn.Open();
-                    MySqlCommand cmd = new MySqlCommand("UPDATE room SET RoomType = @RoomTypeId, RoomNumber = @RoomNumber, Availability = @Availability, Description = @Description WHERE Id = @Id", conn);
-                    cmd.Parameters.AddWithValue("@RoomTypeId", updatedRoomType.Id);
+                    MySqlCommand cmd = new MySqlCommand("UPDATE room SET RoomTypeId = @RoomTypeId, RoomNumber = @RoomNumber, Availability = @Availability, Description = @Description WHERE Id = @Id", conn);
+                    cmd.Parameters.AddWithValue("@RoomTypeId", updatedRoomType.Id); // Corrected parameter name
                     cmd.Parameters.AddWithValue("@RoomNumber", popup.RoomNumberTextBox.Text);
                     cmd.Parameters.AddWithValue("@Availability", popup.AvailabilityCheckBox.IsChecked ?? false);
                     cmd.Parameters.AddWithValue("@Description", popup.DescriptionTextBox.Text);
@@ -155,6 +156,7 @@ private void UpdateRoomButton_Click(object sender, RoutedEventArgs e)
         MessageBox.Show("Please select a room to update.", "Update Error", MessageBoxButton.OK, MessageBoxImage.Warning);
     }
 }
+
 
 
         // Delete a room
