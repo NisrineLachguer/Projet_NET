@@ -8,17 +8,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="88a3aa10-4889-49d4-b75c-26a126a7f1ee" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/Gestion_hotel/bin/Debug/net7.0-windows/Gestion_hotel.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Gestion_hotel/bin/Debug/net7.0-windows/Gestion_hotel.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gestion_hotel/bin/Debug/net7.0-windows/Gestion_hotel.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Gestion_hotel/bin/Debug/net7.0-windows/Gestion_hotel.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gestion_hotel/bin/Debug/net7.0-windows/Gestion_hotel.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Gestion_hotel/bin/Debug/net7.0-windows/Gestion_hotel.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Gestion_hotel.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Gestion_hotel.AssemblyInfo.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Gestion_hotel.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Gestion_hotel.AssemblyInfoInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Gestion_hotel.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Gestion_hotel.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Gestion_hotel.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Gestion_hotel.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Gestion_hotel.sourcelink.json" beforeDir="false" afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Gestion_hotel.sourcelink.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/apphost.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/apphost.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/ref/Gestion_hotel.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/ref/Gestion_hotel.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/refint/Gestion_hotel.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/refint/Gestion_hotel.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gestion_hotel/Views/ClientsControl.xaml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Gestion_hotel/Views/ClientsControl.xaml.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,21 +52,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    ".NET Project.Gestion_hotel.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;.NET Project.Gestion_hotel.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="Gestion_hotel" type="DotNetProject" factoryName=".NET Project">
       <option name="EXE_PATH" value="" />
@@ -108,6 +98,7 @@
       <workItem from="1735722262758" duration="19277000" />
       <workItem from="1735806585282" duration="3244000" />
       <workItem from="1735811215266" duration="4418000" />
+      <workItem from="1735821018242" duration="1150000" />
     </task>
     <servers />
   </component>
