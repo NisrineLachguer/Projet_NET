@@ -1,7 +1,6 @@
 using System.Windows;
-using WpfApp1.Models;
+using System.Windows.Controls;
 using WpfApp1.Views;
-using WpfApp1.Views.Reservation;
 
 namespace WpfApp1;
 
@@ -10,46 +9,88 @@ public partial class Admin_dash : Window
     public Admin_dash()
     {
         InitializeComponent();
-    }
+        this.Loaded += Admin_dash_Loaded;  
 
+    }
+    
+    private void Admin_dash_Loaded(object sender, RoutedEventArgs e)
+    {
+        // Using Dispatcher to call ListViewMenu_SelectionChanged after the layout is fully rendered
+        Dispatcher.BeginInvoke(new Action(() =>
+        {
+            if (SidebarItems != null)
+            {
+                ListViewMenu_SelectionChanged(SidebarItems, null);
+            }
+        }), System.Windows.Threading.DispatcherPriority.ContextIdle);
+    }
+    /*
     private void RoomsButton_Click(object sender, RoutedEventArgs e)
     {
         ContentAreaControl.Content = new RoomControl();
-    }
-
-    private void RoomCategoriesButton_Click(object sender, RoutedEventArgs e)
+    }*/
+    
+    
+    /* private void ToggleMenu(object sender, RoutedEventArgs e)
     {
-        ContentAreaControl.Content = new RoomTypeControl();
-    }
+        // Toggle the sidebar width between expanded and collapsed
+        if (Sidebar.Width == new GridLength(1, GridUnitType.Star))
+        {
+            Duration duration = new Duration(TimeSpan.FromMilliseconds(500));
+            var animation = new GridLengthAnimation
+            {
+                Duration = duration,
+                From = new GridLength(1, GridUnitType.Star),
+                To = new GridLength(0, GridUnitType.Star)
+            };
+            Sidebar.BeginAnimation(ColumnDefinition.WidthProperty, animation);
+        }
+        else
+        {
+            Duration duration = new Duration(TimeSpan.FromMilliseconds(500));
+            var animation = new GridLengthAnimation
+            {
+                Duration = duration,
+                From = new GridLength(0, GridUnitType.Star),
+                To = new GridLength(1, GridUnitType.Star)
+            };
+            Sidebar.BeginAnimation(ColumnDefinition.WidthProperty, animation);
+        }
+    }*/
 
-    private void ClientsButton_Click(object sender, RoutedEventArgs e)
+    private void ListViewMenu_SelectionChanged(object sender, SelectionChangedEventArgs e)
     {
-        ContentAreaControl.Content = new ClientsControl();
+        UserControl usc = null;
+        ContentMain.Children.Clear();
 
-    }
+        var selectedItem = ((ListView)sender).SelectedItem as ListViewItem;
+        if (selectedItem != null)
+        {
+            // Change user control based on the selected menu item
+            switch (selectedItem.Name)
+            {
+                case "ItemClients":
+                    usc = new ClientsControl();
+                    break;
+                case "ItemEmployees":
+                    usc = new EmployeeControl();
+                    break;
+                case "ItemRooms":
+                    usc = new RoomControl();
+                    break;
+                case "ItemRoomTypes":
+                    usc = new RoomTypeControl();
+                    break;
+                case "Dashboard":
+                    usc = new DashboardControl();
+                    break;
+                // Add more cases as necessary
+            }
 
-    private void EmployeesButton_Click(object sender, RoutedEventArgs e)
-    {
-        ContentAreaControl.Content = new EmployeeControl();
-    }
-
-    private void BookingsButton_Click(object sender, RoutedEventArgs e)
-    {
-        ContentAreaControl.Content = new BookingControl();
-    }
-
-    private void SettingsButton_Click(object sender, RoutedEventArgs e)
-    {
-        ContentAreaControl.Content = new SettingsControl();
-    }
-
-    private void ReservationButton_Click(object sender, RoutedEventArgs e)
-    {
-        ContentAreaControl.Content = new ReservationControl();
-    }
-
-    private void ReservationStateButton_Click(object sender, RoutedEventArgs e)
-    {
-        ContentAreaControl.Content = new ReservationStateControl();
+            if (usc != null)
+            {
+                ContentMain.Children.Add(usc);
+            }
+        }
     }
 }

@@ -3,24 +3,120 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:extToolkit="http://schemas.xceed.com/wpf/xaml/toolkit"
+        xmlns:fa5="http://schemas.fontawesome.com/icons/"
         mc:Ignorable="d"
         Title="Admin Dashboard" Height="600" Width="1000">
     <Grid>
-        <!-- Sidebar -->
-        <Grid Background="#2C3E50" Width="200" HorizontalAlignment="Left">
-            <StackPanel>
-                <Button Content="Clients" Height="50" Foreground="White" Background="#34495E" Click="ClientsButton_Click"/>
-                <Button Content="Employees" Height="50" Foreground="White" Background="#34495E" Click="EmployeesButton_Click"/>
-                <Button Content="Rooms" Height="50" Foreground="White" Background="#34495E" Click="RoomsButton_Click"/>
-                <Button Content="Room Categories" Height="50" Foreground="White" Background="#34495E" Click="RoomCategoriesButton_Click"/>
-                <Button Content="Bookings" Height="50" Foreground="White" Background="#34495E" Click="BookingsButton_Click"/>
-                <Button Content="Reservation" Height="50" Foreground="White" Background="#34495E" Click="ReservationButton_Click"/>
-                <Button Content="Reservation State" Height="50" Foreground="White" Background="#34495E" Click="ReservationStateButton_Click"/> 
-                <Button Content="Settings" Height="50" Foreground="White" Background="#34495E" Click="SettingsButton_Click"/>
-            </StackPanel>
+        <!--Main Layout-->
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Name="Sidebar" Width="*" />
+            <ColumnDefinition Width="5*" />
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+
+        <!--Sidebar-->
+        <Grid Grid.Column="0" Name="Menu" Background="Black">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="2*" />
+                <RowDefinition Height="6*" />
+            </Grid.RowDefinitions>
+
+            <!--Profile Image-->
+            <Grid>
+                <Image Margin="20,20,20,20" Source="./Assets/profile-icon-png-909.png" />
+            </Grid>
+
+            <!--Sidebar Items-->
+            <ListView x:Name="SidebarItems" SelectionChanged="ListViewMenu_SelectionChanged" ScrollViewer.HorizontalScrollBarVisibility="Disabled" BorderThickness="0" Background="#3b3c40" Grid.Row="1" Foreground="White">
+                <ListView.ItemContainerStyle>
+                    <Style TargetType="{x:Type ListViewItem}">
+                        <Style.Triggers>
+                            <Trigger Property="IsSelected" Value="True">
+                                <Setter Property="Foreground" Value="White" />
+                            </Trigger>
+                        </Style.Triggers>
+                    </Style>
+                </ListView.ItemContainerStyle>
+
+                <ListViewItem x:Name="Dashboard" Height="60">
+                    <StackPanel Orientation="Horizontal">
+                        <fa5:SvgAwesome Foreground="white" Margin="10,0,0,0" Width="20px" Icon="Solid_TachometerAlt " VerticalAlignment="Center" HorizontalAlignment="Center" />
+                        <TextBlock Text="Dashboad" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="20 10" />
+                    </StackPanel>
+                </ListViewItem>
+                <ListViewItem x:Name="ItemEmployees" Height="60">
+                    <StackPanel Orientation="Horizontal">
+                        <fa5:SvgAwesome Foreground="white" Margin="10,0,0,0" Width="20px" Icon="Solid_Users" VerticalAlignment="Center" HorizontalAlignment="Center" />
+                        <TextBlock Text="Employees" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="20 10" />
+                    </StackPanel>
+                </ListViewItem>
+                <ListViewItem x:Name="ItemClients" Height="60">
+                    <StackPanel Orientation="Horizontal">
+                        <fa5:SvgAwesome Foreground="white" Margin="10,0,0,0" Width="20px" Icon="Solid_User" VerticalAlignment="Center" HorizontalAlignment="Center" />
+                        <TextBlock Text="Clientes" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="20 10" />
+                    </StackPanel>
+                </ListViewItem>
+                <ListViewItem x:Name="ItemRooms" Height="60">
+                    <StackPanel Orientation="Horizontal">
+                        <fa5:SvgAwesome Foreground="white" Margin="10,0,0,0" Width="20px" Icon="Solid_Bed " VerticalAlignment="Center" HorizontalAlignment="Center" />
+                        <TextBlock Text="Rooms" VerticalAlignment="Center" Margin="20 10" />
+                    </StackPanel>
+                </ListViewItem>
+                <ListViewItem x:Name="ItemRoomTypes" Height="60">
+                    <StackPanel Orientation="Horizontal">
+                        <fa5:SvgAwesome Foreground="white" Margin="10,0,0,0" Width="20px" Icon="Solid_LayerGroup" VerticalAlignment="Center" HorizontalAlignment="Center" />
+                        <TextBlock Text="Room Categories" VerticalAlignment="Center" Margin="20 10" />
+                    </StackPanel>
+                </ListViewItem>
+                <ListViewItem x:Name="ItemStats" Height="60">
+                    <StackPanel Orientation="Horizontal">
+                        <fa5:SvgAwesome Foreground="white" Margin="10,0,0,0" Width="20px" Icon="Solid_List" VerticalAlignment="Center" HorizontalAlignment="Center" />
+                        <TextBlock Text="Booking" VerticalAlignment="Center" Margin="20 10" />
+                    </StackPanel>
+                </ListViewItem>
+            </ListView>
         </Grid>
 
-        <!-- Content Area -->
-        <ContentControl Name="ContentAreaControl" Margin="200,0,0,0" Background="White"/>
+        <!--Content Layout-->
+        <Grid Grid.Column="1">
+            <Grid.RowDefinitions>
+                <RowDefinition MaxHeight="70px" Height="*" />
+                <RowDefinition Height="5*" />
+            </Grid.RowDefinitions>
+
+            <!--TopBar-->
+            <Grid Grid.Row="0" Background="Black">
+                <!--Logo Title--> 
+                <TextBlock HorizontalAlignment="Center" Foreground="White" VerticalAlignment="Center" FontSize="22">Hotel Management </TextBlock>
+                <!--Notification Button-->
+                <extToolkit:DropDownButton FlowDirection="RightToLeft" Background="White" Width="50px" Height="40px" Padding="8,8,8,8" Margin="5,5,70,5" HorizontalAlignment="Right">
+                    <fa5:SvgAwesome Foreground="Black" Margin="0,0,0,0" Width="20px" Icon="Solid_Bell" VerticalAlignment="Center" HorizontalAlignment="Center" />
+                    <extToolkit:DropDownButton.DropDownContent>
+                        <ListView FlowDirection="RightToLeft" ScrollViewer.HorizontalScrollBarVisibility="Disabled" BorderThickness="0" Background="#3b3c40" Foreground="White">
+                            <!-- Notification List -->
+                        </ListView>
+                    </extToolkit:DropDownButton.DropDownContent>
+                </extToolkit:DropDownButton>
+                <!--Account Button-->
+                <extToolkit:DropDownButton FlowDirection="RightToLeft" Background="White" Width="50px" Height="40px" Padding="8,8,8,8" Margin="5,5,10,5" HorizontalAlignment="Right">
+                    <fa5:SvgAwesome Foreground="Black" Margin="0,0,0,0" Width="20px" Icon="Solid_SignOutAlt" VerticalAlignment="Center" HorizontalAlignment="Center" />
+                    <extToolkit:DropDownButton.DropDownContent>
+                        <ListView FlowDirection="RightToLeft" ScrollViewer.HorizontalScrollBarVisibility="Disabled" BorderThickness="0" Background="#3b3c40" Foreground="White">
+                            <!-- Account List -->
+                        </ListView>
+                    </extToolkit:DropDownButton.DropDownContent>
+                </extToolkit:DropDownButton>
+            </Grid>
+
+            <!--Main Content-->
+            <Border Grid.Row="1" Background="LightGray">
+                <Grid Name="ContentMain" Grid.Row="1" Margin="2,2,2,0" Background="White">
+                    <!-- ContentAreaControl will be added dynamically -->
+                </Grid>
+            </Border>
+        </Grid>
     </Grid>
 </Window>

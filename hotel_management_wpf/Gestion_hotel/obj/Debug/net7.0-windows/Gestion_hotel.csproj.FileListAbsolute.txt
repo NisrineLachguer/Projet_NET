@@ -198,21 +198,177 @@ C:\Users\irharissa.NPIF\Desktop\EMSI\.NET\Projet_NET\hotel_management_wpf\Gestio
 C:\Users\irharissa.NPIF\Desktop\EMSI\.NET\Projet_NET\hotel_management_wpf\Gestion_hotel\obj\Debug\net7.0-windows\Views\RoomControl.baml
 C:\Users\irharissa.NPIF\Desktop\EMSI\.NET\Projet_NET\hotel_management_wpf\Gestion_hotel\obj\Debug\net7.0-windows\Views\RoomTypeControl.baml
 C:\Users\irharissa.NPIF\Desktop\EMSI\.NET\Projet_NET\hotel_management_wpf\Gestion_hotel\obj\Debug\net7.0-windows\Views\SettingsControl.baml
+C:\Users\irharissa.NPIF\Desktop\EMSI\.NET\Projet_NET\hotel_management_wpf\Gestion_hotel\obj\Debug\net7.0-windows\Views\addUpdateClientPopWindow.g.cs
+C:\Users\irharissa.NPIF\Desktop\EMSI\.NET\Projet_NET\hotel_management_wpf\Gestion_hotel\obj\Debug\net7.0-windows\Views\addUpdateClientPopWindow.baml
+C:\Users\irharissa.NPIF\Desktop\EMSI\.NET\Projet_NET\hotel_management_wpf\Gestion_hotel\obj\Debug\net7.0-windows\Views\EmployeeControl.g.cs
+C:\Users\irharissa.NPIF\Desktop\EMSI\.NET\Projet_NET\hotel_management_wpf\Gestion_hotel\obj\Debug\net7.0-windows\Views\EmployeeControl.baml
+C:\Users\irharissa.NPIF\Desktop\EMSI\.NET\Projet_NET\hotel_management_wpf\Gestion_hotel\bin\Debug\net7.0-windows\ClosedXML.dll
+C:\Users\irharissa.NPIF\Desktop\EMSI\.NET\Projet_NET\hotel_management_wpf\Gestion_hotel\bin\Debug\net7.0-windows\ClosedXML.Parser.dll
+C:\Users\irharissa.NPIF\Desktop\EMSI\.NET\Projet_NET\hotel_management_wpf\Gestion_hotel\bin\Debug\net7.0-windows\DocumentFormat.OpenXml.dll
+C:\Users\irharissa.NPIF\Desktop\EMSI\.NET\Projet_NET\hotel_management_wpf\Gestion_hotel\bin\Debug\net7.0-windows\DocumentFormat.OpenXml.Framework.dll
+C:\Users\irharissa.NPIF\Desktop\EMSI\.NET\Projet_NET\hotel_management_wpf\Gestion_hotel\bin\Debug\net7.0-windows\ExcelNumberFormat.dll
+C:\Users\irharissa.NPIF\Desktop\EMSI\.NET\Projet_NET\hotel_management_wpf\Gestion_hotel\bin\Debug\net7.0-windows\RBush.dll
+C:\Users\irharissa.NPIF\Desktop\EMSI\.NET\Projet_NET\hotel_management_wpf\Gestion_hotel\bin\Debug\net7.0-windows\SixLabors.Fonts.dll
+C:\Users\irharissa.NPIF\Desktop\EMSI\.NET\Projet_NET\hotel_management_wpf\Gestion_hotel\bin\Debug\net7.0-windows\System.IO.Packaging.dll
 <<<<<<< HEAD
-C:\Users\irharissa.NPIF\Desktop\EMSI\.NET\Projet_NET\hotel_management_wpf\Gestion_hotel\obj\Debug\net7.0-windows\Views\addUpdatePopWindow.g.cs
-C:\Users\irharissa.NPIF\Desktop\EMSI\.NET\Projet_NET\hotel_management_wpf\Gestion_hotel\obj\Debug\net7.0-windows\Views\addUpdatePopWindow.baml
+>>>>>>> 9f4d7fd884072ff0b438c88ec28a32e12b8d8c93
+D:\EMSIIIII\DotNET\Mini-Projet-ReservationHotel\Projet_NET\hotel_management_wpf\Gestion_hotel\bin\Debug\net7.0-windows\ClosedXML.dll
+D:\EMSIIIII\DotNET\Mini-Projet-ReservationHotel\Projet_NET\hotel_management_wpf\Gestion_hotel\bin\Debug\net7.0-windows\ClosedXML.Parser.dll
+D:\EMSIIIII\DotNET\Mini-Projet-ReservationHotel\Projet_NET\hotel_management_wpf\Gestion_hotel\bin\Debug\net7.0-windows\DocumentFormat.OpenXml.dll
+D:\EMSIIIII\DotNET\Mini-Projet-ReservationHotel\Projet_NET\hotel_management_wpf\Gestion_hotel\bin\Debug\net7.0-windows\DocumentFormat.OpenXml.Framework.dll
+D:\EMSIIIII\DotNET\Mini-Projet-ReservationHotel\Projet_NET\hotel_management_wpf\Gestion_hotel\bin\Debug\net7.0-windows\ExcelNumberFormat.dll
+D:\EMSIIIII\DotNET\Mini-Projet-ReservationHotel\Projet_NET\hotel_management_wpf\Gestion_hotel\bin\Debug\net7.0-windows\RBush.dll
+D:\EMSIIIII\DotNET\Mini-Projet-ReservationHotel\Projet_NET\hotel_management_wpf\Gestion_hotel\bin\Debug\net7.0-windows\SixLabors.Fonts.dll
+D:\EMSIIIII\DotNET\Mini-Projet-ReservationHotel\Projet_NET\hotel_management_wpf\Gestion_hotel\bin\Debug\net7.0-windows\System.IO.Packaging.dll
+D:\EMSIIIII\DotNET\Mini-Projet-ReservationHotel\Projet_NET\hotel_management_wpf\Gestion_hotel\obj\Debug\net7.0-windows\Views\addUpdateReservationPopWindow.baml
+D:\EMSIIIII\DotNET\Mini-Projet-ReservationHotel\Projet_NET\hotel_management_wpf\Gestion_hotel\obj\Debug\net7.0-windows\Views\addUpdateReservationPopWindow.g.cs
+D:\EMSIIIII\DotNET\Mini-Projet-ReservationHotel\Projet_NET\hotel_management_wpf\Gestion_hotel\obj\Debug\net7.0-windows\Views\ReservationState\AddUpdateReservationStatePopup.g.cs
+D:\EMSIIIII\DotNET\Mini-Projet-ReservationHotel\Projet_NET\hotel_management_wpf\Gestion_hotel\obj\Debug\net7.0-windows\Views\ReservationState\ReservationStateControl.g.cs
+D:\EMSIIIII\DotNET\Mini-Projet-ReservationHotel\Projet_NET\hotel_management_wpf\Gestion_hotel\obj\Debug\net7.0-windows\Views\Reservation\AddUpdateReservationPopup.g.cs
+D:\EMSIIIII\DotNET\Mini-Projet-ReservationHotel\Projet_NET\hotel_management_wpf\Gestion_hotel\obj\Debug\net7.0-windows\Views\Reservation\ReservationControl.g.cs
+D:\EMSIIIII\DotNET\Mini-Projet-ReservationHotel\Projet_NET\hotel_management_wpf\Gestion_hotel\obj\Debug\net7.0-windows\Views\ReservationState\AddUpdateReservationStatePopup.baml
+D:\EMSIIIII\DotNET\Mini-Projet-ReservationHotel\Projet_NET\hotel_management_wpf\Gestion_hotel\obj\Debug\net7.0-windows\Views\ReservationState\ReservationStateControl.baml
+D:\EMSIIIII\DotNET\Mini-Projet-ReservationHotel\Projet_NET\hotel_management_wpf\Gestion_hotel\obj\Debug\net7.0-windows\Views\Reservation\AddUpdateReservationPopup.baml
+D:\EMSIIIII\DotNET\Mini-Projet-ReservationHotel\Projet_NET\hotel_management_wpf\Gestion_hotel\obj\Debug\net7.0-windows\Views\Reservation\ReservationControl.baml
+=======
+C:\Users\irharissa.NPIF\Desktop\EMSI\.NET\Projet_NET\hotel_management_wpf\Gestion_hotel\bin\Debug\net7.0-windows\FontAwesome5.WPF.dll
+C:\Users\irharissa.NPIF\Desktop\EMSI\.NET\Projet_NET\hotel_management_wpf\Gestion_hotel\bin\Debug\net7.0-windows\FontAwesome5.dll
+C:\Users\irharissa.NPIF\Desktop\EMSI\.NET\Projet_NET\hotel_management_wpf\Gestion_hotel\bin\Debug\net7.0-windows\Xceed.Wpf.AvalonDock.Themes.Aero.dll
+C:\Users\irharissa.NPIF\Desktop\EMSI\.NET\Projet_NET\hotel_management_wpf\Gestion_hotel\bin\Debug\net7.0-windows\Xceed.Wpf.AvalonDock.Themes.Metro.dll
+C:\Users\irharissa.NPIF\Desktop\EMSI\.NET\Projet_NET\hotel_management_wpf\Gestion_hotel\bin\Debug\net7.0-windows\Xceed.Wpf.AvalonDock.Themes.VS2010.dll
+C:\Users\irharissa.NPIF\Desktop\EMSI\.NET\Projet_NET\hotel_management_wpf\Gestion_hotel\bin\Debug\net7.0-windows\Xceed.Wpf.AvalonDock.dll
+C:\Users\irharissa.NPIF\Desktop\EMSI\.NET\Projet_NET\hotel_management_wpf\Gestion_hotel\bin\Debug\net7.0-windows\Xceed.Wpf.Toolkit.dll
+C:\Users\irharissa.NPIF\Desktop\EMSI\.NET\Projet_NET\hotel_management_wpf\Gestion_hotel\bin\Debug\net7.0-windows\de\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\irharissa.NPIF\Desktop\EMSI\.NET\Projet_NET\hotel_management_wpf\Gestion_hotel\bin\Debug\net7.0-windows\es\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\irharissa.NPIF\Desktop\EMSI\.NET\Projet_NET\hotel_management_wpf\Gestion_hotel\bin\Debug\net7.0-windows\fr\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\irharissa.NPIF\Desktop\EMSI\.NET\Projet_NET\hotel_management_wpf\Gestion_hotel\bin\Debug\net7.0-windows\hu\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\irharissa.NPIF\Desktop\EMSI\.NET\Projet_NET\hotel_management_wpf\Gestion_hotel\bin\Debug\net7.0-windows\it\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\irharissa.NPIF\Desktop\EMSI\.NET\Projet_NET\hotel_management_wpf\Gestion_hotel\bin\Debug\net7.0-windows\pt-BR\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\irharissa.NPIF\Desktop\EMSI\.NET\Projet_NET\hotel_management_wpf\Gestion_hotel\bin\Debug\net7.0-windows\ro\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\irharissa.NPIF\Desktop\EMSI\.NET\Projet_NET\hotel_management_wpf\Gestion_hotel\bin\Debug\net7.0-windows\ru\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\irharissa.NPIF\Desktop\EMSI\.NET\Projet_NET\hotel_management_wpf\Gestion_hotel\bin\Debug\net7.0-windows\sv\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\irharissa.NPIF\Desktop\EMSI\.NET\Projet_NET\hotel_management_wpf\Gestion_hotel\bin\Debug\net7.0-windows\zh-Hans\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\irharissa.NPIF\Documents\dotnet copie\hotel_management_wpf\Gestion_hotel\bin\Debug\net7.0-windows\Gestion_hotel.exe
+C:\Users\irharissa.NPIF\Documents\dotnet copie\hotel_management_wpf\Gestion_hotel\bin\Debug\net7.0-windows\Gestion_hotel.deps.json
+C:\Users\irharissa.NPIF\Documents\dotnet copie\hotel_management_wpf\Gestion_hotel\bin\Debug\net7.0-windows\Gestion_hotel.runtimeconfig.json
+C:\Users\irharissa.NPIF\Documents\dotnet copie\hotel_management_wpf\Gestion_hotel\bin\Debug\net7.0-windows\Gestion_hotel.dll
+C:\Users\irharissa.NPIF\Documents\dotnet copie\hotel_management_wpf\Gestion_hotel\bin\Debug\net7.0-windows\Gestion_hotel.pdb
+C:\Users\irharissa.NPIF\Documents\dotnet copie\hotel_management_wpf\Gestion_hotel\bin\Debug\net7.0-windows\BouncyCastle.Cryptography.dll
+C:\Users\irharissa.NPIF\Documents\dotnet copie\hotel_management_wpf\Gestion_hotel\bin\Debug\net7.0-windows\ClosedXML.dll
+C:\Users\irharissa.NPIF\Documents\dotnet copie\hotel_management_wpf\Gestion_hotel\bin\Debug\net7.0-windows\ClosedXML.Parser.dll
+C:\Users\irharissa.NPIF\Documents\dotnet copie\hotel_management_wpf\Gestion_hotel\bin\Debug\net7.0-windows\DocumentFormat.OpenXml.dll
+C:\Users\irharissa.NPIF\Documents\dotnet copie\hotel_management_wpf\Gestion_hotel\bin\Debug\net7.0-windows\DocumentFormat.OpenXml.Framework.dll
+C:\Users\irharissa.NPIF\Documents\dotnet copie\hotel_management_wpf\Gestion_hotel\bin\Debug\net7.0-windows\ExcelNumberFormat.dll
+C:\Users\irharissa.NPIF\Documents\dotnet copie\hotel_management_wpf\Gestion_hotel\bin\Debug\net7.0-windows\FontAwesome5.WPF.dll
+C:\Users\irharissa.NPIF\Documents\dotnet copie\hotel_management_wpf\Gestion_hotel\bin\Debug\net7.0-windows\FontAwesome5.dll
+C:\Users\irharissa.NPIF\Documents\dotnet copie\hotel_management_wpf\Gestion_hotel\bin\Debug\net7.0-windows\Google.Protobuf.dll
+C:\Users\irharissa.NPIF\Documents\dotnet copie\hotel_management_wpf\Gestion_hotel\bin\Debug\net7.0-windows\K4os.Compression.LZ4.dll
+C:\Users\irharissa.NPIF\Documents\dotnet copie\hotel_management_wpf\Gestion_hotel\bin\Debug\net7.0-windows\K4os.Compression.LZ4.Streams.dll
+C:\Users\irharissa.NPIF\Documents\dotnet copie\hotel_management_wpf\Gestion_hotel\bin\Debug\net7.0-windows\K4os.Hash.xxHash.dll
+C:\Users\irharissa.NPIF\Documents\dotnet copie\hotel_management_wpf\Gestion_hotel\bin\Debug\net7.0-windows\MaterialDesignColors.dll
+C:\Users\irharissa.NPIF\Documents\dotnet copie\hotel_management_wpf\Gestion_hotel\bin\Debug\net7.0-windows\MaterialDesignThemes.Wpf.dll
+C:\Users\irharissa.NPIF\Documents\dotnet copie\hotel_management_wpf\Gestion_hotel\bin\Debug\net7.0-windows\Xceed.Wpf.AvalonDock.Themes.Aero.dll
+C:\Users\irharissa.NPIF\Documents\dotnet copie\hotel_management_wpf\Gestion_hotel\bin\Debug\net7.0-windows\Xceed.Wpf.AvalonDock.Themes.Metro.dll
+C:\Users\irharissa.NPIF\Documents\dotnet copie\hotel_management_wpf\Gestion_hotel\bin\Debug\net7.0-windows\Xceed.Wpf.AvalonDock.Themes.VS2010.dll
+C:\Users\irharissa.NPIF\Documents\dotnet copie\hotel_management_wpf\Gestion_hotel\bin\Debug\net7.0-windows\Xceed.Wpf.AvalonDock.dll
+C:\Users\irharissa.NPIF\Documents\dotnet copie\hotel_management_wpf\Gestion_hotel\bin\Debug\net7.0-windows\Xceed.Wpf.Toolkit.dll
+C:\Users\irharissa.NPIF\Documents\dotnet copie\hotel_management_wpf\Gestion_hotel\bin\Debug\net7.0-windows\MySql.Data.dll
+C:\Users\irharissa.NPIF\Documents\dotnet copie\hotel_management_wpf\Gestion_hotel\bin\Debug\net7.0-windows\RBush.dll
+C:\Users\irharissa.NPIF\Documents\dotnet copie\hotel_management_wpf\Gestion_hotel\bin\Debug\net7.0-windows\SixLabors.Fonts.dll
+C:\Users\irharissa.NPIF\Documents\dotnet copie\hotel_management_wpf\Gestion_hotel\bin\Debug\net7.0-windows\System.Configuration.ConfigurationManager.dll
+C:\Users\irharissa.NPIF\Documents\dotnet copie\hotel_management_wpf\Gestion_hotel\bin\Debug\net7.0-windows\System.Diagnostics.DiagnosticSource.dll
+C:\Users\irharissa.NPIF\Documents\dotnet copie\hotel_management_wpf\Gestion_hotel\bin\Debug\net7.0-windows\System.Diagnostics.EventLog.dll
+C:\Users\irharissa.NPIF\Documents\dotnet copie\hotel_management_wpf\Gestion_hotel\bin\Debug\net7.0-windows\System.IO.Packaging.dll
+C:\Users\irharissa.NPIF\Documents\dotnet copie\hotel_management_wpf\Gestion_hotel\bin\Debug\net7.0-windows\System.IO.Pipelines.dll
+C:\Users\irharissa.NPIF\Documents\dotnet copie\hotel_management_wpf\Gestion_hotel\bin\Debug\net7.0-windows\System.Security.Cryptography.ProtectedData.dll
+C:\Users\irharissa.NPIF\Documents\dotnet copie\hotel_management_wpf\Gestion_hotel\bin\Debug\net7.0-windows\System.Security.Permissions.dll
+C:\Users\irharissa.NPIF\Documents\dotnet copie\hotel_management_wpf\Gestion_hotel\bin\Debug\net7.0-windows\System.Text.Encoding.CodePages.dll
+C:\Users\irharissa.NPIF\Documents\dotnet copie\hotel_management_wpf\Gestion_hotel\bin\Debug\net7.0-windows\System.Text.Encodings.Web.dll
+C:\Users\irharissa.NPIF\Documents\dotnet copie\hotel_management_wpf\Gestion_hotel\bin\Debug\net7.0-windows\System.Text.Json.dll
+C:\Users\irharissa.NPIF\Documents\dotnet copie\hotel_management_wpf\Gestion_hotel\bin\Debug\net7.0-windows\System.Windows.Extensions.dll
+C:\Users\irharissa.NPIF\Documents\dotnet copie\hotel_management_wpf\Gestion_hotel\bin\Debug\net7.0-windows\ZstdSharp.dll
+C:\Users\irharissa.NPIF\Documents\dotnet copie\hotel_management_wpf\Gestion_hotel\bin\Debug\net7.0-windows\de\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\irharissa.NPIF\Documents\dotnet copie\hotel_management_wpf\Gestion_hotel\bin\Debug\net7.0-windows\es\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\irharissa.NPIF\Documents\dotnet copie\hotel_management_wpf\Gestion_hotel\bin\Debug\net7.0-windows\fr\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\irharissa.NPIF\Documents\dotnet copie\hotel_management_wpf\Gestion_hotel\bin\Debug\net7.0-windows\hu\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\irharissa.NPIF\Documents\dotnet copie\hotel_management_wpf\Gestion_hotel\bin\Debug\net7.0-windows\it\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\irharissa.NPIF\Documents\dotnet copie\hotel_management_wpf\Gestion_hotel\bin\Debug\net7.0-windows\pt-BR\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\irharissa.NPIF\Documents\dotnet copie\hotel_management_wpf\Gestion_hotel\bin\Debug\net7.0-windows\ro\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\irharissa.NPIF\Documents\dotnet copie\hotel_management_wpf\Gestion_hotel\bin\Debug\net7.0-windows\ru\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\irharissa.NPIF\Documents\dotnet copie\hotel_management_wpf\Gestion_hotel\bin\Debug\net7.0-windows\sv\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\irharissa.NPIF\Documents\dotnet copie\hotel_management_wpf\Gestion_hotel\bin\Debug\net7.0-windows\zh-Hans\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\irharissa.NPIF\Documents\dotnet copie\hotel_management_wpf\Gestion_hotel\bin\Debug\net7.0-windows\runtimes\win-x64\native\comerr64.dll
+C:\Users\irharissa.NPIF\Documents\dotnet copie\hotel_management_wpf\Gestion_hotel\bin\Debug\net7.0-windows\runtimes\win-x64\native\gssapi64.dll
+C:\Users\irharissa.NPIF\Documents\dotnet copie\hotel_management_wpf\Gestion_hotel\bin\Debug\net7.0-windows\runtimes\win-x64\native\k5sprt64.dll
+C:\Users\irharissa.NPIF\Documents\dotnet copie\hotel_management_wpf\Gestion_hotel\bin\Debug\net7.0-windows\runtimes\win-x64\native\krb5_64.dll
+C:\Users\irharissa.NPIF\Documents\dotnet copie\hotel_management_wpf\Gestion_hotel\bin\Debug\net7.0-windows\runtimes\win-x64\native\krbcc64.dll
+C:\Users\irharissa.NPIF\Documents\dotnet copie\hotel_management_wpf\Gestion_hotel\bin\Debug\net7.0-windows\runtimes\win\lib\net7.0\System.Diagnostics.EventLog.Messages.dll
+C:\Users\irharissa.NPIF\Documents\dotnet copie\hotel_management_wpf\Gestion_hotel\bin\Debug\net7.0-windows\runtimes\win\lib\net7.0\System.Diagnostics.EventLog.dll
+C:\Users\irharissa.NPIF\Documents\dotnet copie\hotel_management_wpf\Gestion_hotel\bin\Debug\net7.0-windows\runtimes\win\lib\net7.0\System.Text.Encoding.CodePages.dll
+C:\Users\irharissa.NPIF\Documents\dotnet copie\hotel_management_wpf\Gestion_hotel\bin\Debug\net7.0-windows\runtimes\browser\lib\net7.0\System.Text.Encodings.Web.dll
+C:\Users\irharissa.NPIF\Documents\dotnet copie\hotel_management_wpf\Gestion_hotel\bin\Debug\net7.0-windows\runtimes\win\lib\net7.0\System.Windows.Extensions.dll
+C:\Users\irharissa.NPIF\Documents\dotnet copie\hotel_management_wpf\Gestion_hotel\obj\Debug\net7.0-windows\Gestion_hotel.csproj.AssemblyReference.cache
+C:\Users\irharissa.NPIF\Documents\dotnet copie\hotel_management_wpf\Gestion_hotel\obj\Debug\net7.0-windows\Admin_dash.baml
+C:\Users\irharissa.NPIF\Documents\dotnet copie\hotel_management_wpf\Gestion_hotel\obj\Debug\net7.0-windows\Views\ClientsControl.baml
+C:\Users\irharissa.NPIF\Documents\dotnet copie\hotel_management_wpf\Gestion_hotel\obj\Debug\net7.0-windows\Admin_dash.g.cs
+C:\Users\irharissa.NPIF\Documents\dotnet copie\hotel_management_wpf\Gestion_hotel\obj\Debug\net7.0-windows\Agent_dash.g.cs
+C:\Users\irharissa.NPIF\Documents\dotnet copie\hotel_management_wpf\Gestion_hotel\obj\Debug\net7.0-windows\MainWindow.g.cs
+C:\Users\irharissa.NPIF\Documents\dotnet copie\hotel_management_wpf\Gestion_hotel\obj\Debug\net7.0-windows\Views\addUpdateClientPopWindow.g.cs
+C:\Users\irharissa.NPIF\Documents\dotnet copie\hotel_management_wpf\Gestion_hotel\obj\Debug\net7.0-windows\Views\BookingControl.g.cs
+C:\Users\irharissa.NPIF\Documents\dotnet copie\hotel_management_wpf\Gestion_hotel\obj\Debug\net7.0-windows\Views\ClientsControl.g.cs
+C:\Users\irharissa.NPIF\Documents\dotnet copie\hotel_management_wpf\Gestion_hotel\obj\Debug\net7.0-windows\Views\EmployeeControl.g.cs
+C:\Users\irharissa.NPIF\Documents\dotnet copie\hotel_management_wpf\Gestion_hotel\obj\Debug\net7.0-windows\Views\RoomControl.g.cs
+C:\Users\irharissa.NPIF\Documents\dotnet copie\hotel_management_wpf\Gestion_hotel\obj\Debug\net7.0-windows\Views\RoomTypeControl.g.cs
+C:\Users\irharissa.NPIF\Documents\dotnet copie\hotel_management_wpf\Gestion_hotel\obj\Debug\net7.0-windows\Views\SettingsControl.g.cs
+C:\Users\irharissa.NPIF\Documents\dotnet copie\hotel_management_wpf\Gestion_hotel\obj\Debug\net7.0-windows\App.g.cs
+C:\Users\irharissa.NPIF\Documents\dotnet copie\hotel_management_wpf\Gestion_hotel\obj\Debug\net7.0-windows\Gestion_hotel_MarkupCompile.cache
+C:\Users\irharissa.NPIF\Documents\dotnet copie\hotel_management_wpf\Gestion_hotel\obj\Debug\net7.0-windows\Gestion_hotel_MarkupCompile.lref
+C:\Users\irharissa.NPIF\Documents\dotnet copie\hotel_management_wpf\Gestion_hotel\obj\Debug\net7.0-windows\App.baml
+C:\Users\irharissa.NPIF\Documents\dotnet copie\hotel_management_wpf\Gestion_hotel\obj\Debug\net7.0-windows\Agent_dash.baml
+C:\Users\irharissa.NPIF\Documents\dotnet copie\hotel_management_wpf\Gestion_hotel\obj\Debug\net7.0-windows\MainWindow.baml
+C:\Users\irharissa.NPIF\Documents\dotnet copie\hotel_management_wpf\Gestion_hotel\obj\Debug\net7.0-windows\Views\addUpdateClientPopWindow.baml
+C:\Users\irharissa.NPIF\Documents\dotnet copie\hotel_management_wpf\Gestion_hotel\obj\Debug\net7.0-windows\Views\BookingControl.baml
+C:\Users\irharissa.NPIF\Documents\dotnet copie\hotel_management_wpf\Gestion_hotel\obj\Debug\net7.0-windows\Views\EmployeeControl.baml
+C:\Users\irharissa.NPIF\Documents\dotnet copie\hotel_management_wpf\Gestion_hotel\obj\Debug\net7.0-windows\Views\RoomControl.baml
+C:\Users\irharissa.NPIF\Documents\dotnet copie\hotel_management_wpf\Gestion_hotel\obj\Debug\net7.0-windows\Views\RoomTypeControl.baml
+C:\Users\irharissa.NPIF\Documents\dotnet copie\hotel_management_wpf\Gestion_hotel\obj\Debug\net7.0-windows\Views\SettingsControl.baml
+C:\Users\irharissa.NPIF\Documents\dotnet copie\hotel_management_wpf\Gestion_hotel\obj\Debug\net7.0-windows\Gestion_hotel.g.resources
+C:\Users\irharissa.NPIF\Documents\dotnet copie\hotel_management_wpf\Gestion_hotel\obj\Debug\net7.0-windows\Gestion_hotel.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\irharissa.NPIF\Documents\dotnet copie\hotel_management_wpf\Gestion_hotel\obj\Debug\net7.0-windows\Gestion_hotel.AssemblyInfoInputs.cache
+C:\Users\irharissa.NPIF\Documents\dotnet copie\hotel_management_wpf\Gestion_hotel\obj\Debug\net7.0-windows\Gestion_hotel.AssemblyInfo.cs
+C:\Users\irharissa.NPIF\Documents\dotnet copie\hotel_management_wpf\Gestion_hotel\obj\Debug\net7.0-windows\Gestion_hotel.csproj.CoreCompileInputs.cache
+C:\Users\irharissa.NPIF\Documents\dotnet copie\hotel_management_wpf\Gestion_hotel\obj\Debug\net7.0-windows\Gestion_.30C5C293.Up2Date
+C:\Users\irharissa.NPIF\Documents\dotnet copie\hotel_management_wpf\Gestion_hotel\obj\Debug\net7.0-windows\Gestion_hotel.dll
+C:\Users\irharissa.NPIF\Documents\dotnet copie\hotel_management_wpf\Gestion_hotel\obj\Debug\net7.0-windows\refint\Gestion_hotel.dll
+C:\Users\irharissa.NPIF\Documents\dotnet copie\hotel_management_wpf\Gestion_hotel\obj\Debug\net7.0-windows\Gestion_hotel.pdb
+C:\Users\irharissa.NPIF\Documents\dotnet copie\hotel_management_wpf\Gestion_hotel\obj\Debug\net7.0-windows\Gestion_hotel.genruntimeconfig.cache
+C:\Users\irharissa.NPIF\Documents\dotnet copie\hotel_management_wpf\Gestion_hotel\obj\Debug\net7.0-windows\ref\Gestion_hotel.dll
+C:\Users\irharissa.NPIF\Documents\dotnet copie\hotel_management_wpf\Gestion_hotel\obj\Debug\net7.0-windows\Views\DashboardControl.g.cs
+C:\Users\irharissa.NPIF\Documents\dotnet copie\hotel_management_wpf\Gestion_hotel\obj\Debug\net7.0-windows\Views\DashboardControl.baml
+C:\Users\irharissa.NPIF\Documents\dotnet copie\hotel_management_wpf\Gestion_hotel\bin\Debug\net7.0-windows\LiveCharts.dll
+C:\Users\irharissa.NPIF\Documents\dotnet copie\hotel_management_wpf\Gestion_hotel\bin\Debug\net7.0-windows\LiveCharts.Wpf.dll
+>>>>>>> 2740a8145e6e3deb72fb01e0b1498802e6b28f49
 D:\EMSIIIII\DotNET\Mini-Projet-ReservationHotel\Projet_NET\hotel_management_wpf\Gestion_hotel\bin\Debug\net7.0-windows\Gestion_hotel.exe
 D:\EMSIIIII\DotNET\Mini-Projet-ReservationHotel\Projet_NET\hotel_management_wpf\Gestion_hotel\bin\Debug\net7.0-windows\Gestion_hotel.deps.json
 D:\EMSIIIII\DotNET\Mini-Projet-ReservationHotel\Projet_NET\hotel_management_wpf\Gestion_hotel\bin\Debug\net7.0-windows\Gestion_hotel.runtimeconfig.json
 D:\EMSIIIII\DotNET\Mini-Projet-ReservationHotel\Projet_NET\hotel_management_wpf\Gestion_hotel\bin\Debug\net7.0-windows\Gestion_hotel.dll
 D:\EMSIIIII\DotNET\Mini-Projet-ReservationHotel\Projet_NET\hotel_management_wpf\Gestion_hotel\bin\Debug\net7.0-windows\Gestion_hotel.pdb
 D:\EMSIIIII\DotNET\Mini-Projet-ReservationHotel\Projet_NET\hotel_management_wpf\Gestion_hotel\bin\Debug\net7.0-windows\BouncyCastle.Cryptography.dll
+D:\EMSIIIII\DotNET\Mini-Projet-ReservationHotel\Projet_NET\hotel_management_wpf\Gestion_hotel\bin\Debug\net7.0-windows\FontAwesome5.WPF.dll
+D:\EMSIIIII\DotNET\Mini-Projet-ReservationHotel\Projet_NET\hotel_management_wpf\Gestion_hotel\bin\Debug\net7.0-windows\FontAwesome5.dll
 D:\EMSIIIII\DotNET\Mini-Projet-ReservationHotel\Projet_NET\hotel_management_wpf\Gestion_hotel\bin\Debug\net7.0-windows\Google.Protobuf.dll
 D:\EMSIIIII\DotNET\Mini-Projet-ReservationHotel\Projet_NET\hotel_management_wpf\Gestion_hotel\bin\Debug\net7.0-windows\K4os.Compression.LZ4.dll
 D:\EMSIIIII\DotNET\Mini-Projet-ReservationHotel\Projet_NET\hotel_management_wpf\Gestion_hotel\bin\Debug\net7.0-windows\K4os.Compression.LZ4.Streams.dll
 D:\EMSIIIII\DotNET\Mini-Projet-ReservationHotel\Projet_NET\hotel_management_wpf\Gestion_hotel\bin\Debug\net7.0-windows\K4os.Hash.xxHash.dll
+D:\EMSIIIII\DotNET\Mini-Projet-ReservationHotel\Projet_NET\hotel_management_wpf\Gestion_hotel\bin\Debug\net7.0-windows\LiveCharts.dll
+D:\EMSIIIII\DotNET\Mini-Projet-ReservationHotel\Projet_NET\hotel_management_wpf\Gestion_hotel\bin\Debug\net7.0-windows\LiveCharts.Wpf.dll
 D:\EMSIIIII\DotNET\Mini-Projet-ReservationHotel\Projet_NET\hotel_management_wpf\Gestion_hotel\bin\Debug\net7.0-windows\MaterialDesignColors.dll
 D:\EMSIIIII\DotNET\Mini-Projet-ReservationHotel\Projet_NET\hotel_management_wpf\Gestion_hotel\bin\Debug\net7.0-windows\MaterialDesignThemes.Wpf.dll
+D:\EMSIIIII\DotNET\Mini-Projet-ReservationHotel\Projet_NET\hotel_management_wpf\Gestion_hotel\bin\Debug\net7.0-windows\Xceed.Wpf.AvalonDock.Themes.Aero.dll
+D:\EMSIIIII\DotNET\Mini-Projet-ReservationHotel\Projet_NET\hotel_management_wpf\Gestion_hotel\bin\Debug\net7.0-windows\Xceed.Wpf.AvalonDock.Themes.Metro.dll
+D:\EMSIIIII\DotNET\Mini-Projet-ReservationHotel\Projet_NET\hotel_management_wpf\Gestion_hotel\bin\Debug\net7.0-windows\Xceed.Wpf.AvalonDock.Themes.VS2010.dll
+D:\EMSIIIII\DotNET\Mini-Projet-ReservationHotel\Projet_NET\hotel_management_wpf\Gestion_hotel\bin\Debug\net7.0-windows\Xceed.Wpf.AvalonDock.dll
+D:\EMSIIIII\DotNET\Mini-Projet-ReservationHotel\Projet_NET\hotel_management_wpf\Gestion_hotel\bin\Debug\net7.0-windows\Xceed.Wpf.Toolkit.dll
 D:\EMSIIIII\DotNET\Mini-Projet-ReservationHotel\Projet_NET\hotel_management_wpf\Gestion_hotel\bin\Debug\net7.0-windows\MySql.Data.dll
 D:\EMSIIIII\DotNET\Mini-Projet-ReservationHotel\Projet_NET\hotel_management_wpf\Gestion_hotel\bin\Debug\net7.0-windows\System.Configuration.ConfigurationManager.dll
 D:\EMSIIIII\DotNET\Mini-Projet-ReservationHotel\Projet_NET\hotel_management_wpf\Gestion_hotel\bin\Debug\net7.0-windows\System.Diagnostics.DiagnosticSource.dll
@@ -225,6 +381,16 @@ D:\EMSIIIII\DotNET\Mini-Projet-ReservationHotel\Projet_NET\hotel_management_wpf\
 D:\EMSIIIII\DotNET\Mini-Projet-ReservationHotel\Projet_NET\hotel_management_wpf\Gestion_hotel\bin\Debug\net7.0-windows\System.Text.Json.dll
 D:\EMSIIIII\DotNET\Mini-Projet-ReservationHotel\Projet_NET\hotel_management_wpf\Gestion_hotel\bin\Debug\net7.0-windows\System.Windows.Extensions.dll
 D:\EMSIIIII\DotNET\Mini-Projet-ReservationHotel\Projet_NET\hotel_management_wpf\Gestion_hotel\bin\Debug\net7.0-windows\ZstdSharp.dll
+D:\EMSIIIII\DotNET\Mini-Projet-ReservationHotel\Projet_NET\hotel_management_wpf\Gestion_hotel\bin\Debug\net7.0-windows\de\Xceed.Wpf.AvalonDock.resources.dll
+D:\EMSIIIII\DotNET\Mini-Projet-ReservationHotel\Projet_NET\hotel_management_wpf\Gestion_hotel\bin\Debug\net7.0-windows\es\Xceed.Wpf.AvalonDock.resources.dll
+D:\EMSIIIII\DotNET\Mini-Projet-ReservationHotel\Projet_NET\hotel_management_wpf\Gestion_hotel\bin\Debug\net7.0-windows\fr\Xceed.Wpf.AvalonDock.resources.dll
+D:\EMSIIIII\DotNET\Mini-Projet-ReservationHotel\Projet_NET\hotel_management_wpf\Gestion_hotel\bin\Debug\net7.0-windows\hu\Xceed.Wpf.AvalonDock.resources.dll
+D:\EMSIIIII\DotNET\Mini-Projet-ReservationHotel\Projet_NET\hotel_management_wpf\Gestion_hotel\bin\Debug\net7.0-windows\it\Xceed.Wpf.AvalonDock.resources.dll
+D:\EMSIIIII\DotNET\Mini-Projet-ReservationHotel\Projet_NET\hotel_management_wpf\Gestion_hotel\bin\Debug\net7.0-windows\pt-BR\Xceed.Wpf.AvalonDock.resources.dll
+D:\EMSIIIII\DotNET\Mini-Projet-ReservationHotel\Projet_NET\hotel_management_wpf\Gestion_hotel\bin\Debug\net7.0-windows\ro\Xceed.Wpf.AvalonDock.resources.dll
+D:\EMSIIIII\DotNET\Mini-Projet-ReservationHotel\Projet_NET\hotel_management_wpf\Gestion_hotel\bin\Debug\net7.0-windows\ru\Xceed.Wpf.AvalonDock.resources.dll
+D:\EMSIIIII\DotNET\Mini-Projet-ReservationHotel\Projet_NET\hotel_management_wpf\Gestion_hotel\bin\Debug\net7.0-windows\sv\Xceed.Wpf.AvalonDock.resources.dll
+D:\EMSIIIII\DotNET\Mini-Projet-ReservationHotel\Projet_NET\hotel_management_wpf\Gestion_hotel\bin\Debug\net7.0-windows\zh-Hans\Xceed.Wpf.AvalonDock.resources.dll
 D:\EMSIIIII\DotNET\Mini-Projet-ReservationHotel\Projet_NET\hotel_management_wpf\Gestion_hotel\bin\Debug\net7.0-windows\runtimes\win-x64\native\comerr64.dll
 D:\EMSIIIII\DotNET\Mini-Projet-ReservationHotel\Projet_NET\hotel_management_wpf\Gestion_hotel\bin\Debug\net7.0-windows\runtimes\win-x64\native\gssapi64.dll
 D:\EMSIIIII\DotNET\Mini-Projet-ReservationHotel\Projet_NET\hotel_management_wpf\Gestion_hotel\bin\Debug\net7.0-windows\runtimes\win-x64\native\k5sprt64.dll
@@ -237,10 +403,22 @@ D:\EMSIIIII\DotNET\Mini-Projet-ReservationHotel\Projet_NET\hotel_management_wpf\
 D:\EMSIIIII\DotNET\Mini-Projet-ReservationHotel\Projet_NET\hotel_management_wpf\Gestion_hotel\bin\Debug\net7.0-windows\runtimes\win\lib\net7.0\System.Windows.Extensions.dll
 D:\EMSIIIII\DotNET\Mini-Projet-ReservationHotel\Projet_NET\hotel_management_wpf\Gestion_hotel\obj\Debug\net7.0-windows\Gestion_hotel.csproj.AssemblyReference.cache
 D:\EMSIIIII\DotNET\Mini-Projet-ReservationHotel\Projet_NET\hotel_management_wpf\Gestion_hotel\obj\Debug\net7.0-windows\Admin_dash.baml
+D:\EMSIIIII\DotNET\Mini-Projet-ReservationHotel\Projet_NET\hotel_management_wpf\Gestion_hotel\obj\Debug\net7.0-windows\Views\ClientsControl.baml
+D:\EMSIIIII\DotNET\Mini-Projet-ReservationHotel\Projet_NET\hotel_management_wpf\Gestion_hotel\obj\Debug\net7.0-windows\Views\RoomType\AddUpdateRoomTypePopup.baml
+D:\EMSIIIII\DotNET\Mini-Projet-ReservationHotel\Projet_NET\hotel_management_wpf\Gestion_hotel\obj\Debug\net7.0-windows\Views\RoomType\RoomTypeControl.baml
+D:\EMSIIIII\DotNET\Mini-Projet-ReservationHotel\Projet_NET\hotel_management_wpf\Gestion_hotel\obj\Debug\net7.0-windows\Views\Room\RoomControl.baml
 D:\EMSIIIII\DotNET\Mini-Projet-ReservationHotel\Projet_NET\hotel_management_wpf\Gestion_hotel\obj\Debug\net7.0-windows\Admin_dash.g.cs
 D:\EMSIIIII\DotNET\Mini-Projet-ReservationHotel\Projet_NET\hotel_management_wpf\Gestion_hotel\obj\Debug\net7.0-windows\Agent_dash.g.cs
 D:\EMSIIIII\DotNET\Mini-Projet-ReservationHotel\Projet_NET\hotel_management_wpf\Gestion_hotel\obj\Debug\net7.0-windows\MainWindow.g.cs
+D:\EMSIIIII\DotNET\Mini-Projet-ReservationHotel\Projet_NET\hotel_management_wpf\Gestion_hotel\obj\Debug\net7.0-windows\Views\addUpdateClientPopWindow.g.cs
 D:\EMSIIIII\DotNET\Mini-Projet-ReservationHotel\Projet_NET\hotel_management_wpf\Gestion_hotel\obj\Debug\net7.0-windows\Views\BookingControl.g.cs
+D:\EMSIIIII\DotNET\Mini-Projet-ReservationHotel\Projet_NET\hotel_management_wpf\Gestion_hotel\obj\Debug\net7.0-windows\Views\ClientsControl.g.cs
+D:\EMSIIIII\DotNET\Mini-Projet-ReservationHotel\Projet_NET\hotel_management_wpf\Gestion_hotel\obj\Debug\net7.0-windows\Views\DashboardControl.g.cs
+D:\EMSIIIII\DotNET\Mini-Projet-ReservationHotel\Projet_NET\hotel_management_wpf\Gestion_hotel\obj\Debug\net7.0-windows\Views\EmployeeControl.g.cs
+D:\EMSIIIII\DotNET\Mini-Projet-ReservationHotel\Projet_NET\hotel_management_wpf\Gestion_hotel\obj\Debug\net7.0-windows\Views\RoomType\AddUpdateRoomTypePopup.g.cs
+D:\EMSIIIII\DotNET\Mini-Projet-ReservationHotel\Projet_NET\hotel_management_wpf\Gestion_hotel\obj\Debug\net7.0-windows\Views\RoomType\RoomTypeControl.g.cs
+D:\EMSIIIII\DotNET\Mini-Projet-ReservationHotel\Projet_NET\hotel_management_wpf\Gestion_hotel\obj\Debug\net7.0-windows\Views\Room\AddUpdateRoomPopup.g.cs
+D:\EMSIIIII\DotNET\Mini-Projet-ReservationHotel\Projet_NET\hotel_management_wpf\Gestion_hotel\obj\Debug\net7.0-windows\Views\Room\RoomControl.g.cs
 D:\EMSIIIII\DotNET\Mini-Projet-ReservationHotel\Projet_NET\hotel_management_wpf\Gestion_hotel\obj\Debug\net7.0-windows\Views\SettingsControl.g.cs
 D:\EMSIIIII\DotNET\Mini-Projet-ReservationHotel\Projet_NET\hotel_management_wpf\Gestion_hotel\obj\Debug\net7.0-windows\App.g.cs
 D:\EMSIIIII\DotNET\Mini-Projet-ReservationHotel\Projet_NET\hotel_management_wpf\Gestion_hotel\obj\Debug\net7.0-windows\Gestion_hotel_MarkupCompile.cache
@@ -248,7 +426,11 @@ D:\EMSIIIII\DotNET\Mini-Projet-ReservationHotel\Projet_NET\hotel_management_wpf\
 D:\EMSIIIII\DotNET\Mini-Projet-ReservationHotel\Projet_NET\hotel_management_wpf\Gestion_hotel\obj\Debug\net7.0-windows\App.baml
 D:\EMSIIIII\DotNET\Mini-Projet-ReservationHotel\Projet_NET\hotel_management_wpf\Gestion_hotel\obj\Debug\net7.0-windows\Agent_dash.baml
 D:\EMSIIIII\DotNET\Mini-Projet-ReservationHotel\Projet_NET\hotel_management_wpf\Gestion_hotel\obj\Debug\net7.0-windows\MainWindow.baml
+D:\EMSIIIII\DotNET\Mini-Projet-ReservationHotel\Projet_NET\hotel_management_wpf\Gestion_hotel\obj\Debug\net7.0-windows\Views\addUpdateClientPopWindow.baml
 D:\EMSIIIII\DotNET\Mini-Projet-ReservationHotel\Projet_NET\hotel_management_wpf\Gestion_hotel\obj\Debug\net7.0-windows\Views\BookingControl.baml
+D:\EMSIIIII\DotNET\Mini-Projet-ReservationHotel\Projet_NET\hotel_management_wpf\Gestion_hotel\obj\Debug\net7.0-windows\Views\DashboardControl.baml
+D:\EMSIIIII\DotNET\Mini-Projet-ReservationHotel\Projet_NET\hotel_management_wpf\Gestion_hotel\obj\Debug\net7.0-windows\Views\EmployeeControl.baml
+D:\EMSIIIII\DotNET\Mini-Projet-ReservationHotel\Projet_NET\hotel_management_wpf\Gestion_hotel\obj\Debug\net7.0-windows\Views\Room\AddUpdateRoomPopup.baml
 D:\EMSIIIII\DotNET\Mini-Projet-ReservationHotel\Projet_NET\hotel_management_wpf\Gestion_hotel\obj\Debug\net7.0-windows\Views\SettingsControl.baml
 D:\EMSIIIII\DotNET\Mini-Projet-ReservationHotel\Projet_NET\hotel_management_wpf\Gestion_hotel\obj\Debug\net7.0-windows\Gestion_hotel.g.resources
 D:\EMSIIIII\DotNET\Mini-Projet-ReservationHotel\Projet_NET\hotel_management_wpf\Gestion_hotel\obj\Debug\net7.0-windows\Gestion_hotel.GeneratedMSBuildEditorConfig.editorconfig
@@ -262,90 +444,3 @@ D:\EMSIIIII\DotNET\Mini-Projet-ReservationHotel\Projet_NET\hotel_management_wpf\
 D:\EMSIIIII\DotNET\Mini-Projet-ReservationHotel\Projet_NET\hotel_management_wpf\Gestion_hotel\obj\Debug\net7.0-windows\Gestion_hotel.pdb
 D:\EMSIIIII\DotNET\Mini-Projet-ReservationHotel\Projet_NET\hotel_management_wpf\Gestion_hotel\obj\Debug\net7.0-windows\Gestion_hotel.genruntimeconfig.cache
 D:\EMSIIIII\DotNET\Mini-Projet-ReservationHotel\Projet_NET\hotel_management_wpf\Gestion_hotel\obj\Debug\net7.0-windows\ref\Gestion_hotel.dll
-=======
-C:\Users\irharissa.NPIF\Desktop\EMSI\.NET\Projet_NET\hotel_management_wpf\Gestion_hotel\obj\Debug\net7.0-windows\Views\addUpdateClientPopWindow.g.cs
-C:\Users\irharissa.NPIF\Desktop\EMSI\.NET\Projet_NET\hotel_management_wpf\Gestion_hotel\obj\Debug\net7.0-windows\Views\addUpdateClientPopWindow.baml
-C:\Users\irharissa.NPIF\Desktop\EMSI\.NET\Projet_NET\hotel_management_wpf\Gestion_hotel\obj\Debug\net7.0-windows\Views\EmployeeControl.g.cs
-C:\Users\irharissa.NPIF\Desktop\EMSI\.NET\Projet_NET\hotel_management_wpf\Gestion_hotel\obj\Debug\net7.0-windows\Views\EmployeeControl.baml
->>>>>>> 55c064c39a4f2e25eac2c0ee95d5b8de99f5a1a7
-D:\EMSIIIII\DotNET\Mini-Projet-ReservationHotel\Projet_NET\hotel_management_wpf\Gestion_hotel\obj\Debug\net7.0-windows\Views\addUpdateClientPopWindow.g.cs
-D:\EMSIIIII\DotNET\Mini-Projet-ReservationHotel\Projet_NET\hotel_management_wpf\Gestion_hotel\obj\Debug\net7.0-windows\Views\EmployeeControl.g.cs
-D:\EMSIIIII\DotNET\Mini-Projet-ReservationHotel\Projet_NET\hotel_management_wpf\Gestion_hotel\obj\Debug\net7.0-windows\Views\addUpdateClientPopWindow.baml
-D:\EMSIIIII\DotNET\Mini-Projet-ReservationHotel\Projet_NET\hotel_management_wpf\Gestion_hotel\obj\Debug\net7.0-windows\Views\EmployeeControl.baml
-D:\EMSIIIII\DotNET\Mini-Projet-ReservationHotel\Projet_NET\hotel_management_wpf\Gestion_hotel\obj\Debug\net7.0-windows\Views\ClientsControl.baml
-D:\EMSIIIII\DotNET\Mini-Projet-ReservationHotel\Projet_NET\hotel_management_wpf\Gestion_hotel\obj\Debug\net7.0-windows\Views\ClientsControl.g.cs
-D:\EMSIIIII\DotNET\Mini-Projet-ReservationHotel\Projet_NET\hotel_management_wpf\Gestion_hotel\obj\Debug\net7.0-windows\Views\RoomType\AddUpdateRoomTypePopup.baml
-D:\EMSIIIII\DotNET\Mini-Projet-ReservationHotel\Projet_NET\hotel_management_wpf\Gestion_hotel\obj\Debug\net7.0-windows\Views\RoomType\RoomTypeControl.baml
-D:\EMSIIIII\DotNET\Mini-Projet-ReservationHotel\Projet_NET\hotel_management_wpf\Gestion_hotel\obj\Debug\net7.0-windows\Views\RoomType\AddUpdateRoomTypePopup.g.cs
-D:\EMSIIIII\DotNET\Mini-Projet-ReservationHotel\Projet_NET\hotel_management_wpf\Gestion_hotel\obj\Debug\net7.0-windows\Views\RoomType\RoomTypeControl.g.cs
-D:\EMSIIIII\DotNET\Mini-Projet-ReservationHotel\Projet_NET\hotel_management_wpf\Gestion_hotel\obj\Debug\net7.0-windows\Views\Room\AddUpdateRoomPopup.baml
-D:\EMSIIIII\DotNET\Mini-Projet-ReservationHotel\Projet_NET\hotel_management_wpf\Gestion_hotel\obj\Debug\net7.0-windows\Views\Room\RoomControl.baml
-D:\EMSIIIII\DotNET\Mini-Projet-ReservationHotel\Projet_NET\hotel_management_wpf\Gestion_hotel\obj\Debug\net7.0-windows\Views\Room\AddUpdateRoomPopup.g.cs
-D:\EMSIIIII\DotNET\Mini-Projet-ReservationHotel\Projet_NET\hotel_management_wpf\Gestion_hotel\obj\Debug\net7.0-windows\Views\Room\RoomControl.g.cs
-C:\Users\irharissa.NPIF\Desktop\EMSI\.NET\Projet_NET\hotel_management_wpf\Gestion_hotel\bin\Debug\net7.0-windows\ClosedXML.dll
-C:\Users\irharissa.NPIF\Desktop\EMSI\.NET\Projet_NET\hotel_management_wpf\Gestion_hotel\bin\Debug\net7.0-windows\ClosedXML.Parser.dll
-C:\Users\irharissa.NPIF\Desktop\EMSI\.NET\Projet_NET\hotel_management_wpf\Gestion_hotel\bin\Debug\net7.0-windows\DocumentFormat.OpenXml.dll
-C:\Users\irharissa.NPIF\Desktop\EMSI\.NET\Projet_NET\hotel_management_wpf\Gestion_hotel\bin\Debug\net7.0-windows\DocumentFormat.OpenXml.Framework.dll
-C:\Users\irharissa.NPIF\Desktop\EMSI\.NET\Projet_NET\hotel_management_wpf\Gestion_hotel\bin\Debug\net7.0-windows\ExcelNumberFormat.dll
-C:\Users\irharissa.NPIF\Desktop\EMSI\.NET\Projet_NET\hotel_management_wpf\Gestion_hotel\bin\Debug\net7.0-windows\RBush.dll
-C:\Users\irharissa.NPIF\Desktop\EMSI\.NET\Projet_NET\hotel_management_wpf\Gestion_hotel\bin\Debug\net7.0-windows\SixLabors.Fonts.dll
-C:\Users\irharissa.NPIF\Desktop\EMSI\.NET\Projet_NET\hotel_management_wpf\Gestion_hotel\bin\Debug\net7.0-windows\System.IO.Packaging.dll
->>>>>>> 9f4d7fd884072ff0b438c88ec28a32e12b8d8c93
-D:\EMSIIIII\DotNET\Mini-Projet-ReservationHotel\Projet_NET\hotel_management_wpf\Gestion_hotel\bin\Debug\net7.0-windows\ClosedXML.dll
-D:\EMSIIIII\DotNET\Mini-Projet-ReservationHotel\Projet_NET\hotel_management_wpf\Gestion_hotel\bin\Debug\net7.0-windows\ClosedXML.Parser.dll
-D:\EMSIIIII\DotNET\Mini-Projet-ReservationHotel\Projet_NET\hotel_management_wpf\Gestion_hotel\bin\Debug\net7.0-windows\DocumentFormat.OpenXml.dll
-D:\EMSIIIII\DotNET\Mini-Projet-ReservationHotel\Projet_NET\hotel_management_wpf\Gestion_hotel\bin\Debug\net7.0-windows\DocumentFormat.OpenXml.Framework.dll
-D:\EMSIIIII\DotNET\Mini-Projet-ReservationHotel\Projet_NET\hotel_management_wpf\Gestion_hotel\bin\Debug\net7.0-windows\ExcelNumberFormat.dll
-D:\EMSIIIII\DotNET\Mini-Projet-ReservationHotel\Projet_NET\hotel_management_wpf\Gestion_hotel\bin\Debug\net7.0-windows\RBush.dll
-D:\EMSIIIII\DotNET\Mini-Projet-ReservationHotel\Projet_NET\hotel_management_wpf\Gestion_hotel\bin\Debug\net7.0-windows\SixLabors.Fonts.dll
-D:\EMSIIIII\DotNET\Mini-Projet-ReservationHotel\Projet_NET\hotel_management_wpf\Gestion_hotel\bin\Debug\net7.0-windows\System.IO.Packaging.dll
-D:\EMSIIIII\DotNET\Mini-Projet-ReservationHotel\Projet_NET\hotel_management_wpf\Gestion_hotel\obj\Debug\net7.0-windows\Views\addUpdateReservationPopWindow.baml
-D:\EMSIIIII\DotNET\Mini-Projet-ReservationHotel\Projet_NET\hotel_management_wpf\Gestion_hotel\obj\Debug\net7.0-windows\Views\addUpdateReservationPopWindow.g.cs
-D:\EMSIIIII\DotNET\Mini-Projet-ReservationHotel\Projet_NET\hotel_management_wpf\Gestion_hotel\bin\Debug\net7.0-windows\OfficeOpenXml.Core.ExcelPackage.dll
-D:\EMSIIIII\DotNET\Mini-Projet-ReservationHotel\Projet_NET\hotel_management_wpf\Gestion_hotel\bin\Debug\net7.0-windows\Microsoft.Office.Interop.Excel.dll
-D:\EMSIIIII\DotNET\Mini-Projet-ReservationHotel\Projet_NET\hotel_management_wpf\Gestion_hotel\bin\Debug\net7.0-windows\itext.barcodes.dll
-D:\EMSIIIII\DotNET\Mini-Projet-ReservationHotel\Projet_NET\hotel_management_wpf\Gestion_hotel\bin\Debug\net7.0-windows\itext.bouncy-castle-connector.dll
-D:\EMSIIIII\DotNET\Mini-Projet-ReservationHotel\Projet_NET\hotel_management_wpf\Gestion_hotel\bin\Debug\net7.0-windows\itext.forms.dll
-D:\EMSIIIII\DotNET\Mini-Projet-ReservationHotel\Projet_NET\hotel_management_wpf\Gestion_hotel\bin\Debug\net7.0-windows\itext.io.dll
-D:\EMSIIIII\DotNET\Mini-Projet-ReservationHotel\Projet_NET\hotel_management_wpf\Gestion_hotel\bin\Debug\net7.0-windows\itext.kernel.dll
-D:\EMSIIIII\DotNET\Mini-Projet-ReservationHotel\Projet_NET\hotel_management_wpf\Gestion_hotel\bin\Debug\net7.0-windows\itext.layout.dll
-D:\EMSIIIII\DotNET\Mini-Projet-ReservationHotel\Projet_NET\hotel_management_wpf\Gestion_hotel\bin\Debug\net7.0-windows\itext.pdfa.dll
-D:\EMSIIIII\DotNET\Mini-Projet-ReservationHotel\Projet_NET\hotel_management_wpf\Gestion_hotel\bin\Debug\net7.0-windows\itext.pdfua.dll
-D:\EMSIIIII\DotNET\Mini-Projet-ReservationHotel\Projet_NET\hotel_management_wpf\Gestion_hotel\bin\Debug\net7.0-windows\itext.sign.dll
-D:\EMSIIIII\DotNET\Mini-Projet-ReservationHotel\Projet_NET\hotel_management_wpf\Gestion_hotel\bin\Debug\net7.0-windows\itext.styledxmlparser.dll
-D:\EMSIIIII\DotNET\Mini-Projet-ReservationHotel\Projet_NET\hotel_management_wpf\Gestion_hotel\bin\Debug\net7.0-windows\itext.svg.dll
-D:\EMSIIIII\DotNET\Mini-Projet-ReservationHotel\Projet_NET\hotel_management_wpf\Gestion_hotel\bin\Debug\net7.0-windows\itext.commons.dll
-D:\EMSIIIII\DotNET\Mini-Projet-ReservationHotel\Projet_NET\hotel_management_wpf\Gestion_hotel\bin\Debug\net7.0-windows\Microsoft.DotNet.PlatformAbstractions.dll
-D:\EMSIIIII\DotNET\Mini-Projet-ReservationHotel\Projet_NET\hotel_management_wpf\Gestion_hotel\bin\Debug\net7.0-windows\Microsoft.Extensions.DependencyInjection.dll
-D:\EMSIIIII\DotNET\Mini-Projet-ReservationHotel\Projet_NET\hotel_management_wpf\Gestion_hotel\bin\Debug\net7.0-windows\Microsoft.Extensions.DependencyInjection.Abstractions.dll
-D:\EMSIIIII\DotNET\Mini-Projet-ReservationHotel\Projet_NET\hotel_management_wpf\Gestion_hotel\bin\Debug\net7.0-windows\Microsoft.Extensions.DependencyModel.dll
-D:\EMSIIIII\DotNET\Mini-Projet-ReservationHotel\Projet_NET\hotel_management_wpf\Gestion_hotel\bin\Debug\net7.0-windows\Microsoft.Extensions.Logging.dll
-D:\EMSIIIII\DotNET\Mini-Projet-ReservationHotel\Projet_NET\hotel_management_wpf\Gestion_hotel\bin\Debug\net7.0-windows\Microsoft.Extensions.Logging.Abstractions.dll
-D:\EMSIIIII\DotNET\Mini-Projet-ReservationHotel\Projet_NET\hotel_management_wpf\Gestion_hotel\bin\Debug\net7.0-windows\Microsoft.Extensions.Options.dll
-D:\EMSIIIII\DotNET\Mini-Projet-ReservationHotel\Projet_NET\hotel_management_wpf\Gestion_hotel\bin\Debug\net7.0-windows\Microsoft.Extensions.Primitives.dll
-D:\EMSIIIII\DotNET\Mini-Projet-ReservationHotel\Projet_NET\hotel_management_wpf\Gestion_hotel\bin\Debug\net7.0-windows\Newtonsoft.Json.dll
-D:\EMSIIIII\DotNET\Mini-Projet-ReservationHotel\Projet_NET\hotel_management_wpf\Gestion_hotel\bin\Debug\net7.0-windows\PdfSharp.BarCodes.dll
-D:\EMSIIIII\DotNET\Mini-Projet-ReservationHotel\Projet_NET\hotel_management_wpf\Gestion_hotel\bin\Debug\net7.0-windows\PdfSharp.Charting.dll
-D:\EMSIIIII\DotNET\Mini-Projet-ReservationHotel\Projet_NET\hotel_management_wpf\Gestion_hotel\bin\Debug\net7.0-windows\PdfSharp.Cryptography.dll
-D:\EMSIIIII\DotNET\Mini-Projet-ReservationHotel\Projet_NET\hotel_management_wpf\Gestion_hotel\bin\Debug\net7.0-windows\PdfSharp.Quality.dll
-D:\EMSIIIII\DotNET\Mini-Projet-ReservationHotel\Projet_NET\hotel_management_wpf\Gestion_hotel\bin\Debug\net7.0-windows\PdfSharp.Shared.dll
-D:\EMSIIIII\DotNET\Mini-Projet-ReservationHotel\Projet_NET\hotel_management_wpf\Gestion_hotel\bin\Debug\net7.0-windows\PdfSharp.Snippets.dll
-D:\EMSIIIII\DotNET\Mini-Projet-ReservationHotel\Projet_NET\hotel_management_wpf\Gestion_hotel\bin\Debug\net7.0-windows\PdfSharp.System.dll
-D:\EMSIIIII\DotNET\Mini-Projet-ReservationHotel\Projet_NET\hotel_management_wpf\Gestion_hotel\bin\Debug\net7.0-windows\PdfSharp.WPFonts.dll
-D:\EMSIIIII\DotNET\Mini-Projet-ReservationHotel\Projet_NET\hotel_management_wpf\Gestion_hotel\bin\Debug\net7.0-windows\PdfSharp.dll
-D:\EMSIIIII\DotNET\Mini-Projet-ReservationHotel\Projet_NET\hotel_management_wpf\Gestion_hotel\bin\Debug\net7.0-windows\PdfSharpCore.dll
-D:\EMSIIIII\DotNET\Mini-Projet-ReservationHotel\Projet_NET\hotel_management_wpf\Gestion_hotel\bin\Debug\net7.0-windows\ICSharpCode.SharpZipLib.dll
-D:\EMSIIIII\DotNET\Mini-Projet-ReservationHotel\Projet_NET\hotel_management_wpf\Gestion_hotel\bin\Debug\net7.0-windows\SixLabors.ImageSharp.dll
-D:\EMSIIIII\DotNET\Mini-Projet-ReservationHotel\Projet_NET\hotel_management_wpf\Gestion_hotel\bin\Debug\net7.0-windows\System.Formats.Asn1.dll
-D:\EMSIIIII\DotNET\Mini-Projet-ReservationHotel\Projet_NET\hotel_management_wpf\Gestion_hotel\bin\Debug\net7.0-windows\System.Security.Cryptography.Pkcs.dll
-D:\EMSIIIII\DotNET\Mini-Projet-ReservationHotel\Projet_NET\hotel_management_wpf\Gestion_hotel\bin\Debug\net7.0-windows\de\PdfSharpCore.resources.dll
-D:\EMSIIIII\DotNET\Mini-Projet-ReservationHotel\Projet_NET\hotel_management_wpf\Gestion_hotel\bin\Debug\net7.0-windows\runtimes\win\lib\net7.0\System.Security.Cryptography.Pkcs.dll
-D:\EMSIIIII\DotNET\Mini-Projet-ReservationHotel\Projet_NET\hotel_management_wpf\Gestion_hotel\bin\Debug\net7.0-windows\itextsharp.dll
-D:\EMSIIIII\DotNET\Mini-Projet-ReservationHotel\Projet_NET\hotel_management_wpf\Gestion_hotel\obj\Debug\net7.0-windows\Views\ReservationState\AddUpdateReservationStatePopup.g.cs
-D:\EMSIIIII\DotNET\Mini-Projet-ReservationHotel\Projet_NET\hotel_management_wpf\Gestion_hotel\obj\Debug\net7.0-windows\Views\ReservationState\ReservationStateControl.g.cs
-D:\EMSIIIII\DotNET\Mini-Projet-ReservationHotel\Projet_NET\hotel_management_wpf\Gestion_hotel\obj\Debug\net7.0-windows\Views\Reservation\AddUpdateReservationPopup.g.cs
-D:\EMSIIIII\DotNET\Mini-Projet-ReservationHotel\Projet_NET\hotel_management_wpf\Gestion_hotel\obj\Debug\net7.0-windows\Views\Reservation\ReservationControl.g.cs
-D:\EMSIIIII\DotNET\Mini-Projet-ReservationHotel\Projet_NET\hotel_management_wpf\Gestion_hotel\obj\Debug\net7.0-windows\Views\ReservationState\AddUpdateReservationStatePopup.baml
-D:\EMSIIIII\DotNET\Mini-Projet-ReservationHotel\Projet_NET\hotel_management_wpf\Gestion_hotel\obj\Debug\net7.0-windows\Views\ReservationState\ReservationStateControl.baml
-D:\EMSIIIII\DotNET\Mini-Projet-ReservationHotel\Projet_NET\hotel_management_wpf\Gestion_hotel\obj\Debug\net7.0-windows\Views\Reservation\AddUpdateReservationPopup.baml
-D:\EMSIIIII\DotNET\Mini-Projet-ReservationHotel\Projet_NET\hotel_management_wpf\Gestion_hotel\obj\Debug\net7.0-windows\Views\Reservation\ReservationControl.baml
