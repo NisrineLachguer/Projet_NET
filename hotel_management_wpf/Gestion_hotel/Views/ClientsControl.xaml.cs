@@ -7,6 +7,7 @@ using ClosedXML.Excel;
 using Microsoft.Win32;
 using System.IO;
 using System.Windows.Input;
+using WpfApp1.Views;
 
 namespace WpfApp1
 {
@@ -264,7 +265,7 @@ namespace WpfApp1
                     MessageBox.Show("Export completed successfully!", "Succès",
                         MessageBoxButton.OK, MessageBoxImage.Information);
 
-                    
+
                     if (MessageBox.Show("Do you want to open the file?", "Ouvrir",
                             MessageBoxButton.YesNo, MessageBoxImage.Question) == MessageBoxResult.Yes)
                     {
@@ -282,31 +283,51 @@ namespace WpfApp1
                     MessageBoxButton.OK, MessageBoxImage.Error);
             }
         }
-        
+
         private void LoadClients(string searchTerm = "")
-        { 
-                using (MySqlConnection conn = new MySqlConnection(connectionString))
+        {
+            using (MySqlConnection conn = new MySqlConnection(connectionString))
+            {
+                string query = "SELECT * FROM `clients`";
+                if (!string.IsNullOrWhiteSpace(searchTerm))
                 {
-                    string query = "SELECT * FROM `clients`";
-                    if (!string.IsNullOrWhiteSpace(searchTerm))
-                    {
-                        query += " WHERE Name LIKE @SearchTerm";
-                    }
-                    query += " ORDER BY Id ASC";  // Ordering by Id in ascending order
-
-                    MySqlDataAdapter adapter = new MySqlDataAdapter(query, conn);
-                    if (!string.IsNullOrWhiteSpace(searchTerm))
-                    {
-                        adapter.SelectCommand.Parameters.AddWithValue("@SearchTerm", $"%{searchTerm}%");
-                    }
-
-                    DataTable dt = new DataTable();
-                    adapter.Fill(dt);
-                    ClientsDataGrid.ItemsSource = dt.DefaultView;
-
-                    // Display number of employees
-                    lblClients.Content = $"Total Clients: {dt.Rows.Count}";
+                    query += " WHERE Name LIKE @SearchTerm";
                 }
+
+                query += " ORDER BY Id ASC"; // Ordering by Id in ascending order
+
+                MySqlDataAdapter adapter = new MySqlDataAdapter(query, conn);
+                if (!string.IsNullOrWhiteSpace(searchTerm))
+                {
+                    adapter.SelectCommand.Parameters.AddWithValue("@SearchTerm", $"%{searchTerm}%");
+                }
+
+                DataTable dt = new DataTable();
+                adapter.Fill(dt);
+                ClientsDataGrid.ItemsSource = dt.DefaultView;
+
+                // Display number of employees
+                lblClients.Content = $"Total Clients: {dt.Rows.Count}";
             }
         }
+
+        //mail && pdf
+        /*private void SendEmailButton_Click(object sender, RoutedEventArgs e)
+        {
+            try
+            {
+                // Generate the PDF content dynamically
+                byte[] pdfContent = PdfGenerator.GeneratePdf();
+
+                // Send email with PDF attachment
+                EmailSender.SendEmailWithPdfAttachment("recipient-email@example.com", pdfContent);
+
+                MessageBox.Show("Email sent successfully!");
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"Error: {ex.Message}");
+            }
+        }*/
+    }
 }

@@ -7,35 +7,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="887f63e1-f0f1-4cbc-a3c4-9fab2ce76459" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.WpfApp1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.WpfApp1/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Admin_dash.baml" beforeDir="false" afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Admin_dash.baml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Admin_dash.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Admin_dash.g.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Agent_dash.baml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/App.baml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Gestion_hotel.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Gestion_hotel.AssemblyInfo.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Gestion_hotel.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Gestion_hotel.AssemblyInfoInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Gestion_hotel.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Gestion_hotel.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Gestion_hotel.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Gestion_hotel.assets.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Gestion_hotel_MarkupCompile.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Gestion_hotel_MarkupCompile.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Gestion_hotel_MarkupCompile.lref" beforeDir="false" afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Gestion_hotel_MarkupCompile.lref" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/MainWindow.baml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Views/BookingControl.baml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Views/DashboardControl.baml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Views/EmployeeControl.baml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Views/ReservationControl.baml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Views/Room/AddUpdateRoomPopup.baml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Views/RoomControl.baml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Views/RoomTypeControl.baml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Views/SettingsControl.baml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gestion_hotel/obj/Debug/net7.0-windows/Views/addUpdateClientPopWindow.baml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gestion_hotel/obj/Gestion_hotel.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Gestion_hotel/obj/Gestion_hotel.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gestion_hotel/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/Gestion_hotel/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gestion_hotel/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Gestion_hotel/obj/project.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gestion_hotel/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Gestion_hotel/obj/project.packagespec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gestion_hotel/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/Gestion_hotel/obj/rider.project.model.nuget.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gestion_hotel/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/Gestion_hotel/obj/rider.project.restore.info" afterDir="false" />
-    </list>
+    <list default="true" id="887f63e1-f0f1-4cbc-a3c4-9fab2ce76459" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -50,7 +22,9 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/239c983dad6148308d9313194b172601f7a918/38/188b1db8/UserControl.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/239c983dad6148308d9313194b172601f7a918/83/25c32411/Selector.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/7357415a4cd14669a5510b631f8272f335200/e6/b5db18e4/CartesianChart.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/b3cc55e0c2ac48aa809d0fbef698b1bd113a00/68/1f63139f/DropDownButton.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/50c6dd77b885584dcd59d35a59203d3c986a699923eee7aac21bf50c89de1bc/SmtpClient.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/d4a6cee8f6790effad54f7798ddcdd96efd7a9fe9984c90735313a989a12/DataTemplate.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Gestion_hotel/Employee.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
@@ -70,7 +44,6 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/irharissa.NPIF/Desktop/EMSI/.NET/Projet_NET/hotel_management_wpf/WpfApp1.sln&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -113,9 +86,7 @@
       <workItem from="1735806221735" duration="4411000" />
       <workItem from="1735896995071" duration="10268000" />
       <workItem from="1735918904389" duration="646000" />
-      <workItem from="1735931830387" duration="10934000" />
-      <workItem from="1735951057829" duration="25000" />
-      <workItem from="1735951227801" duration="174000" />
+      <workItem from="1735931830387" duration="27043000" />
     </task>
     <servers />
   </component>

@@ -296,8 +296,6 @@ C:\Users\irharissa.NPIF\Documents\dotnet copie\hotel_management_wpf\Gestion_hote
 C:\Users\irharissa.NPIF\Documents\dotnet copie\hotel_management_wpf\Gestion_hotel\obj\Debug\net7.0-windows\Views\BookingControl.g.cs
 C:\Users\irharissa.NPIF\Documents\dotnet copie\hotel_management_wpf\Gestion_hotel\obj\Debug\net7.0-windows\Views\ClientsControl.g.cs
 C:\Users\irharissa.NPIF\Documents\dotnet copie\hotel_management_wpf\Gestion_hotel\obj\Debug\net7.0-windows\Views\EmployeeControl.g.cs
-C:\Users\irharissa.NPIF\Documents\dotnet copie\hotel_management_wpf\Gestion_hotel\obj\Debug\net7.0-windows\Views\RoomControl.g.cs
-C:\Users\irharissa.NPIF\Documents\dotnet copie\hotel_management_wpf\Gestion_hotel\obj\Debug\net7.0-windows\Views\RoomTypeControl.g.cs
 C:\Users\irharissa.NPIF\Documents\dotnet copie\hotel_management_wpf\Gestion_hotel\obj\Debug\net7.0-windows\Views\SettingsControl.g.cs
 C:\Users\irharissa.NPIF\Documents\dotnet copie\hotel_management_wpf\Gestion_hotel\obj\Debug\net7.0-windows\App.g.cs
 C:\Users\irharissa.NPIF\Documents\dotnet copie\hotel_management_wpf\Gestion_hotel\obj\Debug\net7.0-windows\Gestion_hotel_MarkupCompile.cache
@@ -308,8 +306,6 @@ C:\Users\irharissa.NPIF\Documents\dotnet copie\hotel_management_wpf\Gestion_hote
 C:\Users\irharissa.NPIF\Documents\dotnet copie\hotel_management_wpf\Gestion_hotel\obj\Debug\net7.0-windows\Views\addUpdateClientPopWindow.baml
 C:\Users\irharissa.NPIF\Documents\dotnet copie\hotel_management_wpf\Gestion_hotel\obj\Debug\net7.0-windows\Views\BookingControl.baml
 C:\Users\irharissa.NPIF\Documents\dotnet copie\hotel_management_wpf\Gestion_hotel\obj\Debug\net7.0-windows\Views\EmployeeControl.baml
-C:\Users\irharissa.NPIF\Documents\dotnet copie\hotel_management_wpf\Gestion_hotel\obj\Debug\net7.0-windows\Views\RoomControl.baml
-C:\Users\irharissa.NPIF\Documents\dotnet copie\hotel_management_wpf\Gestion_hotel\obj\Debug\net7.0-windows\Views\RoomTypeControl.baml
 C:\Users\irharissa.NPIF\Documents\dotnet copie\hotel_management_wpf\Gestion_hotel\obj\Debug\net7.0-windows\Views\SettingsControl.baml
 C:\Users\irharissa.NPIF\Documents\dotnet copie\hotel_management_wpf\Gestion_hotel\obj\Debug\net7.0-windows\Gestion_hotel.g.resources
 C:\Users\irharissa.NPIF\Documents\dotnet copie\hotel_management_wpf\Gestion_hotel\obj\Debug\net7.0-windows\Gestion_hotel.GeneratedMSBuildEditorConfig.editorconfig
@@ -326,3 +322,9 @@ C:\Users\irharissa.NPIF\Documents\dotnet copie\hotel_management_wpf\Gestion_hote
 C:\Users\irharissa.NPIF\Documents\dotnet copie\hotel_management_wpf\Gestion_hotel\obj\Debug\net7.0-windows\Views\DashboardControl.baml
 C:\Users\irharissa.NPIF\Documents\dotnet copie\hotel_management_wpf\Gestion_hotel\bin\Debug\net7.0-windows\LiveCharts.dll
 C:\Users\irharissa.NPIF\Documents\dotnet copie\hotel_management_wpf\Gestion_hotel\bin\Debug\net7.0-windows\LiveCharts.Wpf.dll
+C:\Users\irharissa.NPIF\Documents\dotnet copie\hotel_management_wpf\Gestion_hotel\bin\Debug\net7.0-windows\itextsharp.dll
+C:\Users\irharissa.NPIF\Documents\dotnet copie\hotel_management_wpf\Gestion_hotel\bin\Debug\net7.0-windows\MailKit.dll
+C:\Users\irharissa.NPIF\Documents\dotnet copie\hotel_management_wpf\Gestion_hotel\bin\Debug\net7.0-windows\MimeKit.dll
+C:\Users\irharissa.NPIF\Documents\dotnet copie\hotel_management_wpf\Gestion_hotel\bin\Debug\net7.0-windows\System.Formats.Asn1.dll
+C:\Users\irharissa.NPIF\Documents\dotnet copie\hotel_management_wpf\Gestion_hotel\bin\Debug\net7.0-windows\System.Security.Cryptography.Pkcs.dll
+C:\Users\irharissa.NPIF\Documents\dotnet copie\hotel_management_wpf\Gestion_hotel\bin\Debug\net7.0-windows\runtimes\win\lib\net7.0\System.Security.Cryptography.Pkcs.dll

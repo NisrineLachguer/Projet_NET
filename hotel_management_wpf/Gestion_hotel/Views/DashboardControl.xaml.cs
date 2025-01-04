@@ -1,84 +1,214 @@
-using System.Collections.Generic;
-using System.Windows.Controls;
 using LiveCharts;
 using LiveCharts.Wpf;
 using MySql.Data.MySqlClient;
+using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Windows.Controls;
+using System.Windows.Media;
+using System.Windows.Threading;
 
 namespace WpfApp1.Views
 {
-    public partial class DashboardControl : UserControl
+    public partial class DashboardControl : UserControl, INotifyPropertyChanged
     {
-        private readonly string connectionString = "server=localhost;port=3306;user=root;password=;database=hotel_management_wpf;";
+        string connectionString = "server=localhost;port=3306;user=root;password=;database=hotel_management_wpf;";
+        private SeriesCollection _employeesPieSeries;
+        private SeriesCollection _clientsColumnSeries;
+        private readonly DispatcherTimer timer;
+        private List<string> _labels;
+        private Func<double, string> _yFormatter;
+
+        // Properties for data binding
+        public SeriesCollection EmployeesPieSeries
+        {
+            get => _employeesPieSeries;
+            set
+            {
+                _employeesPieSeries = value;
+                OnPropertyChanged(nameof(EmployeesPieSeries));
+            }
+        }
+
+        public SeriesCollection ClientsColumnSeries
+        {
+            get => _clientsColumnSeries;
+            set
+            {
+                _clientsColumnSeries = value;
+                OnPropertyChanged(nameof(ClientsColumnSeries));
+            }
+        }
+
+        public List<string> Labels
+        {
+            get => _labels;
+            set
+            {
+                _labels = value;
+                OnPropertyChanged(nameof(Labels));
+            }
+        }
+
+        public Func<double, string> YFormatter
+        {
+            get => _yFormatter;
+            set
+            {
+                _yFormatter = value;
+                OnPropertyChanged(nameof(YFormatter));
+            }
+        }
+
+        private readonly Dictionary<string, (Color color, string meaning)> roleColors = new Dictionary<string, (Color, string)>
+        {
+            { "Housekeeper", (Color.FromRgb(41, 98, 255), "Cleaning and Room Maintenance") },         // Royal Blue
+            { "Housekeeping Manager", (Color.FromRgb(0, 200, 83), "Department Supervision") },        // Green
+            { "Front Desk Manager", (Color.FromRgb(255, 82, 82), "Guest Services Management") },      // Red
+            { "Hotel Manager", (Color.FromRgb(156, 39, 176), "Strategic Operations") }                // Purple
+        };
 
         public DashboardControl()
         {
             InitializeComponent();
-            LoadEmployeesPieChart();
-            LoadClientsPieChart();
+            DataContext = this;
+            
+            // Initialize charts
+            InitializeCharts();
+
+            // Set up timer for live updates
+            timer = new DispatcherTimer
+            {
+                Interval = TimeSpan.FromMinutes(1) // Update every minute
+            };
+            timer.Tick += Timer_Tick;
+            timer.Start();
         }
 
-        private void LoadEmployeesPieChart()
+        private void InitializeCharts()
         {
-            var roleCounts = new Dictionary<string, int>();
+            LoadEmployeeData();
+            LoadClientData();
+            YFormatter = value => value.ToString("N0");
+        }
+
+        private void LoadEmployeeData()
+        {
+            var series = new SeriesCollection();
 
             using (var connection = new MySqlConnection(connectionString))
             {
-                connection.Open();
-                string query = "SELECT role, COUNT(*) AS count FROM employees GROUP BY role;";
-                using (var command = new MySqlCommand(query, connection))
-                using (var reader = command.ExecuteReader())
+                try
                 {
-                    while (reader.Read())
-                    {
-                        string role = reader["role"].ToString();
-                        int count = int.Parse(reader["count"].ToString());
-                        roleCounts[role] = count;
-                    }
-                }
-            }
+                    connection.Open();
+                    string query = @"
+                        SELECT 
+                            role,
+                            COUNT(*) as employee_count
+                        FROM employees
+                        GROUP BY role
+                        ORDER BY role";
 
-            EmployeesPieChart.Series = new SeriesCollection();
-            foreach (var role in roleCounts)
-            {
-                EmployeesPieChart.Series.Add(new PieSeries
+                    using (var command = new MySqlCommand(query, connection))
+                    using (var reader = command.ExecuteReader())
+                    {
+                        while (reader.Read())
+                        {
+                            string role = reader["role"].ToString();
+                            int count = Convert.ToInt32(reader["employee_count"]);
+
+                            var roleInfo = roleColors[role];
+
+                            series.Add(new PieSeries
+                            {
+                                Title = $"{role} ({count})",
+                                Values = new ChartValues<double> { count },
+                                DataLabels = true,
+                                Fill = new SolidColorBrush(roleInfo.color),
+                                LabelPoint = point => count.ToString(),
+                                FontSize = 12,
+                                LabelPosition = PieLabelPosition.InsideSlice
+                            });
+                        }
+                    }
+
+                    EmployeesPieSeries = series;
+                }
+                catch (Exception ex)
                 {
-                    Title = role.Key,
-                    Values = new ChartValues<int> { role.Value },
-                    DataLabels = true
-                });
+                    System.Windows.MessageBox.Show($"Error loading employee data: {ex.Message}");
+                }
             }
         }
 
-        private void LoadClientsPieChart()
+        private void LoadClientData()
         {
-            var dateCounts = new Dictionary<string, int>();
+            var values = new ChartValues<double>();
+            var dates = new List<string>();
 
             using (var connection = new MySqlConnection(connectionString))
             {
-                connection.Open();
-                string query = "SELECT DATE(created_at) AS date, COUNT(*) AS count FROM clients GROUP BY DATE(created_at);";
-                using (var command = new MySqlCommand(query, connection))
-                using (var reader = command.ExecuteReader())
+                try
                 {
-                    while (reader.Read())
+                    connection.Open();
+                    string query = @"
+                        SELECT 
+                            DATE_FORMAT(created_at, '%m/%d') as date,
+                            COUNT(*) as client_count
+                        FROM clients
+                        WHERE created_at >= DATE_SUB(CURDATE(), INTERVAL 30 DAY)
+                        GROUP BY DATE(created_at)
+                        ORDER BY created_at";
+
+                    using (var command = new MySqlCommand(query, connection))
+                    using (var reader = command.ExecuteReader())
                     {
-                        string date = reader["date"].ToString();
-                        int count = int.Parse(reader["count"].ToString());
-                        dateCounts[date] = count;
+                        while (reader.Read())
+                        {
+                            var date = reader["date"].ToString();
+                            var count = Convert.ToDouble(reader["client_count"]);
+
+                            dates.Add(date);
+                            values.Add(count);
+                        }
                     }
+
+                    Labels = dates;
+                    // Update the client chart color in LoadClientData():
+                    ClientsColumnSeries = new SeriesCollection
+                    {
+                        new ColumnSeries
+                        {
+                            Title = "Clients",
+                            Values = values,
+                            Fill = new SolidColorBrush(Color.FromRgb(33, 150, 243)), // Bright Blue
+                            MaxColumnWidth = 50,
+                            ColumnPadding = 5
+                        }
+                    };
+                }
+                catch (Exception ex)
+                {
+                    System.Windows.MessageBox.Show($"Error loading client data: {ex.Message}");
                 }
             }
+        }
 
-            ClientsPieChart.Series = new SeriesCollection();
-            foreach (var date in dateCounts)
-            {
-                ClientsPieChart.Series.Add(new PieSeries
-                {
-                    Title = date.Key,
-                    Values = new ChartValues<int> { date.Value },
-                    DataLabels = true
-                });
-            }
+        private void Timer_Tick(object sender, EventArgs e)
+        {
+            LoadClientData();
+        }
+
+        public event PropertyChangedEventHandler PropertyChanged;
+
+        protected virtual void OnPropertyChanged(string propertyName)
+        {
+            PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
+        }
+
+        public void Dispose()
+        {
+            timer.Stop();
         }
     }
 }

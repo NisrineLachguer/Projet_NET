@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Hôte : 127.0.0.1:3306
--- Généré le : jeu. 02 jan. 2025 à 09:22
+-- Généré le : sam. 04 jan. 2025 à 00:56
 -- Version du serveur : 8.3.0
 -- Version de PHP : 8.2.18
 
@@ -38,17 +38,19 @@ CREATE TABLE IF NOT EXISTS `employees` (
   `created_at` timestamp NULL DEFAULT CURRENT_TIMESTAMP,
   `PhotoPath` varchar(255) COLLATE utf8mb4_general_ci DEFAULT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=MyISAM AUTO_INCREMENT=18 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+) ENGINE=MyISAM AUTO_INCREMENT=20 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 --
 -- Déchargement des données de la table `employees`
 --
 
 INSERT INTO `employees` (`id`, `name`, `role`, `email`, `phone`, `address`, `created_at`, `PhotoPath`) VALUES
-(13, 'sara', 'Front Desk Manager', 'dddddx', 'qqqq', 'qqqqq', '2025-01-02 07:44:43', 'C:\\Users\\irharissa.NPIF\\Desktop\\EMSI\\.NET\\Projet_NET\\hotel_management_wpf\\Gestion_hotel\\Images\\profileEmploye\\e1532876-71cc-4b4e-97a8-da42a2540337.jpeg'),
+(13, 'sara', 'Front Desk Manager', 'sss@gmail.com', '741258963320', 'qqqqq', '2025-01-02 07:44:43', 'C:\\Users\\irharissa.NPIF\\Desktop\\EMSI\\.NET\\Projet_NET\\hotel_management_wpf\\Gestion_hotel\\Images\\profileEmploye\\e1532876-71cc-4b4e-97a8-da42a2540337.jpeg'),
 (15, 'mohamed', 'Hotel Manager', 'mohamed@gmail.com', '06254177455', 'tasoultant marrakech', '2025-01-02 08:27:26', 'C:\\Users\\irharissa.NPIF\\Desktop\\EMSI\\.NET\\Projet_NET\\hotel_management_wpf\\Gestion_hotel\\Images\\profileEmploye\\17a1361f-7bda-4bff-8e9a-d59b187e515e.jpeg'),
 (16, 'mariem', 'Housekeeper', 'mary@gmail.com', '0258741365', 'exemple', '2025-01-02 08:29:12', 'C:\\Users\\irharissa.NPIF\\Desktop\\EMSI\\.NET\\Projet_NET\\hotel_management_wpf\\Gestion_hotel\\Images\\profileEmploye\\5f32aa29-11c7-4237-8c6c-6f926a8de5a9.jpeg'),
-(17, 'Ayoube', 'Housekeeping Manager', 'ayoube@gmail.com', '025874123654', 'Massira 3 Marrakech', '2025-01-02 08:57:03', 'C:\\Users\\irharissa.NPIF\\Desktop\\EMSI\\.NET\\Projet_NET\\hotel_management_wpf\\Gestion_hotel\\Images\\profileEmploye\\439ee21d-ab33-4810-9091-2f99a89deb42.jpeg');
+(17, 'Ayoube', 'Housekeeping Manager', 'ayoube@gmail.com', '025874123654', 'Massira 3 Marrakech', '2025-01-02 08:57:03', 'C:\\Users\\irharissa.NPIF\\Desktop\\EMSI\\.NET\\Projet_NET\\hotel_management_wpf\\Gestion_hotel\\Images\\profileEmploye\\439ee21d-ab33-4810-9091-2f99a89deb42.jpeg'),
+(18, 'Fati', 'Housekeeping Manager', 'fati@gmail.com', '1236547890', 'aaaaa', '2025-01-03 11:45:40', 'C:\\Users\\irharissa.NPIF\\Desktop\\EMSI\\.NET\\Projet_NET\\hotel_management_wpf\\Gestion_hotel\\Images\\profileEmploye\\4997f1cd-cc56-4565-8051-5e15c300de28.jpeg'),
+(19, 'Kaoutar', 'Housekeeper', 'kaoutar@gmail.com', '0258741236', 'Marrakech 145', '2025-01-03 20:16:51', 'C:\\Users\\irharissa.NPIF\\Desktop\\EMSI\\.NET\\Projet_NET\\hotel_management_wpf\\Gestion_hotel\\Images\\profileEmploye\\1cc9486d-e5d0-4a4b-9828-f2e68a257f22.jpeg');
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
