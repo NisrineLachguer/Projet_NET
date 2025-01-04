@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\irharissa.NPIF\\Documents\\dotnet copie\\hotel_management_wpf\\Gestion_hotel\\Gestion_hotel.csproj": {}
+    "C:\\Users\\irharissa.NPIF\\Desktop\\EMSI\\.NET\\Projet_NET\\hotel_management_wpf\\Gestion_hotel\\Gestion_hotel.csproj": {}
   },
   "projects": {
-    "C:\\Users\\irharissa.NPIF\\Documents\\dotnet copie\\hotel_management_wpf\\Gestion_hotel\\Gestion_hotel.csproj": {
+    "C:\\Users\\irharissa.NPIF\\Desktop\\EMSI\\.NET\\Projet_NET\\hotel_management_wpf\\Gestion_hotel\\Gestion_hotel.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\irharissa.NPIF\\Documents\\dotnet copie\\hotel_management_wpf\\Gestion_hotel\\Gestion_hotel.csproj",
+        "projectUniqueName": "C:\\Users\\irharissa.NPIF\\Desktop\\EMSI\\.NET\\Projet_NET\\hotel_management_wpf\\Gestion_hotel\\Gestion_hotel.csproj",
         "projectName": "Gestion_hotel",
-        "projectPath": "C:\\Users\\irharissa.NPIF\\Documents\\dotnet copie\\hotel_management_wpf\\Gestion_hotel\\Gestion_hotel.csproj",
+        "projectPath": "C:\\Users\\irharissa.NPIF\\Desktop\\EMSI\\.NET\\Projet_NET\\hotel_management_wpf\\Gestion_hotel\\Gestion_hotel.csproj",
         "packagesPath": "C:\\Users\\irharissa.NPIF\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\irharissa.NPIF\\Documents\\dotnet copie\\hotel_management_wpf\\Gestion_hotel\\obj\\",
+        "outputPath": "C:\\Users\\irharissa.NPIF\\Desktop\\EMSI\\.NET\\Projet_NET\\hotel_management_wpf\\Gestion_hotel\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
