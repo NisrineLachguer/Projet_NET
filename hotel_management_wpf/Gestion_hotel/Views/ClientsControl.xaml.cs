@@ -7,6 +7,7 @@ using ClosedXML.Excel;
 using Microsoft.Win32;
 using System.IO;
 using System.Windows.Input;
+using WpfApp1.mail_pdf;
 using WpfApp1.Views;
 
 namespace WpfApp1
@@ -312,7 +313,7 @@ namespace WpfApp1
         }
 
         //mail && pdf
-        /*private void SendEmailButton_Click(object sender, RoutedEventArgs e)
+        private void SendEmailButton_Click(object sender, RoutedEventArgs e)
         {
             try
             {
@@ -328,6 +329,6 @@ namespace WpfApp1
             {
                 MessageBox.Show($"Error: {ex.Message}");
             }
-        }*/
+        }
     }
 }

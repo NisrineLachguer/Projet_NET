@@ -7,36 +7,10 @@ using System.Windows.Input;
 using ClosedXML.Excel;
 using Microsoft.Win32;
 using MySql.Data.MySqlClient;
-using PdfSharp.Pdf;
-using PdfSharp.Drawing;
-using System.IO;
 namespace WpfApp1
 {
     public partial class RoomTypeControl : UserControl
     {
-        /*string connectionString = "server=localhost;port=3306;user=root;password=;database=hotel_management_wpf;";
-        private DataTable roomTypeTable;
-
-        public RoomTypeControl()
-        {
-            InitializeComponent();
-            LoadRoomTypes();
-        }
-
-        // Load room types into DataGrid
-        private void LoadRoomTypes(string query = "SELECT Id, Name, Description, Price, Capacity FROM roomtype")
-        {
-            using (MySqlConnection conn = new MySqlConnection(connectionString))
-            {
-                conn.Open();
-                MySqlDataAdapter adapter = new MySqlDataAdapter(query, conn);
-                roomTypeTable = new DataTable();
-                adapter.Fill(roomTypeTable);
-                RoomTypesDataGrid.ItemsSource = roomTypeTable.DefaultView;
-            }
-        }*/
-
-        
         private readonly string connectionString = "server=localhost;port=3306;user=root;password=;database=hotel_management_wpf;";
         private DataTable roomTypeTable;
         private int currentPage = 1;

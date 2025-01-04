@@ -101,9 +101,9 @@
                 <Button Name="AjouterBtn" Background="#4CAF50" Content="Ajouter" Click="AjouterBtn_Click" Margin="5" />
                 <Button Name="ModifierBtn" Background="Yellow" Content="Modifier" Click="ModifierBtn_Click" Margin="5"/>
                 <Button Name="SupprimerBtn" Content="Supprimer" Click="SupprimerBtn_Click" Margin="5"/>
-                <!--<Button Content="Send PDF Report" 
+                <Button Content="Send PDF Report" 
                         Click="SendEmailButton_Click" 
-                        Margin="5"/> -->
+                        Margin="5"/> 
             </StackPanel>
         </Border>
 

@@ -47,7 +47,6 @@
 
     <ItemGroup>
       <Folder Include="Images\profileEmploye\" />
-      <Folder Include="mail&amp;pdf\" />
     </ItemGroup>
 
 </Project>

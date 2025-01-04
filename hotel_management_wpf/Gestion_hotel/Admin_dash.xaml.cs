@@ -1,6 +1,6 @@
 using System.Windows;
 using System.Windows.Controls;
-using WpfApp1.Models;
+//using WpfApp1.Models;
 using WpfApp1.Views;
 
 namespace WpfApp1;
@@ -59,37 +59,37 @@ public partial class Admin_dash : Window
         }
     }*/
 
-    private void ListViewMenu_SelectionChanged(object sender, SelectionChangedEventArgs e)
+ private void ListViewMenu_SelectionChanged(object sender, SelectionChangedEventArgs e)
+{
+    UserControl usc = null;
+    ContentMain.Children.Clear();
+
+    var selectedItem = ((ListView)sender).SelectedItem as ListViewItem;
+    if (selectedItem != null)
     {
-        UserControl usc = null;
-        ContentMain.Children.Clear();
-
-        var selectedItem = ((ListView)sender).SelectedItem as ListViewItem;
-        if (selectedItem != null)
+        // Change user control based on the selected menu item
+        switch (selectedItem.Name)
         {
-            // Change user control based on the selected menu item
-            switch (selectedItem.Name)
-            {
-                case "ItemClients":
-                    usc = new ClientsControl();
-                    break;
-                case "ItemEmployees":
-                    usc = new EmployeeControl();
-                    break;
-                case "ItemSales":
-                    usc = new BookingControl();
-                    break;
-                case "Dashboard":
-                    usc = new DashboardControl();
-                    break;
-                // Add more cases as necessary
-            }
+            case "ItemClients":
+                usc = new ClientsControl();
+                break;
+            case "ItemEmployees":
+                usc = new EmployeeControl();
+                break;
+            case "ItemSales":
+                usc = new BookingControl();
+                break;
+            case "Dashboard":
+                usc = new DashboardControl();
+                break;
+            // Add more cases as necessary
+        }
 
-            if (usc != null)
-            {
-                ContentMain.Children.Add(usc);
-            }
+        if (usc != null)
+        {
+            ContentMain.Children.Add(usc);
         }
     }
+}
 
 }
