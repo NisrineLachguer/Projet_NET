@@ -59,19 +59,19 @@
                         <TextBlock Text="Clientes" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="20 10" />
                     </StackPanel>
                 </ListViewItem>
-                <ListViewItem x:Name="ItemSales" Height="60">
+                <ListViewItem x:Name="ItemRoom" Height="60">
                     <StackPanel Orientation="Horizontal">
                         <fa5:SvgAwesome Foreground="white" Margin="10,0,0,0" Width="20px" Icon="Solid_Bed " VerticalAlignment="Center" HorizontalAlignment="Center" />
                         <TextBlock Text="Rooms" VerticalAlignment="Center" Margin="20 10" />
                     </StackPanel>
                 </ListViewItem>
-                <ListViewItem x:Name="ItemImports" Height="60">
+                <ListViewItem x:Name="ItemCate" Height="60">
                     <StackPanel Orientation="Horizontal">
                         <fa5:SvgAwesome Foreground="white" Margin="10,0,0,0" Width="20px" Icon="Solid_LayerGroup" VerticalAlignment="Center" HorizontalAlignment="Center" />
                         <TextBlock Text="Categories" VerticalAlignment="Center" Margin="20 10" />
                     </StackPanel>
                 </ListViewItem>
-                <ListViewItem x:Name="ItemStats" Height="60">
+                <ListViewItem x:Name="ItemBooking" Height="60">
                     <StackPanel Orientation="Horizontal">
                         <fa5:SvgAwesome Foreground="white" Margin="10,0,0,0" Width="20px" Icon="Solid_List" VerticalAlignment="Center" HorizontalAlignment="Center" />
                         <TextBlock Text="Booking" VerticalAlignment="Center" Margin="20 10" />
@@ -101,7 +101,7 @@
                     </extToolkit:DropDownButton.DropDownContent>
                 </extToolkit:DropDownButton>
                 <!--Account Button-->
-                <extToolkit:DropDownButton FlowDirection="RightToLeft" Background="White" Width="50px" Height="40px" Padding="8,8,8,8" Margin="5,5,10,5" HorizontalAlignment="Right">
+                <extToolkit:DropDownButton Click=" btnExit_Click" FlowDirection="RightToLeft" Background="White" Width="50px" Height="40px" Padding="8,8,8,8" Margin="5,5,10,5" HorizontalAlignment="Right">
                     <fa5:SvgAwesome Foreground="Black" Margin="0,0,0,0" Width="20px" Icon="Solid_SignOutAlt" VerticalAlignment="Center" HorizontalAlignment="Center" />
                     <extToolkit:DropDownButton.DropDownContent>
                         <ListView FlowDirection="RightToLeft" ScrollViewer.HorizontalScrollBarVisibility="Disabled" BorderThickness="0" Background="#3b3c40" Foreground="White">

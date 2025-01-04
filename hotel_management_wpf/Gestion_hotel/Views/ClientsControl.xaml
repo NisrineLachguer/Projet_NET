@@ -127,7 +127,7 @@
 
         <!-- Statistiques -->
         <StackPanel Orientation="Horizontal" Grid.Row="2" Margin="20">
-            <Label x:Name="lblClients" Content="Total des clients : 6" Margin="10,0" />
+            <!--<Label x:Name="lblClients" Content="Total des clients : 6" Margin="10,0" />-->
         </StackPanel>
     </Grid>
 </UserControl>

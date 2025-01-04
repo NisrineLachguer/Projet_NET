@@ -295,7 +295,7 @@ namespace WpfApp1
                     query += " WHERE Name LIKE @SearchTerm";
                 }
 
-                query += " ORDER BY Id ASC"; // Ordering by Id in ascending order
+                query += " ORDER BY Id ASC"; 
 
                 MySqlDataAdapter adapter = new MySqlDataAdapter(query, conn);
                 if (!string.IsNullOrWhiteSpace(searchTerm))
@@ -307,27 +307,42 @@ namespace WpfApp1
                 adapter.Fill(dt);
                 ClientsDataGrid.ItemsSource = dt.DefaultView;
 
-                // Display number of employees
-                lblClients.Content = $"Total Clients: {dt.Rows.Count}";
+                //lblClients.Content = $"Total Clients: {dt.Rows.Count}";
             }
         }
 
         //mail && pdf
-        private void SendEmailButton_Click(object sender, RoutedEventArgs e)
+        private async void SendEmailButton_Click(object sender, RoutedEventArgs e)
         {
             try
             {
-                // Generate the PDF content dynamically
-                byte[] pdfContent = PdfGenerator.GeneratePdf();
+                // Show input dialog for recipient email
+                var dialog = new InputDialog("Enter recipient email:");
+                if (dialog.ShowDialog() == true)
+                {
+                    string recipientEmail = dialog.ResponseText;
+            
+                    // Show loading cursor
+                    Mouse.OverrideCursor = Cursors.Wait;
+            
+                    // Generate the PDF content
+                    byte[] pdfContent = PdfGenerator.GeneratePdf();
 
-                // Send email with PDF attachment
-                EmailSender.SendEmailWithPdfAttachment("recipient-email@example.com", pdfContent);
+                    // Send email with PDF attachment
+                    await EmailSender.SendEmailWithPdfAttachmentAsync(recipientEmail, pdfContent);
 
-                MessageBox.Show("Email sent successfully!");
+                    MessageBox.Show("Email sent successfully!", "Success", 
+                        MessageBoxButton.OK, MessageBoxImage.Information);
+                }
             }
             catch (Exception ex)
             {
-                MessageBox.Show($"Error: {ex.Message}");
+                MessageBox.Show($"Failed to send email: {ex.Message}", "Error", 
+                    MessageBoxButton.OK, MessageBoxImage.Error);
+            }
+            finally
+            {
+                Mouse.OverrideCursor = null;
             }
         }
     }

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "xiQaUohH/ac=",
+  "dgSpecHash": "n7WOI8e9f40=",
   "success": true,
-  "projectFilePath": "C:\\Users\\irharissa.NPIF\\Documents\\dotnet copie\\hotel_management_wpf\\Gestion_hotel\\Gestion_hotel.csproj",
+  "projectFilePath": "C:\\Users\\irharissa.NPIF\\Desktop\\EMSI\\.NET\\Projet_NET\\hotel_management_wpf\\Gestion_hotel\\Gestion_hotel.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\irharissa.NPIF\\.nuget\\packages\\bouncycastle.cryptography\\2.5.0\\bouncycastle.cryptography.2.5.0.nupkg.sha512",
     "C:\\Users\\irharissa.NPIF\\.nuget\\packages\\closedxml\\0.104.2\\closedxml.0.104.2.nupkg.sha512",

@@ -20,7 +20,7 @@
         </Border>
         <StackPanel Orientation="Horizontal">
             <StackPanel Width="350">
-                <Image Source="Images/ICON4801.png" Width="300" Height="300" VerticalAlignment="Top" Margin="30" Stretch="Fill"/>
+                <Image Source="C:\Users\irharissa.NPIF\Desktop\EMSI\.NET\Projet_NET\hotel_management_wpf\Gestion_hotel\Images\ICON4801.png" Width="300" Height="300" VerticalAlignment="Top" Margin="30" Stretch="Fill"/>
             </StackPanel>
             <StackPanel Width="350">
                 <StackPanel Margin="20 40">

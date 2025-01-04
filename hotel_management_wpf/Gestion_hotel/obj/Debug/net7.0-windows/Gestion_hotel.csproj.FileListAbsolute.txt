@@ -190,13 +190,9 @@ C:\Users\irharissa.NPIF\Desktop\EMSI\.NET\Projet_NET\hotel_management_wpf\Gestio
 C:\Users\irharissa.NPIF\Desktop\EMSI\.NET\Projet_NET\hotel_management_wpf\Gestion_hotel\obj\Debug\net7.0-windows\ref\Gestion_hotel.dll
 C:\Users\irharissa.NPIF\Desktop\EMSI\.NET\Projet_NET\hotel_management_wpf\Gestion_hotel\obj\Debug\net7.0-windows\Views\BookingControl.g.cs
 C:\Users\irharissa.NPIF\Desktop\EMSI\.NET\Projet_NET\hotel_management_wpf\Gestion_hotel\obj\Debug\net7.0-windows\Views\ClientsControl.g.cs
-C:\Users\irharissa.NPIF\Desktop\EMSI\.NET\Projet_NET\hotel_management_wpf\Gestion_hotel\obj\Debug\net7.0-windows\Views\RoomControl.g.cs
-C:\Users\irharissa.NPIF\Desktop\EMSI\.NET\Projet_NET\hotel_management_wpf\Gestion_hotel\obj\Debug\net7.0-windows\Views\RoomTypeControl.g.cs
 C:\Users\irharissa.NPIF\Desktop\EMSI\.NET\Projet_NET\hotel_management_wpf\Gestion_hotel\obj\Debug\net7.0-windows\Views\SettingsControl.g.cs
 C:\Users\irharissa.NPIF\Desktop\EMSI\.NET\Projet_NET\hotel_management_wpf\Gestion_hotel\obj\Debug\net7.0-windows\Views\BookingControl.baml
 C:\Users\irharissa.NPIF\Desktop\EMSI\.NET\Projet_NET\hotel_management_wpf\Gestion_hotel\obj\Debug\net7.0-windows\Views\ClientsControl.baml
-C:\Users\irharissa.NPIF\Desktop\EMSI\.NET\Projet_NET\hotel_management_wpf\Gestion_hotel\obj\Debug\net7.0-windows\Views\RoomControl.baml
-C:\Users\irharissa.NPIF\Desktop\EMSI\.NET\Projet_NET\hotel_management_wpf\Gestion_hotel\obj\Debug\net7.0-windows\Views\RoomTypeControl.baml
 C:\Users\irharissa.NPIF\Desktop\EMSI\.NET\Projet_NET\hotel_management_wpf\Gestion_hotel\obj\Debug\net7.0-windows\Views\SettingsControl.baml
 C:\Users\irharissa.NPIF\Desktop\EMSI\.NET\Projet_NET\hotel_management_wpf\Gestion_hotel\obj\Debug\net7.0-windows\Views\addUpdateClientPopWindow.g.cs
 C:\Users\irharissa.NPIF\Desktop\EMSI\.NET\Projet_NET\hotel_management_wpf\Gestion_hotel\obj\Debug\net7.0-windows\Views\addUpdateClientPopWindow.baml
@@ -328,3 +324,31 @@ C:\Users\irharissa.NPIF\Documents\dotnet copie\hotel_management_wpf\Gestion_hote
 C:\Users\irharissa.NPIF\Documents\dotnet copie\hotel_management_wpf\Gestion_hotel\bin\Debug\net7.0-windows\System.Formats.Asn1.dll
 C:\Users\irharissa.NPIF\Documents\dotnet copie\hotel_management_wpf\Gestion_hotel\bin\Debug\net7.0-windows\System.Security.Cryptography.Pkcs.dll
 C:\Users\irharissa.NPIF\Documents\dotnet copie\hotel_management_wpf\Gestion_hotel\bin\Debug\net7.0-windows\runtimes\win\lib\net7.0\System.Security.Cryptography.Pkcs.dll
+C:\Users\irharissa.NPIF\Desktop\EMSI\.NET\Projet_NET\hotel_management_wpf\Gestion_hotel\bin\Debug\net7.0-windows\itextsharp.dll
+C:\Users\irharissa.NPIF\Desktop\EMSI\.NET\Projet_NET\hotel_management_wpf\Gestion_hotel\bin\Debug\net7.0-windows\LiveCharts.dll
+C:\Users\irharissa.NPIF\Desktop\EMSI\.NET\Projet_NET\hotel_management_wpf\Gestion_hotel\bin\Debug\net7.0-windows\LiveCharts.Wpf.dll
+C:\Users\irharissa.NPIF\Desktop\EMSI\.NET\Projet_NET\hotel_management_wpf\Gestion_hotel\bin\Debug\net7.0-windows\MailKit.dll
+C:\Users\irharissa.NPIF\Desktop\EMSI\.NET\Projet_NET\hotel_management_wpf\Gestion_hotel\bin\Debug\net7.0-windows\MimeKit.dll
+C:\Users\irharissa.NPIF\Desktop\EMSI\.NET\Projet_NET\hotel_management_wpf\Gestion_hotel\bin\Debug\net7.0-windows\System.Formats.Asn1.dll
+C:\Users\irharissa.NPIF\Desktop\EMSI\.NET\Projet_NET\hotel_management_wpf\Gestion_hotel\bin\Debug\net7.0-windows\System.Security.Cryptography.Pkcs.dll
+C:\Users\irharissa.NPIF\Desktop\EMSI\.NET\Projet_NET\hotel_management_wpf\Gestion_hotel\bin\Debug\net7.0-windows\runtimes\win\lib\net7.0\System.Security.Cryptography.Pkcs.dll
+C:\Users\irharissa.NPIF\Desktop\EMSI\.NET\Projet_NET\hotel_management_wpf\Gestion_hotel\obj\Debug\net7.0-windows\Views\addUpdateReservationPopWindow.baml
+C:\Users\irharissa.NPIF\Desktop\EMSI\.NET\Projet_NET\hotel_management_wpf\Gestion_hotel\obj\Debug\net7.0-windows\Views\DashboardControl.baml
+C:\Users\irharissa.NPIF\Desktop\EMSI\.NET\Projet_NET\hotel_management_wpf\Gestion_hotel\obj\Debug\net7.0-windows\Views\ReservationState\ReservationStateControl.baml
+C:\Users\irharissa.NPIF\Desktop\EMSI\.NET\Projet_NET\hotel_management_wpf\Gestion_hotel\obj\Debug\net7.0-windows\Views\Reservation\ReservationControl.baml
+C:\Users\irharissa.NPIF\Desktop\EMSI\.NET\Projet_NET\hotel_management_wpf\Gestion_hotel\obj\Debug\net7.0-windows\Views\RoomType\AddUpdateRoomTypePopup.baml
+C:\Users\irharissa.NPIF\Desktop\EMSI\.NET\Projet_NET\hotel_management_wpf\Gestion_hotel\obj\Debug\net7.0-windows\Views\RoomType\RoomTypeControl.baml
+C:\Users\irharissa.NPIF\Desktop\EMSI\.NET\Projet_NET\hotel_management_wpf\Gestion_hotel\obj\Debug\net7.0-windows\Views\Room\RoomControl.baml
+C:\Users\irharissa.NPIF\Desktop\EMSI\.NET\Projet_NET\hotel_management_wpf\Gestion_hotel\obj\Debug\net7.0-windows\Views\addUpdateReservationPopWindow.g.cs
+C:\Users\irharissa.NPIF\Desktop\EMSI\.NET\Projet_NET\hotel_management_wpf\Gestion_hotel\obj\Debug\net7.0-windows\Views\DashboardControl.g.cs
+C:\Users\irharissa.NPIF\Desktop\EMSI\.NET\Projet_NET\hotel_management_wpf\Gestion_hotel\obj\Debug\net7.0-windows\Views\ReservationState\AddUpdateReservationStatePopup.g.cs
+C:\Users\irharissa.NPIF\Desktop\EMSI\.NET\Projet_NET\hotel_management_wpf\Gestion_hotel\obj\Debug\net7.0-windows\Views\ReservationState\ReservationStateControl.g.cs
+C:\Users\irharissa.NPIF\Desktop\EMSI\.NET\Projet_NET\hotel_management_wpf\Gestion_hotel\obj\Debug\net7.0-windows\Views\Reservation\AddUpdateReservationPopup.g.cs
+C:\Users\irharissa.NPIF\Desktop\EMSI\.NET\Projet_NET\hotel_management_wpf\Gestion_hotel\obj\Debug\net7.0-windows\Views\Reservation\ReservationControl.g.cs
+C:\Users\irharissa.NPIF\Desktop\EMSI\.NET\Projet_NET\hotel_management_wpf\Gestion_hotel\obj\Debug\net7.0-windows\Views\RoomType\AddUpdateRoomTypePopup.g.cs
+C:\Users\irharissa.NPIF\Desktop\EMSI\.NET\Projet_NET\hotel_management_wpf\Gestion_hotel\obj\Debug\net7.0-windows\Views\RoomType\RoomTypeControl.g.cs
+C:\Users\irharissa.NPIF\Desktop\EMSI\.NET\Projet_NET\hotel_management_wpf\Gestion_hotel\obj\Debug\net7.0-windows\Views\Room\AddUpdateRoomPopup.g.cs
+C:\Users\irharissa.NPIF\Desktop\EMSI\.NET\Projet_NET\hotel_management_wpf\Gestion_hotel\obj\Debug\net7.0-windows\Views\Room\RoomControl.g.cs
+C:\Users\irharissa.NPIF\Desktop\EMSI\.NET\Projet_NET\hotel_management_wpf\Gestion_hotel\obj\Debug\net7.0-windows\Views\ReservationState\AddUpdateReservationStatePopup.baml
+C:\Users\irharissa.NPIF\Desktop\EMSI\.NET\Projet_NET\hotel_management_wpf\Gestion_hotel\obj\Debug\net7.0-windows\Views\Reservation\AddUpdateReservationPopup.baml
+C:\Users\irharissa.NPIF\Desktop\EMSI\.NET\Projet_NET\hotel_management_wpf\Gestion_hotel\obj\Debug\net7.0-windows\Views\Room\AddUpdateRoomPopup.baml
