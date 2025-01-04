@@ -7,108 +7,44 @@
              xmlns:lvc="clr-namespace:LiveCharts.Wpf;assembly=LiveCharts.Wpf"
              xmlns:local="clr-namespace:WpfApp1.Views"
              mc:Ignorable="d"
-             d:DesignHeight="300" d:DesignWidth="300"
-             >
+             d:DesignHeight="300" d:DesignWidth="700">
     <ScrollViewer>
         <Grid Margin="16">
             <Grid.RowDefinitions>
                 <RowDefinition Height="Auto"/>
-                <RowDefinition Height="Auto"/>
-                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="*"/>
             </Grid.RowDefinitions>
 
-            <!-- Stats Cards Row -->
-            <WrapPanel Grid.Row="0" Margin="0,0,0,16">
-                <!-- Total Employees Card -->
-                <materialDesign:Card Margin="8" Width="200" Height="120">
-                    <Grid Margin="8">
-                        <Grid.RowDefinitions>
-                            <RowDefinition Height="Auto"/>
-                            <RowDefinition Height="*"/>
-                        </Grid.RowDefinitions>
-                        <TextBlock Text="Total Employees" 
-                                 Style="{StaticResource MaterialDesignBody1TextBlock}"/>
-                        <StackPanel Grid.Row="1" 
-                                  VerticalAlignment="Center">
-                            <TextBlock x:Name="TotalEmployees"
-                                     Text="0"
-                                     Style="{StaticResource MaterialDesignHeadline4TextBlock}"
-                                     HorizontalAlignment="Center"/>
-                            <materialDesign:PackIcon Kind="AccountGroup"
-                                                   Width="24"
-                                                   Height="24"
-                                                   HorizontalAlignment="Center"/>
-                        </StackPanel>
-                    </Grid>
-                </materialDesign:Card>
+            <!-- Header -->
+            <TextBlock Text="Dashboard" FontSize="24" FontWeight="Bold" HorizontalAlignment="Center" Margin="0,0,0,20" />
 
-                <!-- Total Clients Card -->
-                <materialDesign:Card Margin="8" Width="200" Height="120">
-                    <Grid Margin="8">
-                        <Grid.RowDefinitions>
-                            <RowDefinition Height="Auto"/>
-                            <RowDefinition Height="*"/>
-                        </Grid.RowDefinitions>
-                        <TextBlock Text="Total Clients" 
-                                 Style="{StaticResource MaterialDesignBody1TextBlock}"/>
-                        <StackPanel Grid.Row="1" 
-                                  VerticalAlignment="Center">
-                            <TextBlock x:Name="TotalClientsText"
-                                     Text="0"
-                                     Style="{StaticResource MaterialDesignHeadline4TextBlock}"
-                                     HorizontalAlignment="Center"/>
-                            <materialDesign:PackIcon Kind="AccountMultiple"
-                                                   Width="24"
-                                                   Height="24"
-                                                   HorizontalAlignment="Center"/>
-                        </StackPanel>
-                    </Grid>
-                </materialDesign:Card>
-            </WrapPanel>
-            
-            <materialDesign:Card Margin="16" MaxWidth="900">
-                <Grid Margin="16">
-                    <Grid.RowDefinitions>
-                        <RowDefinition Height="Auto"/>
-                        <RowDefinition Height="400"/>
-                        <RowDefinition Height="Auto"/>
-                    </Grid.RowDefinitions>
+            <!-- Content -->
+            <Grid Grid.Row="1">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
 
-                    <!-- Title -->
-                    <TextBlock Text="Employee Role Distribution"
-                               Style="{StaticResource MaterialDesignHeadline6TextBlock}"
-                               HorizontalAlignment="Center"
-                               Margin="0,0,0,16"/>
+                <!-- Employees by Role Pie Chart -->
+                <StackPanel Grid.Column="0" Margin="10">
+                    <TextBlock Text="Employees by Role" FontSize="18" FontWeight="SemiBold" HorizontalAlignment="Center" Margin="0,0,0,10"/>
+                    <lvc:PieChart x:Name="EmployeesPieChart" LegendLocation="Bottom" Height="300">
+                        <lvc:PieChart.ChartLegend>
+                            <lvc:DefaultLegend />
+                        </lvc:PieChart.ChartLegend>
+                    </lvc:PieChart>
+                </StackPanel>
 
-                    <!-- Chart Container -->
-                    <Grid Grid.Row="1">
-                        <Grid.ColumnDefinitions>
-                            <ColumnDefinition Width="*"/>
-                            <ColumnDefinition Width="Auto"/>
-                        </Grid.ColumnDefinitions>
-
-                        <!-- Pie Chart -->
-                        <Canvas x:Name="ChartCanvas" Grid.Column="0" Margin="16"/>
-
-                        <!-- Legend -->
-                        <StackPanel x:Name="LegendPanel" 
-                                    Grid.Column="1" 
-                                    Margin="16,0,0,0"
-                                    VerticalAlignment="Center">
-                            <TextBlock Text="Legend"
-                                       Style="{StaticResource MaterialDesignSubtitle1TextBlock}"
-                                       Margin="0,0,0,16"/>
-                        </StackPanel>
-                    </Grid>
-
-                    <!-- Total Employees -->
-                    <TextBlock x:Name="TotalEmployeesText"
-                               Grid.Row="2"
-                               Style="{StaticResource MaterialDesignBody1TextBlock}"
-                               HorizontalAlignment="Center"
-                               Margin="0,16,0,0"/>
-                </Grid>
-            </materialDesign:Card>
+                <!-- Clients by Date Pie Chart -->
+                <StackPanel Grid.Column="1" Margin="10">
+                    <TextBlock Text="Clients by Date" FontSize="18" FontWeight="SemiBold" HorizontalAlignment="Center" Margin="0,0,0,10"/>
+                    <lvc:PieChart x:Name="ClientsPieChart" LegendLocation="Bottom" Height="300">
+                        <lvc:PieChart.ChartLegend>
+                            <lvc:DefaultLegend />
+                        </lvc:PieChart.ChartLegend>
+                    </lvc:PieChart>
+                </StackPanel>
+            </Grid>
         </Grid>
     </ScrollViewer>
 </UserControl>
